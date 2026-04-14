@@ -1,0 +1,9 @@
+{
+  "name": "Home Info",
+  "short_name": "Home Info",
+  "description": "Community resources and home context.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0d9488"
+}

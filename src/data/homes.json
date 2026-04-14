@@ -1,0 +1,1469 @@
+{
+  "meta": {
+    "source": "address-list.pdf",
+    "generatedAt": "2026-04-13T23:15:40.573581Z",
+    "count": 150,
+    "mailingCity": "Spicewood",
+    "mailingState": "TX",
+    "mailingZip": "78669",
+    "note": "Septic field # is 1–10 (map “System #”). Values like 11/71 were split when a stray “1” from the next 19xxx street glued to the digit.",
+    "appraisalImportAt": "2026-04-14T19:07:42.521Z"
+  },
+  "homes": [
+    {
+      "id": "h2915237013-0",
+      "street": "19300 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19300 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "946985",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 825003
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 830365
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 810410
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1021778
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 744976
+        }
+      ]
+    },
+    {
+      "id": "h3245002774-1",
+      "street": "19301 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19301 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "946986",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 467397
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 890531
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 872349
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1052973
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 719602
+        }
+      ]
+    },
+    {
+      "id": "h3574768535-2",
+      "street": "19302 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19302 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "946984"
+    },
+    {
+      "id": "h3904534296-3",
+      "street": "19303 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19303 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "941531"
+    },
+    {
+      "id": "h4234300057-4",
+      "street": "19304 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19304 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "946983"
+    },
+    {
+      "id": "h269098522-5",
+      "street": "19305 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19305 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "946987"
+    },
+    {
+      "id": "h598864283-6",
+      "street": "19306 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19306 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "941537"
+    },
+    {
+      "id": "h928630044-7",
+      "street": "19307 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19307 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "941538"
+    },
+    {
+      "id": "h1258395805-8",
+      "street": "19308 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19308 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "941536"
+    },
+    {
+      "id": "h1588161566-9",
+      "street": "19309 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19309 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "941539"
+    },
+    {
+      "id": "h253073716-10",
+      "street": "19310 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19310 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "919330"
+    },
+    {
+      "id": "h582839477-11",
+      "street": "19311 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19311 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "941525"
+    },
+    {
+      "id": "h1242370999-12",
+      "street": "19313 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19313 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "919342"
+    },
+    {
+      "id": "h1901902521-13",
+      "street": "19315 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19315 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "919343"
+    },
+    {
+      "id": "h2561434043-14",
+      "street": "19317 SUMMIT GLORY TRL",
+      "septicField": 10,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19317 SUMMIT GLORY TRL 10",
+      "cadPropertyId": "919344"
+    },
+    {
+      "id": "h1254893041-15",
+      "street": "19319 SUMMIT GLORY TRL",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19319 SUMMIT GLORY TRL 9",
+      "cadPropertyId": "919345"
+    },
+    {
+      "id": "h4135398423-16",
+      "street": "19401 SUMMIT GLORY TRL",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19401 SUMMIT GLORY TRL 9",
+      "cadPropertyId": "933240"
+    },
+    {
+      "id": "h3741031637-17",
+      "street": "19403 SUMMIT GLORY TRL",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19403 SUMMIT GLORY TRL 9",
+      "cadPropertyId": "941516"
+    },
+    {
+      "id": "h1993355154-18",
+      "street": "19405 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19405 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "941526"
+    },
+    {
+      "id": "h1598988368-19",
+      "street": "19407 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19407 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "941517"
+    },
+    {
+      "id": "h3549288623-20",
+      "street": "19408 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19408 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "941514"
+    },
+    {
+      "id": "h1204621582-21",
+      "street": "19409 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19409 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "941518"
+    },
+    {
+      "id": "h1161554232-22",
+      "street": "19410 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19410 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "919316"
+    },
+    {
+      "id": "h3111854487-23",
+      "street": "19411 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19411 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "941527"
+    },
+    {
+      "id": "h767187446-24",
+      "street": "19412 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19412 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "919315"
+    },
+    {
+      "id": "h2717487701-25",
+      "street": "19413 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19413 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "941540"
+    },
+    {
+      "id": "h372820660-26",
+      "street": "19414 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19414 SUMMIT GLORY TRL 8"
+    },
+    {
+      "id": "h2323120915-27",
+      "street": "19415 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19415 SUMMIT GLORY TRL 8"
+    },
+    {
+      "id": "h4273421170-28",
+      "street": "19416 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19416 SUMMIT GLORY TRL 8"
+    },
+    {
+      "id": "h3879054384-29",
+      "street": "19418 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19418 SUMMIT GLORY TRL 8"
+    },
+    {
+      "id": "h1534387343-30",
+      "street": "19419 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19419 SUMMIT GLORY TRL 8"
+    },
+    {
+      "id": "h1491319993-31",
+      "street": "19420 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19420 SUMMIT GLORY TRL 8"
+    },
+    {
+      "id": "h4273649011-32",
+      "street": "19422 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19422 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h3047253462-33",
+      "street": "19423 SUMMIT GLORY TRL",
+      "septicField": 8,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19423 SUMMIT GLORY TRL 8"
+    },
+    {
+      "id": "h3879282225-34",
+      "street": "19424 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19424 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h1534615184-35",
+      "street": "19425 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19425 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h3484915439-36",
+      "street": "19426 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19426 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h3090548653-37",
+      "street": "19428 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19428 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h745881612-38",
+      "street": "19429 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19429 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h702814262-39",
+      "street": "19430 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19430 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h4052940372-40",
+      "street": "19500 SUMMIT GLORY TRL",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19500 SUMMIT GLORY TRL 6"
+    },
+    {
+      "id": "h3296621233-41",
+      "street": "19501 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19501 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h3658573586-42",
+      "street": "19502 SUMMIT GLORY TRL",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19502 SUMMIT GLORY TRL 6"
+    },
+    {
+      "id": "h2902254447-43",
+      "street": "19503 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19503 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h2507887661-44",
+      "street": "19505 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19505 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h2869840014-45",
+      "street": "19506 SUMMIT GLORY TRL",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19506 SUMMIT GLORY TRL 6"
+    },
+    {
+      "id": "h2113520875-46",
+      "street": "19507 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19507 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h2710511433-47",
+      "street": "19508 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19508 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h1719154089-48",
+      "street": "19509 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19509 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h322777042-49",
+      "street": "19510 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19510 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h3626386994-50",
+      "street": "19511 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19511 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h4223377552-51",
+      "street": "19512 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19512 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h3232020208-52",
+      "street": "19513 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19513 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h3829010766-53",
+      "street": "19514 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19514 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h2837653422-54",
+      "street": "19515 SUMMIT GLORY TRL",
+      "septicField": 4,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19515 SUMMIT GLORY TRL 4"
+    },
+    {
+      "id": "h3434643980-55",
+      "street": "19516 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19516 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h1089976939-56",
+      "street": "19517 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19517 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h3040277194-57",
+      "street": "19518 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19518 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h695610153-58",
+      "street": "19519 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19519 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h652542803-59",
+      "street": "19520 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19520 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h2602843058-60",
+      "street": "19521 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19521 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h258176017-61",
+      "street": "19522 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19522 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h2208476272-62",
+      "street": "19523 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19523 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h1814109486-63",
+      "street": "19525 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19525 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h3214163182-64",
+      "street": "19600 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19600 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h3576115535-65",
+      "street": "19601 SUMMIT GLORY TRL",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19601 SUMMIT GLORY TRL 3"
+    },
+    {
+      "id": "h2819796396-66",
+      "street": "19602 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19602 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h1828439052-67",
+      "street": "19603 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19603 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h2425429610-68",
+      "street": "19604 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19604 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h1434072266-69",
+      "street": "19605 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19605 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h2031062824-70",
+      "street": "19606 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19606 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h1039705480-71",
+      "street": "19607 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19607 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h1636696038-72",
+      "street": "19608 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19608 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h645338694-73",
+      "street": "19609 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19609 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h3543928943-74",
+      "street": "19610 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19610 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h2552571599-75",
+      "street": "19611 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19611 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h3149562157-76",
+      "street": "19612 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19612 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h2158204813-77",
+      "street": "19613 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19613 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h2755195371-78",
+      "street": "19614 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19614 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h1763838027-79",
+      "street": "19615 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19615 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h2360828585-80",
+      "street": "19616 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19616 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h1369471241-81",
+      "street": "19617 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19617 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h1966461799-82",
+      "street": "19618 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19618 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h975104455-83",
+      "street": "19619 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19619 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h3873694704-84",
+      "street": "19620 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19620 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h2882337360-85",
+      "street": "19621 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19621 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h3479327918-86",
+      "street": "19622 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19622 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h2487970574-87",
+      "street": "19623 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19623 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h3084961132-88",
+      "street": "19624 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19624 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h2093603788-89",
+      "street": "19625 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19625 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h2690594346-90",
+      "street": "19626 SUMMIT GLORY TRL",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19626 SUMMIT GLORY TRL 1"
+    },
+    {
+      "id": "h1699237002-91",
+      "street": "19627 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19627 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h1304870216-92",
+      "street": "19629 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19629 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h3212103121-93",
+      "street": "19631 SUMMIT GLORY TRL",
+      "septicField": 2,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "19631 SUMMIT GLORY TRL 2"
+    },
+    {
+      "id": "h4187096675-94",
+      "street": "2400 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2400 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h2727501805-95",
+      "street": "2401 SKYWALK LN",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2401 SKYWALK LN 9"
+    },
+    {
+      "id": "h489119937-96",
+      "street": "2401 SUNSET VISTA CIR",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2401 SUNSET VISTA CIR 6"
+    },
+    {
+      "id": "h2738817932-97",
+      "street": "2402 SKYWALK LN",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2402 SKYWALK LN 9"
+    },
+    {
+      "id": "h3792729889-98",
+      "street": "2402 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2402 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h2750134059-99",
+      "street": "2403 SKYWALK LN",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2403 SKYWALK LN 9"
+    },
+    {
+      "id": "h94753151-100",
+      "street": "2403 SUNSET VISTA CIR",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2403 SUNSET VISTA CIR 6"
+    },
+    {
+      "id": "h2761450186-101",
+      "street": "2404 SKYWALK LN",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2404 SKYWALK LN 9"
+    },
+    {
+      "id": "h3398363103-102",
+      "street": "2404 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2404 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h2772766313-103",
+      "street": "2405 SKYWALK LN",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2405 SKYWALK LN 9"
+    },
+    {
+      "id": "h3995353661-104",
+      "street": "2405 SUNSET VISTA CIR",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2405 SUNSET VISTA CIR 6"
+    },
+    {
+      "id": "h2784082440-105",
+      "street": "2406 SKYWALK LN",
+      "septicField": 9,
+      "cadPropertyId": "946979",
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2406 SKYWALK LN 9",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 209830
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 448504
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 820000
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 995904
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 729280
+        }
+      ]
+    },
+    {
+      "id": "h3003996317-106",
+      "street": "2406 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2406 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h2795398567-107",
+      "street": "2407 SKYWALK LN",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2407 SKYWALK LN 9"
+    },
+    {
+      "id": "h3600986875-108",
+      "street": "2407 SUNSET VISTA CIR",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2407 SUNSET VISTA CIR 6"
+    },
+    {
+      "id": "h2806714694-109",
+      "street": "2408 SKYWALK LN",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2408 SKYWALK LN 9"
+    },
+    {
+      "id": "h2609629531-110",
+      "street": "2408 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2408 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h2818030821-111",
+      "street": "2409 SKYWALK LN",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2409 SKYWALK LN 9"
+    },
+    {
+      "id": "h3206620089-112",
+      "street": "2409 SUNSET VISTA CIR",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2409 SUNSET VISTA CIR 6"
+    },
+    {
+      "id": "h3066985615-113",
+      "street": "2410 SKYWALK LN",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2410 SKYWALK LN 9"
+    },
+    {
+      "id": "h221895140-114",
+      "street": "2410 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2410 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h3078301742-115",
+      "street": "2411 SKYWALK LN",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2411 SKYWALK LN 9"
+    },
+    {
+      "id": "h3089617869-116",
+      "street": "2412 SKYWALK LN",
+      "septicField": 9,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2412 SKYWALK LN 9"
+    },
+    {
+      "id": "h4122495650-117",
+      "street": "2412 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2412 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h3728128864-118",
+      "street": "2414 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2414 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h1524933378-119",
+      "street": "2500 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2500 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h2121923936-120",
+      "street": "2501 SUNSET VISTA CIR",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2501 SUNSET VISTA CIR 6"
+    },
+    {
+      "id": "h1130566592-121",
+      "street": "2502 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2502 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h1727557150-122",
+      "street": "2503 SUNSET VISTA CIR",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2503 SUNSET VISTA CIR 6"
+    },
+    {
+      "id": "h736199806-123",
+      "street": "2504 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2504 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h1333190364-124",
+      "street": "2505 SUNSET VISTA CIR",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2505 SUNSET VISTA CIR 6"
+    },
+    {
+      "id": "h341833020-125",
+      "street": "2506 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2506 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h938823578-126",
+      "street": "2507 SUNSET VISTA CIR",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2507 SUNSET VISTA CIR 6"
+    },
+    {
+      "id": "h4242433530-127",
+      "street": "2508 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2508 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h544456792-128",
+      "street": "2509 SUNSET VISTA CIR",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2509 SUNSET VISTA CIR 6"
+    },
+    {
+      "id": "h1854699139-129",
+      "street": "2510 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2510 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h2451689697-130",
+      "street": "2511 SUNSET VISTA CIR",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2511 SUNSET VISTA CIR 6"
+    },
+    {
+      "id": "h1460332353-131",
+      "street": "2512 SUNSET VISTA CIR",
+      "septicField": 7,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2512 SUNSET VISTA CIR 7"
+    },
+    {
+      "id": "h2057322911-132",
+      "street": "2513 SUNSET VISTA CIR",
+      "septicField": 6,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2513 SUNSET VISTA CIR 6"
+    },
+    {
+      "id": "h2654313469-133",
+      "street": "2514 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2514 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h309646428-134",
+      "street": "2515 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2515 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h2259946683-135",
+      "street": "2516 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2516 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h4210246938-136",
+      "street": "2517 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2517 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h1865579897-137",
+      "street": "2518 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2518 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h451117983-138",
+      "street": "2600 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2600 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h56751197-139",
+      "street": "2602 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2602 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h3957351707-140",
+      "street": "2604 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2604 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h1612684666-141",
+      "street": "2605 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2605 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h3562984921-142",
+      "street": "2606 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2606 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h1218317880-143",
+      "street": "2607 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2607 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h3168618135-144",
+      "street": "2608 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2608 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h823951094-145",
+      "street": "2609 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2609 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h780883744-146",
+      "street": "2610 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2610 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h2731183999-147",
+      "street": "2611 SUNSET VISTA CIR",
+      "septicField": 5,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2611 SUNSET VISTA CIR 5"
+    },
+    {
+      "id": "h3563212762-148",
+      "street": "2612 SUNSET VISTA CIR",
+      "septicField": 1,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2612 SUNSET VISTA CIR 1"
+    },
+    {
+      "id": "h3925165115-149",
+      "street": "2613 SUNSET VISTA CIR",
+      "septicField": 3,
+      "city": "Spicewood",
+      "state": "TX",
+      "zip": "78669",
+      "raw": "2613 SUNSET VISTA CIR 3"
+    }
+  ]
+}
