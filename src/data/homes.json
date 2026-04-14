@@ -7,7 +7,7 @@
     "mailingState": "TX",
     "mailingZip": "78669",
     "note": "Septic field # is 1–10 (map “System #”). Values like 11/71 were split when a stray “1” from the next 19xxx street glued to the digit.",
-    "appraisalImportAt": "2026-04-14T19:07:42.521Z"
+    "appraisalImportAt": "2026-04-14T19:30:56.032Z"
   },
   "homes": [
     {
@@ -329,7 +329,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19414 SUMMIT GLORY TRL 8"
+      "raw": "19414 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "933239"
     },
     {
       "id": "h2323120915-27",
@@ -338,7 +339,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19415 SUMMIT GLORY TRL 8"
+      "raw": "19415 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "946988"
     },
     {
       "id": "h4273421170-28",
@@ -347,7 +349,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19416 SUMMIT GLORY TRL 8"
+      "raw": "19416 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "941535"
     },
     {
       "id": "h3879054384-29",
@@ -356,7 +359,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19418 SUMMIT GLORY TRL 8"
+      "raw": "19418 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "941534"
     },
     {
       "id": "h1534387343-30",
@@ -365,7 +369,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19419 SUMMIT GLORY TRL 8"
+      "raw": "19419 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "946989"
     },
     {
       "id": "h1491319993-31",
@@ -374,7 +379,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19420 SUMMIT GLORY TRL 8"
+      "raw": "19420 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "941524"
     },
     {
       "id": "h4273649011-32",
@@ -383,7 +389,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19422 SUMMIT GLORY TRL 4"
+      "raw": "19422 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869955"
     },
     {
       "id": "h3047253462-33",
@@ -392,7 +399,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19423 SUMMIT GLORY TRL 8"
+      "raw": "19423 SUMMIT GLORY TRL 8",
+      "cadPropertyId": "946990"
     },
     {
       "id": "h3879282225-34",
@@ -401,7 +409,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19424 SUMMIT GLORY TRL 4"
+      "raw": "19424 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869954"
     },
     {
       "id": "h1534615184-35",
@@ -410,7 +419,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19425 SUMMIT GLORY TRL 4"
+      "raw": "19425 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869927"
     },
     {
       "id": "h3484915439-36",
@@ -419,7 +429,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19426 SUMMIT GLORY TRL 4"
+      "raw": "19426 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869953"
     },
     {
       "id": "h3090548653-37",
@@ -428,7 +439,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19428 SUMMIT GLORY TRL 4"
+      "raw": "19428 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869952"
     },
     {
       "id": "h745881612-38",
@@ -437,7 +449,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19429 SUMMIT GLORY TRL 4"
+      "raw": "19429 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869928"
     },
     {
       "id": "h702814262-39",
@@ -446,7 +459,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19430 SUMMIT GLORY TRL 4"
+      "raw": "19430 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869951"
     },
     {
       "id": "h4052940372-40",
@@ -455,7 +469,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19500 SUMMIT GLORY TRL 6"
+      "raw": "19500 SUMMIT GLORY TRL 6",
+      "cadPropertyId": "933237"
     },
     {
       "id": "h3296621233-41",
@@ -464,7 +479,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19501 SUMMIT GLORY TRL 4"
+      "raw": "19501 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869929"
     },
     {
       "id": "h3658573586-42",
@@ -473,7 +489,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19502 SUMMIT GLORY TRL 6"
+      "raw": "19502 SUMMIT GLORY TRL 6",
+      "cadPropertyId": "941520"
     },
     {
       "id": "h2902254447-43",
@@ -482,7 +499,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19503 SUMMIT GLORY TRL 4"
+      "raw": "19503 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869930"
     },
     {
       "id": "h2507887661-44",
@@ -491,7 +509,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19505 SUMMIT GLORY TRL 4"
+      "raw": "19505 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869931"
     },
     {
       "id": "h2869840014-45",
@@ -500,7 +519,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19506 SUMMIT GLORY TRL 6"
+      "raw": "19506 SUMMIT GLORY TRL 6",
+      "cadPropertyId": "941532"
     },
     {
       "id": "h2113520875-46",
@@ -509,7 +529,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19507 SUMMIT GLORY TRL 4"
+      "raw": "19507 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869932"
     },
     {
       "id": "h2710511433-47",
@@ -518,7 +539,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19508 SUMMIT GLORY TRL 3"
+      "raw": "19508 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869963"
     },
     {
       "id": "h1719154089-48",
@@ -527,7 +549,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19509 SUMMIT GLORY TRL 4"
+      "raw": "19509 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869933"
     },
     {
       "id": "h322777042-49",
@@ -536,7 +559,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19510 SUMMIT GLORY TRL 3"
+      "raw": "19510 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869964"
     },
     {
       "id": "h3626386994-50",
@@ -545,7 +569,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19511 SUMMIT GLORY TRL 4"
+      "raw": "19511 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869934"
     },
     {
       "id": "h4223377552-51",
@@ -554,7 +579,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19512 SUMMIT GLORY TRL 3"
+      "raw": "19512 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869965"
     },
     {
       "id": "h3232020208-52",
@@ -563,7 +589,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19513 SUMMIT GLORY TRL 4"
+      "raw": "19513 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869935"
     },
     {
       "id": "h3829010766-53",
@@ -572,7 +599,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19514 SUMMIT GLORY TRL 3"
+      "raw": "19514 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869966"
     },
     {
       "id": "h2837653422-54",
@@ -581,7 +609,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19515 SUMMIT GLORY TRL 4"
+      "raw": "19515 SUMMIT GLORY TRL 4",
+      "cadPropertyId": "869936"
     },
     {
       "id": "h3434643980-55",
@@ -590,7 +619,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19516 SUMMIT GLORY TRL 3"
+      "raw": "19516 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869967"
     },
     {
       "id": "h1089976939-56",
@@ -599,7 +629,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19517 SUMMIT GLORY TRL 3"
+      "raw": "19517 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869937"
     },
     {
       "id": "h3040277194-57",
@@ -608,7 +639,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19518 SUMMIT GLORY TRL 3"
+      "raw": "19518 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869968"
     },
     {
       "id": "h695610153-58",
@@ -617,7 +649,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19519 SUMMIT GLORY TRL 3"
+      "raw": "19519 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869938"
     },
     {
       "id": "h652542803-59",
@@ -626,7 +659,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19520 SUMMIT GLORY TRL 3"
+      "raw": "19520 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869969"
     },
     {
       "id": "h2602843058-60",
@@ -635,7 +669,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19521 SUMMIT GLORY TRL 3"
+      "raw": "19521 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869939"
     },
     {
       "id": "h258176017-61",
@@ -644,7 +679,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19522 SUMMIT GLORY TRL 3"
+      "raw": "19522 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869970"
     },
     {
       "id": "h2208476272-62",
@@ -653,7 +689,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19523 SUMMIT GLORY TRL 3"
+      "raw": "19523 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869940"
     },
     {
       "id": "h1814109486-63",
@@ -662,7 +699,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19525 SUMMIT GLORY TRL 3"
+      "raw": "19525 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869941"
     },
     {
       "id": "h3214163182-64",
@@ -671,7 +709,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19600 SUMMIT GLORY TRL 1"
+      "raw": "19600 SUMMIT GLORY TRL 1",
+      "cadPropertyId": "869925"
     },
     {
       "id": "h3576115535-65",
@@ -680,7 +719,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19601 SUMMIT GLORY TRL 3"
+      "raw": "19601 SUMMIT GLORY TRL 3",
+      "cadPropertyId": "869942"
     },
     {
       "id": "h2819796396-66",
@@ -689,7 +729,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19602 SUMMIT GLORY TRL 1"
+      "raw": "19602 SUMMIT GLORY TRL 1",
+      "cadPropertyId": "869924"
     },
     {
       "id": "h1828439052-67",
@@ -698,7 +739,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19603 SUMMIT GLORY TRL 2"
+      "raw": "19603 SUMMIT GLORY TRL 2",
+      "cadPropertyId": "869943"
     },
     {
       "id": "h2425429610-68",
@@ -707,7 +749,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19604 SUMMIT GLORY TRL 1"
+      "raw": "19604 SUMMIT GLORY TRL 1",
+      "cadPropertyId": "869923"
     },
     {
       "id": "h1434072266-69",
@@ -716,7 +759,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19605 SUMMIT GLORY TRL 2"
+      "raw": "19605 SUMMIT GLORY TRL 2",
+      "cadPropertyId": "869944"
     },
     {
       "id": "h2031062824-70",
@@ -725,7 +769,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19606 SUMMIT GLORY TRL 1"
+      "raw": "19606 SUMMIT GLORY TRL 1",
+      "cadPropertyId": "869922"
     },
     {
       "id": "h1039705480-71",
@@ -734,7 +779,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19607 SUMMIT GLORY TRL 2"
+      "raw": "19607 SUMMIT GLORY TRL 2",
+      "cadPropertyId": "869945"
     },
     {
       "id": "h1636696038-72",
@@ -743,7 +789,8 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19608 SUMMIT GLORY TRL 1"
+      "raw": "19608 SUMMIT GLORY TRL 1",
+      "cadPropertyId": "869921"
     },
     {
       "id": "h645338694-73",

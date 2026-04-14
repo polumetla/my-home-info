@@ -7,7 +7,7 @@ import "leaflet/dist/leaflet.css";
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-const GEO_CACHE_KEY = "home-info-geocode-v1";
+const GEO_CACHE_KEY = "my-home-info-geocode-v1";
 
 function escapeHtml(s: string) {
   return s

@@ -13,7 +13,7 @@ async function throttledFetch(url: string): Promise<Response> {
   lastRequestAt = Date.now();
   return fetch(url, {
     headers: {
-      "User-Agent": "home-info-community-app/1.0 (resident directory; contact via site owner)",
+      "User-Agent": "my-home-info-community-app/1.0 (resident directory; contact via site owner)",
     },
     next: { revalidate: 60 * 60 * 24 * 30 },
   });
