@@ -9,7 +9,7 @@
  * **Builder:** from sale/transfer JSON, uses the **buyer** on the row with the oldest
  * **appraisal date** when present; otherwise oldest sale/deed date or year. Stored value is the
  * **first word only** (uppercase), e.g. `WESTIN HOMES` → `WESTIN`, `DREES CUSTOM HOME` → `DREES`.
- * Exceptions (deed **seller**, case-insensitive substring): **`WESTIN`** → **`Westin Homes`**; **`DREES`** → **`Drees Custom Homes`**; **`ASHTON`** → **`Ashton Woods`** (first match wins).
+ * Exceptions (deed **seller**, case-insensitive substring): **`WESTIN`** → **`Westin Homes`**; **`DREES`** or **`DRESS`** (county typo) → **`Drees Custom Homes`**; **`ASHTON`** → **`Ashton Woods`** (first match wins).
  *
  * **Homestead:** general `results.exemptionList` text containing **HS** (comma-separated codes, e.g.
  * `HS - Homestead`), or exemption rows that match HS homestead patterns. Other mentions of "homestead"
@@ -366,6 +366,7 @@ function normalizeCadPartyName(value) {
 const DEED_SELLER_CANONICAL_BUILDERS = [
   { sellerContains: "WESTIN", builderLabel: "Westin Homes" },
   { sellerContains: "DREES", builderLabel: "Drees Custom Homes" },
+  { sellerContains: "DRESS", builderLabel: "Drees Custom Homes" },
   { sellerContains: "ASHTON", builderLabel: "Ashton Woods" },
 ];
 

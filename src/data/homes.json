@@ -7,7 +7,7 @@
     "mailingState": "TX",
     "mailingZip": "78669",
     "note": "Septic field # is 1–10 (map “System #”). Values like 11/71 were split when a stray “1” from the next 19xxx street glued to the digit.",
-    "appraisalImportAt": "2026-04-15T02:58:23.274Z"
+    "appraisalImportAt": "2026-04-15T03:10:02.741Z"
   },
   "homes": [
     {
@@ -47,7 +47,7 @@
       ],
       "homestead": "yes",
       "pool": "no",
-      "builder": null,
+      "builder": "Drees Custom Homes",
       "squareFeet": 3338,
       "solar": "yes",
       "yearBuilt": 2020
@@ -131,7 +131,7 @@
       ],
       "homestead": "no",
       "pool": "no",
-      "builder": null,
+      "builder": "Drees Custom Homes",
       "squareFeet": 3672,
       "solar": "no",
       "yearBuilt": 2021
@@ -3995,7 +3995,7 @@
       ],
       "homestead": "yes",
       "pool": "no",
-      "builder": null,
+      "builder": "Ashton Woods",
       "squareFeet": 2358,
       "solar": "no",
       "yearBuilt": 2018
@@ -4243,7 +4243,7 @@
       ],
       "homestead": "yes",
       "pool": "no",
-      "builder": null,
+      "builder": "Ashton Woods",
       "squareFeet": 3265,
       "solar": "no",
       "yearBuilt": 2019
@@ -5487,7 +5487,7 @@
       ],
       "homestead": "yes",
       "pool": "yes",
-      "builder": null,
+      "builder": "Drees Custom Homes",
       "squareFeet": 3562,
       "solar": "yes",
       "yearBuilt": 2019
@@ -6057,7 +6057,7 @@
       ],
       "homestead": "yes",
       "pool": "no",
-      "builder": null,
+      "builder": "Drees Custom Homes",
       "squareFeet": 3570,
       "solar": "yes",
       "yearBuilt": 2021
@@ -6191,7 +6191,7 @@
       ],
       "homestead": "yes",
       "pool": "no",
-      "builder": null,
+      "builder": "Drees Custom Homes",
       "squareFeet": 3628,
       "solar": "no",
       "yearBuilt": 2021
@@ -6283,7 +6283,7 @@
       ],
       "homestead": "yes",
       "pool": "no",
-      "builder": null,
+      "builder": "Drees Custom Homes",
       "squareFeet": 3670,
       "solar": "no",
       "yearBuilt": 2019
@@ -6375,7 +6375,7 @@
       ],
       "homestead": "yes",
       "pool": "no",
-      "builder": null,
+      "builder": "Drees Custom Homes",
       "squareFeet": 2528,
       "solar": "no",
       "yearBuilt": 2020
@@ -6417,7 +6417,7 @@
       ],
       "homestead": "no",
       "pool": "no",
-      "builder": null,
+      "builder": "Drees Custom Homes",
       "squareFeet": 4500,
       "solar": "no",
       "yearBuilt": 2021
@@ -6517,7 +6517,7 @@
           "appraisedValue": 647856
         }
       ],
-      "builder": null,
+      "builder": "Drees Custom Homes",
       "squareFeet": 2616,
       "solar": "no",
       "yearBuilt": 2019
@@ -6889,7 +6889,7 @@
           "appraisedValue": 665324
         }
       ],
-      "builder": null,
+      "builder": "Drees Custom Homes",
       "squareFeet": 2616,
       "solar": "no",
       "yearBuilt": 2019
@@ -7553,10 +7553,10 @@
           "appraisedValue": 721778
         }
       ],
-      "builder": null,
-      "squareFeet": null,
-      "solar": null,
-      "yearBuilt": null
+      "builder": "Westin Homes",
+      "squareFeet": 3269,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h780883744-146",
@@ -7603,10 +7603,10 @@
           "appraisedValue": 743797
         }
       ],
-      "builder": null,
-      "squareFeet": null,
-      "solar": null,
-      "yearBuilt": null
+      "builder": "Westin Homes",
+      "squareFeet": 3456,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h2731183999-147",
@@ -7645,10 +7645,10 @@
           "appraisedValue": 664556
         }
       ],
-      "builder": null,
-      "squareFeet": null,
-      "solar": null,
-      "yearBuilt": null
+      "builder": "Drees Custom Homes",
+      "squareFeet": 2979,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h3563212762-148",
@@ -7707,10 +7707,10 @@
           "appraisedValue": 612045
         }
       ],
-      "builder": null,
-      "squareFeet": null,
-      "solar": null,
-      "yearBuilt": null
+      "builder": "Ashton Woods",
+      "squareFeet": 2539,
+      "solar": "no",
+      "yearBuilt": 2017
     },
     {
       "id": "h3925165115-149",
@@ -7769,10 +7769,10 @@
           "appraisedValue": 762927
         }
       ],
-      "builder": null,
-      "squareFeet": null,
-      "solar": null,
-      "yearBuilt": null
+      "builder": "Ashton Woods",
+      "squareFeet": 3709,
+      "solar": "no",
+      "yearBuilt": 2018
     }
   ]
 }
