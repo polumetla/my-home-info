@@ -33,6 +33,9 @@ export type HomeRecord = {
   zip: string;
   raw: string;
   unparsed?: boolean;
+  /** Map pin (WGS84). Populate with `npm run geocode:homes`. */
+  latitude?: number | null;
+  longitude?: number | null;
 };
 
 export type HomesFile = {
@@ -45,6 +48,8 @@ export type HomesFile = {
     mailingZip?: string;
     note?: string;
     appraisalImportAt?: string;
+    /** Set by `npm run geocode:homes` when lat/lon are written. */
+    geocodedAt?: string;
   };
   homes: HomeRecord[];
 };

@@ -8,7 +8,7 @@ import "leaflet/dist/leaflet.css";
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-const GEO_CACHE_KEY = "my-home-info-geocode-v1";
+const GEO_CACHE_KEY = "my-home-info-geocode-v2";
 
 function escapeHtml(s: string) {
   return s
@@ -20,23 +20,33 @@ function escapeHtml(s: string) {
 
 type Coord = { lat: number; lon: number };
 
-function loadCoordCache(): Record<string, Coord> {
+type CacheEntry = { lat: number; lon: number; q: string };
+
+function loadCoordCache(): Record<string, CacheEntry> {
   if (typeof window === "undefined") return {};
   try {
     const raw = localStorage.getItem(GEO_CACHE_KEY);
     if (!raw) return {};
-    return JSON.parse(raw) as Record<string, Coord>;
+    return JSON.parse(raw) as Record<string, CacheEntry>;
   } catch {
     return {};
   }
 }
 
-function saveCoordCache(cache: Record<string, Coord>) {
+function saveCoordCache(cache: Record<string, CacheEntry>) {
   try {
     localStorage.setItem(GEO_CACHE_KEY, JSON.stringify(cache));
   } catch {
     /* ignore quota */
   }
+}
+
+function embeddedCoord(h: HomeRecord): Coord | null {
+  const { latitude: lat, longitude: lon } = h;
+  if (typeof lat === "number" && typeof lon === "number" && Number.isFinite(lat) && Number.isFinite(lon)) {
+    return { lat, lon };
+  }
+  return null;
 }
 
 function fixLeafletIcons() {
@@ -61,6 +71,11 @@ export default function HomesMap({ homes }: { homes: HomeRecord[] }) {
   const markersLayerRef = useRef<L.LayerGroup | null>(null);
   const markerByIdRef = useRef<Map<string, L.Marker>>(new Map());
 
+  const homesGeoKey = useMemo(
+    () => homes.map((h) => `${h.id}\t${formatAddress(h)}`).join("\n"),
+    [homes],
+  );
+
   const filtered = useMemo(() => filterHomesByQuery(homes, query), [homes, query]);
 
   useEffect(() => {
@@ -78,44 +93,62 @@ export default function HomesMap({ homes }: { homes: HomeRecord[] }) {
     mapInstanceRef.current = map;
     markersLayerRef.current = layer;
 
+    const markerById = markerByIdRef.current;
     return () => {
       map.remove();
       mapInstanceRef.current = null;
       markersLayerRef.current = null;
-      markerByIdRef.current.clear();
+      markerById.clear();
     };
   }, []);
 
   useEffect(() => {
     if (homes.length === 0) {
+      setCoords({});
       setGeocodeDone(true);
+      setGeocodeProgress(0);
       return;
     }
 
     let cancelled = false;
-    const cache = { ...loadCoordCache() };
-    setCoords(cache);
-    setGeocodeProgress(0);
+    const addrFor = (h: HomeRecord) => formatAddress(h);
+    const fileCache = loadCoordCache();
+    const next: Record<string, Coord> = {};
+
+    for (const h of homes) {
+      const emb = embeddedCoord(h);
+      if (emb) {
+        next[h.id] = emb;
+        continue;
+      }
+      const row = fileCache[h.id];
+      const q = addrFor(h);
+      if (row && row.q === q) {
+        next[h.id] = { lat: row.lat, lon: row.lon };
+      }
+    }
+
+    setCoords(next);
+    const withPin = Object.keys(next).length;
+    setGeocodeProgress(withPin);
+
+    const needGeocode = homes.filter((h) => !next[h.id]);
 
     async function run() {
-      let done = 0;
-      for (const h of homes) {
+      const c = { ...fileCache };
+      let done = withPin;
+      for (const h of needGeocode) {
         if (cancelled) break;
-        if (cache[h.id]) {
-          done++;
-          setGeocodeProgress(done);
-          continue;
-        }
-
-        const addr = formatAddress(h);
+        const addr = addrFor(h);
         try {
           const res = await fetch(`/api/geocode?q=${encodeURIComponent(addr)}`);
           if (res.ok) {
             const j = (await res.json()) as { lat: number; lon: number };
             if (typeof j.lat === "number" && typeof j.lon === "number") {
-              cache[h.id] = { lat: j.lat, lon: j.lon };
-              setCoords({ ...cache });
-              saveCoordCache(cache);
+              next[h.id] = { lat: j.lat, lon: j.lon };
+              c[h.id] = { lat: j.lat, lon: j.lon, q: addr };
+              setCoords({ ...next });
+              saveCoordCache(c);
             }
           }
         } catch {
@@ -123,18 +156,22 @@ export default function HomesMap({ homes }: { homes: HomeRecord[] }) {
         }
         done++;
         setGeocodeProgress(done);
-        await new Promise((r) => setTimeout(r, 1100));
       }
-
       if (!cancelled) setGeocodeDone(true);
     }
 
-    void run();
+    if (needGeocode.length === 0) {
+      setGeocodeDone(true);
+    } else {
+      setGeocodeDone(false);
+      void run();
+    }
+
     return () => {
       cancelled = true;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- homes list is static from bundled JSON
-  }, [homes.length]);
+    // homesGeoKey fingerprints id + address lines; avoids stale closure vs. `homes.length`-only.
+  }, [homesGeoKey]);
 
   useEffect(() => {
     const map = mapInstanceRef.current;
@@ -186,6 +223,18 @@ export default function HomesMap({ homes }: { homes: HomeRecord[] }) {
     marker?.openPopup();
   }, [coords]);
 
+  const pinnedCount = useMemo(() => homes.filter((h) => coords[h.id] != null).length, [homes, coords]);
+
+  function clearGeocodeCache() {
+    try {
+      localStorage.removeItem(GEO_CACHE_KEY);
+      localStorage.removeItem("my-home-info-geocode-v1");
+    } catch {
+      /* ignore */
+    }
+    window.location.reload();
+  }
+
   return (
     <div className="relative -mx-4 -my-10 w-[100vw] max-w-none self-stretch md:left-1/2 md:right-1/2 md:-ml-[50vw] md:-mr-[50vw] md:w-screen">
       <div className="relative h-[calc(100dvh-5.5rem)] min-h-[28rem] w-full md:h-[calc(100dvh-4.5rem)]">
@@ -216,11 +265,30 @@ export default function HomesMap({ homes }: { homes: HomeRecord[] }) {
                   autoComplete="off"
                 />
               </label>
-              {!geocodeDone && homes.length > 0 && (
-                <p className="mt-2 text-xs tabular-nums text-slate-500">
-                  {geocodeProgress}/{homes.length}
+              {homes.length > 0 && (
+                <p className="mt-2 text-xs text-slate-500">
+                  {pinnedCount === homes.length ? (
+                    <>All homes have map pins.</>
+                  ) : geocodeDone ? (
+                    <>
+                      {pinnedCount}/{homes.length} on map — run{" "}
+                      <code className="rounded bg-slate-100 px-0.5">npm run geocode:homes</code> to
+                      save coordinates in homes.json, or check addresses.
+                    </>
+                  ) : (
+                    <span className="tabular-nums">
+                      Loading pins… {geocodeProgress}/{homes.length}
+                    </span>
+                  )}
                 </p>
               )}
+              <button
+                type="button"
+                onClick={clearGeocodeCache}
+                className="mt-2 text-xs font-medium text-accent-dark hover:underline"
+              >
+                Clear saved browser pin cache &amp; reload
+              </button>
             </div>
             <ul className="min-h-0 flex-1 overflow-y-auto overscroll-contain">
               {filtered.map((h) => {

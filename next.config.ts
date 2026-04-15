@@ -10,6 +10,12 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // output: process.env.NEXT_STATIC_EXPORT === "true" ? "export" : undefined,
   reactStrictMode: true,
+  async redirects() {
+    return [
+      { source: "/school", destination: "/schools", permanent: true },
+      { source: "/property", destination: "/homes", permanent: true },
+    ];
+  },
 };
 
 export default nextConfig;

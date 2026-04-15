@@ -18,8 +18,8 @@ export type NavItem = { href: string; label: string };
 export const mainNav: NavItem[] = [
   { href: "/", label: "Home" },
   { href: "/residents", label: "Residents" },
+  { href: "/schools", label: "Schools" },
   { href: "/homes", label: "Homes" },
   { href: "/homes/map", label: "Map" },
   { href: "/businesses", label: "Local" },
-  { href: "/property", label: "Property" },
 ];

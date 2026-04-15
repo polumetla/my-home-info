@@ -7,7 +7,8 @@
     "mailingState": "TX",
     "mailingZip": "78669",
     "note": "Septic field # is 1–10 (map “System #”). Values like 11/71 were split when a stray “1” from the next 19xxx street glued to the digit.",
-    "appraisalImportAt": "2026-04-15T03:10:02.741Z"
+    "appraisalImportAt": "2026-04-15T03:10:02.741Z",
+    "geocodedAt": "2026-04-15T04:49:46.155Z"
   },
   "homes": [
     {
@@ -50,7 +51,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3338,
       "solar": "yes",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366414,
+      "longitude": -98.021758
     },
     {
       "id": "h3245002774-1",
@@ -92,7 +95,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3545,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.366347,
+      "longitude": -98.02165
     },
     {
       "id": "h3574768535-2",
@@ -134,7 +139,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3672,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.366394,
+      "longitude": -98.021775
     },
     {
       "id": "h3904534296-3",
@@ -176,7 +183,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3354,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366327,
+      "longitude": -98.021667
     },
     {
       "id": "h4234300057-4",
@@ -218,7 +227,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 2493,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.366374,
+      "longitude": -98.021792
     },
     {
       "id": "h269098522-5",
@@ -260,7 +271,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3834,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.366307,
+      "longitude": -98.021684
     },
     {
       "id": "h598864283-6",
@@ -302,7 +315,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3718,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.366354,
+      "longitude": -98.021808
     },
     {
       "id": "h928630044-7",
@@ -344,7 +359,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3338,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.366287,
+      "longitude": -98.021701
     },
     {
       "id": "h1258395805-8",
@@ -386,7 +403,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3626,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366334,
+      "longitude": -98.021825
     },
     {
       "id": "h1588161566-9",
@@ -428,7 +447,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3069,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.366266,
+      "longitude": -98.021718
     },
     {
       "id": "h253073716-10",
@@ -478,7 +499,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3390,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.366313,
+      "longitude": -98.021842
     },
     {
       "id": "h582839477-11",
@@ -520,7 +543,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3190,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366246,
+      "longitude": -98.021734
     },
     {
       "id": "h1242370999-12",
@@ -570,7 +595,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3294,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366226,
+      "longitude": -98.021751
     },
     {
       "id": "h1901902521-13",
@@ -620,7 +647,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3742,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366206,
+      "longitude": -98.021768
     },
     {
       "id": "h2561434043-14",
@@ -670,7 +699,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3456,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366186,
+      "longitude": -98.021785
     },
     {
       "id": "h1254893041-15",
@@ -720,7 +751,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3538,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366166,
+      "longitude": -98.021802
     },
     {
       "id": "h4135398423-16",
@@ -766,7 +799,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 2510,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.365879,
+      "longitude": -98.022982
     },
     {
       "id": "h3741031637-17",
@@ -808,7 +843,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3368,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.365889,
+      "longitude": -98.023038
     },
     {
       "id": "h1993355154-18",
@@ -850,7 +887,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3431,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.3659,
+      "longitude": -98.023095
     },
     {
       "id": "h1598988368-19",
@@ -892,7 +931,9 @@
       "builder": "Westin Homes",
       "squareFeet": 4020,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.36591,
+      "longitude": -98.023152
     },
     {
       "id": "h3549288623-20",
@@ -934,7 +975,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3762,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.366033,
+      "longitude": -98.023181
     },
     {
       "id": "h1204621582-21",
@@ -976,7 +1019,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3545,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.36592,
+      "longitude": -98.023209
     },
     {
       "id": "h1161554232-22",
@@ -1026,7 +1071,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 2918,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366043,
+      "longitude": -98.023238
     },
     {
       "id": "h3111854487-23",
@@ -1068,7 +1115,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3749,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.365931,
+      "longitude": -98.023266
     },
     {
       "id": "h767187446-24",
@@ -1118,7 +1167,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3718,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366053,
+      "longitude": -98.023295
     },
     {
       "id": "h2717487701-25",
@@ -1160,7 +1211,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3834,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.365941,
+      "longitude": -98.023323
     },
     {
       "id": "h372820660-26",
@@ -1206,7 +1259,9 @@
       "builder": null,
       "squareFeet": 3585,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366064,
+      "longitude": -98.023346
     },
     {
       "id": "h2323120915-27",
@@ -1248,7 +1303,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3431,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.365955,
+      "longitude": -98.023385
     },
     {
       "id": "h4273421170-28",
@@ -1290,7 +1347,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3453,
       "solar": "yes",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366069,
+      "longitude": -98.023373
     },
     {
       "id": "h3879054384-29",
@@ -1332,7 +1391,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3338,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366104,
+      "longitude": -98.023415
     },
     {
       "id": "h1534387343-30",
@@ -1374,7 +1435,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3545,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366021,
+      "longitude": -98.023506
     },
     {
       "id": "h1491319993-31",
@@ -1416,7 +1479,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3718,
       "solar": "yes",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366132,
+      "longitude": -98.023445
     },
     {
       "id": "h4273649011-32",
@@ -1474,7 +1539,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2787,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.366173,
+      "longitude": -98.023478
     },
     {
       "id": "h3047253462-33",
@@ -1516,7 +1583,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3834,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.366108,
+      "longitude": -98.023587
     },
     {
       "id": "h3879282225-34",
@@ -1578,7 +1647,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2787,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.366203,
+      "longitude": -98.023501
     },
     {
       "id": "h1534615184-35",
@@ -1640,7 +1711,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2825,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366162,
+      "longitude": -98.023625
     },
     {
       "id": "h3484915439-36",
@@ -1702,7 +1775,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2358,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.36625,
+      "longitude": -98.023522
     },
     {
       "id": "h3090548653-37",
@@ -1764,7 +1839,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3086,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366297,
+      "longitude": -98.023543
     },
     {
       "id": "h745881612-38",
@@ -1826,7 +1903,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2884,
       "solar": "no",
-      "yearBuilt": 2017
+      "yearBuilt": 2017,
+      "latitude": 30.366256,
+      "longitude": -98.023667
     },
     {
       "id": "h702814262-39",
@@ -1888,7 +1967,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3498,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366344,
+      "longitude": -98.023563
     },
     {
       "id": "h4052940372-40",
@@ -1934,7 +2015,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3373,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.3669,
+      "longitude": -98.025337
     },
     {
       "id": "h3296621233-41",
@@ -1996,7 +2079,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2562,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366823,
+      "longitude": -98.025238
     },
     {
       "id": "h3658573586-42",
@@ -2038,7 +2123,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3391,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.366864,
+      "longitude": -98.025374
     },
     {
       "id": "h2902254447-43",
@@ -2100,7 +2187,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2552,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366787,
+      "longitude": -98.025276
     },
     {
       "id": "h2507887661-44",
@@ -2162,7 +2251,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2540,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.366751,
+      "longitude": -98.025314
     },
     {
       "id": "h2869840014-45",
@@ -2204,7 +2295,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 2562,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366792,
+      "longitude": -98.02545
     },
     {
       "id": "h2113520875-46",
@@ -2266,7 +2359,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3231,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366715,
+      "longitude": -98.025352
     },
     {
       "id": "h2710511433-47",
@@ -2328,7 +2423,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2829,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.366751,
+      "longitude": -98.02549
     },
     {
       "id": "h1719154089-48",
@@ -2390,7 +2487,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2594,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.366683,
+      "longitude": -98.025383
     },
     {
       "id": "h322777042-49",
@@ -2452,7 +2551,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2292,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.366712,
+      "longitude": -98.025523
     },
     {
       "id": "h3626386994-50",
@@ -2514,7 +2615,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2266,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366644,
+      "longitude": -98.025416
     },
     {
       "id": "h4223377552-51",
@@ -2576,7 +2679,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3254,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.366673,
+      "longitude": -98.025557
     },
     {
       "id": "h3232020208-52",
@@ -2638,7 +2743,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2288,
       "solar": "yes",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366605,
+      "longitude": -98.02545
     },
     {
       "id": "h3829010766-53",
@@ -2700,7 +2807,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2779,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366634,
+      "longitude": -98.02559
     },
     {
       "id": "h2837653422-54",
@@ -2762,7 +2871,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3177,
       "solar": "yes",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366566,
+      "longitude": -98.025483
     },
     {
       "id": "h3434643980-55",
@@ -2824,7 +2935,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3171,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366595,
+      "longitude": -98.025623
     },
     {
       "id": "h1089976939-56",
@@ -2886,7 +2999,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2046,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366527,
+      "longitude": -98.025516
     },
     {
       "id": "h3040277194-57",
@@ -2948,7 +3063,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2358,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366556,
+      "longitude": -98.025657
     },
     {
       "id": "h695610153-58",
@@ -3010,7 +3127,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2046,
       "solar": "no",
-      "yearBuilt": 2017
+      "yearBuilt": 2017,
+      "latitude": 30.366488,
+      "longitude": -98.02555
     },
     {
       "id": "h652542803-59",
@@ -3072,7 +3191,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2292,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.366522,
+      "longitude": -98.02569
     },
     {
       "id": "h2602843058-60",
@@ -3134,7 +3255,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3116,
       "solar": "no",
-      "yearBuilt": 2017
+      "yearBuilt": 2017,
+      "latitude": 30.366447,
+      "longitude": -98.025589
     },
     {
       "id": "h258176017-61",
@@ -3196,7 +3319,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2634,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366485,
+      "longitude": -98.025726
     },
     {
       "id": "h2208476272-62",
@@ -3258,7 +3383,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2548,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.36641,
+      "longitude": -98.025625
     },
     {
       "id": "h1814109486-63",
@@ -3320,7 +3447,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2870,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366374,
+      "longitude": -98.025661
     },
     {
       "id": "h3214163182-64",
@@ -3378,7 +3507,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3575,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.365222,
+      "longitude": -98.027443
     },
     {
       "id": "h3576115535-65",
@@ -3440,7 +3571,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2585,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.365184,
+      "longitude": -98.027317
     },
     {
       "id": "h2819796396-66",
@@ -3502,7 +3635,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2562,
       "solar": "yes",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.36513,
+      "longitude": -98.027481
     },
     {
       "id": "h1828439052-67",
@@ -3564,7 +3699,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2358,
       "solar": "no",
-      "yearBuilt": 2017
+      "yearBuilt": 2017,
+      "latitude": 30.365091,
+      "longitude": -98.027355
     },
     {
       "id": "h2425429610-68",
@@ -3626,7 +3763,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3147,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.365027,
+      "longitude": -98.027508
     },
     {
       "id": "h1434072266-69",
@@ -3688,7 +3827,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2062,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.365003,
+      "longitude": -98.027378
     },
     {
       "id": "h2031062824-70",
@@ -3750,7 +3891,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2500,
       "solar": "no",
-      "yearBuilt": 2017
+      "yearBuilt": 2017,
+      "latitude": 30.364931,
+      "longitude": -98.027532
     },
     {
       "id": "h1039705480-71",
@@ -3812,7 +3955,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2634,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.364907,
+      "longitude": -98.027402
     },
     {
       "id": "h1636696038-72",
@@ -3874,7 +4019,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2870,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.364828,
+      "longitude": -98.027546
     },
     {
       "id": "h645338694-73",
@@ -3936,7 +4083,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2790,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.364816,
+      "longitude": -98.027414
     },
     {
       "id": "h3543928943-74",
@@ -3998,7 +4147,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2358,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.364731,
+      "longitude": -98.027557
     },
     {
       "id": "h2552571599-75",
@@ -4060,7 +4211,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2634,
       "solar": "no",
-      "yearBuilt": 2017
+      "yearBuilt": 2017,
+      "latitude": 30.364719,
+      "longitude": -98.027425
     },
     {
       "id": "h3149562157-76",
@@ -4122,7 +4275,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2580,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.364633,
+      "longitude": -98.027569
     },
     {
       "id": "h2158204813-77",
@@ -4184,7 +4339,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2358,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.364622,
+      "longitude": -98.027437
     },
     {
       "id": "h2755195371-78",
@@ -4246,7 +4403,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3265,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.364536,
+      "longitude": -98.02758
     },
     {
       "id": "h1763838027-79",
@@ -4308,7 +4467,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2825,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.364524,
+      "longitude": -98.027448
     },
     {
       "id": "h2360828585-80",
@@ -4370,7 +4531,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2713,
       "solar": "yes",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.364432,
+      "longitude": -98.027582
     },
     {
       "id": "h1369471241-81",
@@ -4432,7 +4595,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2634,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.364432,
+      "longitude": -98.027449
     },
     {
       "id": "h1966461799-82",
@@ -4494,7 +4659,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2480,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.364334,
+      "longitude": -98.027582
     },
     {
       "id": "h975104455-83",
@@ -4556,7 +4723,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2787,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.364334,
+      "longitude": -98.027449
     },
     {
       "id": "h3873694704-84",
@@ -4618,7 +4787,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3234,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.364236,
+      "longitude": -98.027582
     },
     {
       "id": "h2882337360-85",
@@ -4680,7 +4851,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2548,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.364236,
+      "longitude": -98.027449
     },
     {
       "id": "h3479327918-86",
@@ -4738,7 +4911,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2798,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.36413,
+      "longitude": -98.02757
     },
     {
       "id": "h2487970574-87",
@@ -4800,7 +4975,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2562,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.364149,
+      "longitude": -98.027439
     },
     {
       "id": "h3084961132-88",
@@ -4862,7 +5039,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2638,
       "solar": "no",
-      "yearBuilt": 2016
+      "yearBuilt": 2016,
+      "latitude": 30.364033,
+      "longitude": -98.027551
     },
     {
       "id": "h2093603788-89",
@@ -4924,7 +5103,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3010,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.364052,
+      "longitude": -98.02742
     },
     {
       "id": "h2690594346-90",
@@ -4986,7 +5167,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3493,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.363932,
+      "longitude": -98.027516
     },
     {
       "id": "h1699237002-91",
@@ -5048,7 +5231,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2481,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.363966,
+      "longitude": -98.02739
     },
     {
       "id": "h1304870216-92",
@@ -5110,7 +5295,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2585,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.363883,
+      "longitude": -98.027352
     },
     {
       "id": "h3212103121-93",
@@ -5172,7 +5359,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2358,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.363795,
+      "longitude": -98.027303
     },
     {
       "id": "h4187096675-94",
@@ -5218,7 +5407,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3837,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366984,
+      "longitude": -98.025233
     },
     {
       "id": "h2727501805-95",
@@ -5260,7 +5451,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3707,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.367185,
+      "longitude": -98.022053
     },
     {
       "id": "h489119937-96",
@@ -5306,7 +5499,9 @@
       "builder": null,
       "squareFeet": 3776,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366912,
+      "longitude": -98.025336
     },
     {
       "id": "h2738817932-97",
@@ -5348,7 +5543,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3357,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.367237,
+      "longitude": -98.022172
     },
     {
       "id": "h3792729889-98",
@@ -5390,7 +5587,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3714,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367009,
+      "longitude": -98.025256
     },
     {
       "id": "h2750134059-99",
@@ -5440,7 +5639,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3783,
       "solar": "yes",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.36716,
+      "longitude": -98.022071
     },
     {
       "id": "h94753151-100",
@@ -5490,7 +5691,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3562,
       "solar": "yes",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366936,
+      "longitude": -98.025359
     },
     {
       "id": "h2761450186-101",
@@ -5540,7 +5743,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3718,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.367229,
+      "longitude": -98.022178
     },
     {
       "id": "h3398363103-102",
@@ -5586,7 +5791,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3756,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367033,
+      "longitude": -98.025279
     },
     {
       "id": "h2772766313-103",
@@ -5628,7 +5835,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 4038,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.367136,
+      "longitude": -98.022089
     },
     {
       "id": "h3995353661-104",
@@ -5670,7 +5879,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3478,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.36696,
+      "longitude": -98.025382
     },
     {
       "id": "h2784082440-105",
@@ -5712,7 +5923,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3834,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.367221,
+      "longitude": -98.022184
     },
     {
       "id": "h3003996317-106",
@@ -5758,7 +5971,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 2673,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367057,
+      "longitude": -98.025302
     },
     {
       "id": "h2795398567-107",
@@ -5808,7 +6023,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3712,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.367111,
+      "longitude": -98.022106
     },
     {
       "id": "h3600986875-108",
@@ -5850,7 +6067,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3431,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366985,
+      "longitude": -98.025405
     },
     {
       "id": "h2806714694-109",
@@ -5892,7 +6111,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3431,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.367213,
+      "longitude": -98.022189
     },
     {
       "id": "h2609629531-110",
@@ -5934,7 +6155,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 4492,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367081,
+      "longitude": -98.025325
     },
     {
       "id": "h2818030821-111",
@@ -5976,7 +6199,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3297,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367086,
+      "longitude": -98.022124
     },
     {
       "id": "h3206620089-112",
@@ -6018,7 +6243,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3297,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367009,
+      "longitude": -98.025428
     },
     {
       "id": "h3066985615-113",
@@ -6060,7 +6287,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3570,
       "solar": "yes",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.367205,
+      "longitude": -98.022195
     },
     {
       "id": "h221895140-114",
@@ -6106,7 +6335,9 @@
       "builder": null,
       "squareFeet": null,
       "solar": "no",
-      "yearBuilt": null
+      "yearBuilt": null,
+      "latitude": 30.367109,
+      "longitude": -98.025352
     },
     {
       "id": "h3078301742-115",
@@ -6152,7 +6383,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3834,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367061,
+      "longitude": -98.022142
     },
     {
       "id": "h3089617869-116",
@@ -6194,7 +6427,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3628,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.367196,
+      "longitude": -98.022201
     },
     {
       "id": "h4122495650-117",
@@ -6236,7 +6471,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3718,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367131,
+      "longitude": -98.025377
     },
     {
       "id": "h3728128864-118",
@@ -6286,7 +6523,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3670,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.367154,
+      "longitude": -98.025403
     },
     {
       "id": "h1524933378-119",
@@ -6328,7 +6567,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3834,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.36778,
+      "longitude": -98.026796
     },
     {
       "id": "h2121923936-120",
@@ -6378,7 +6619,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 2528,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367669,
+      "longitude": -98.026766
     },
     {
       "id": "h1130566592-121",
@@ -6420,7 +6663,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 4500,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.367761,
+      "longitude": -98.026847
     },
     {
       "id": "h1727557150-122",
@@ -6470,7 +6715,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3538,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.367662,
+      "longitude": -98.02678
     },
     {
       "id": "h736199806-123",
@@ -6520,7 +6767,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 2616,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.367729,
+      "longitude": -98.026899
     },
     {
       "id": "h1333190364-124",
@@ -6570,7 +6819,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3725,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.367662,
+      "longitude": -98.026791
     },
     {
       "id": "h341833020-125",
@@ -6612,7 +6863,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3718,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367704,
+      "longitude": -98.02692
     },
     {
       "id": "h938823578-126",
@@ -6658,7 +6911,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3630,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367637,
+      "longitude": -98.026812
     },
     {
       "id": "h4242433530-127",
@@ -6700,7 +6955,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3545,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367678,
+      "longitude": -98.026941
     },
     {
       "id": "h544456792-128",
@@ -6750,7 +7007,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3479,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.367611,
+      "longitude": -98.026833
     },
     {
       "id": "h1854699139-129",
@@ -6792,7 +7051,9 @@
       "builder": null,
       "squareFeet": 3845,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367653,
+      "longitude": -98.026962
     },
     {
       "id": "h2451689697-130",
@@ -6842,7 +7103,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3349,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367586,
+      "longitude": -98.026854
     },
     {
       "id": "h1460332353-131",
@@ -6892,7 +7155,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 2616,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.367628,
+      "longitude": -98.026983
     },
     {
       "id": "h2057322911-132",
@@ -6942,7 +7207,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 2691,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.367561,
+      "longitude": -98.026876
     },
     {
       "id": "h2654313469-133",
@@ -6992,7 +7259,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3431,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.367602,
+      "longitude": -98.027005
     },
     {
       "id": "h309646428-134",
@@ -7038,7 +7307,9 @@
       "builder": null,
       "squareFeet": 2815,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.367535,
+      "longitude": -98.026897
     },
     {
       "id": "h2259946683-135",
@@ -7080,7 +7351,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3190,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.367577,
+      "longitude": -98.027026
     },
     {
       "id": "h4210246938-136",
@@ -7122,7 +7395,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 4049,
       "solar": "no",
-      "yearBuilt": 2021
+      "yearBuilt": 2021,
+      "latitude": 30.36751,
+      "longitude": -98.026918
     },
     {
       "id": "h1865579897-137",
@@ -7172,7 +7447,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3834,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.367551,
+      "longitude": -98.027047
     },
     {
       "id": "h451117983-138",
@@ -7222,7 +7499,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 2984,
       "solar": "yes",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366561,
+      "longitude": -98.027969
     },
     {
       "id": "h56751197-139",
@@ -7272,7 +7551,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3431,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366539,
+      "longitude": -98.027994
     },
     {
       "id": "h3957351707-140",
@@ -7322,7 +7603,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3387,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366516,
+      "longitude": -98.028019
     },
     {
       "id": "h1612684666-141",
@@ -7372,7 +7655,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3753,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366437,
+      "longitude": -98.027921
     },
     {
       "id": "h3562984921-142",
@@ -7414,7 +7699,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 3182,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366493,
+      "longitude": -98.028043
     },
     {
       "id": "h1218317880-143",
@@ -7464,7 +7751,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3293,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366415,
+      "longitude": -98.027946
     },
     {
       "id": "h3168618135-144",
@@ -7506,7 +7795,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 2247,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.36647,
+      "longitude": -98.028068
     },
     {
       "id": "h823951094-145",
@@ -7556,7 +7847,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3269,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366392,
+      "longitude": -98.027971
     },
     {
       "id": "h780883744-146",
@@ -7606,7 +7899,9 @@
       "builder": "Westin Homes",
       "squareFeet": 3456,
       "solar": "no",
-      "yearBuilt": 2019
+      "yearBuilt": 2019,
+      "latitude": 30.366447,
+      "longitude": -98.028093
     },
     {
       "id": "h2731183999-147",
@@ -7648,7 +7943,9 @@
       "builder": "Drees Custom Homes",
       "squareFeet": 2979,
       "solar": "no",
-      "yearBuilt": 2020
+      "yearBuilt": 2020,
+      "latitude": 30.366369,
+      "longitude": -98.027996
     },
     {
       "id": "h3563212762-148",
@@ -7710,7 +8007,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 2539,
       "solar": "no",
-      "yearBuilt": 2017
+      "yearBuilt": 2017,
+      "latitude": 30.366424,
+      "longitude": -98.028117
     },
     {
       "id": "h3925165115-149",
@@ -7772,7 +8071,9 @@
       "builder": "Ashton Woods",
       "squareFeet": 3709,
       "solar": "no",
-      "yearBuilt": 2018
+      "yearBuilt": 2018,
+      "latitude": 30.366346,
+      "longitude": -98.02802
     }
   ]
 }

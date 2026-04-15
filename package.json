@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "import:appraisals": "node scripts/fetch-travis-appraisals.mjs",
     "reparse:appraisals": "node scripts/fetch-travis-appraisals.mjs --appraisals-only --reparse-only",
-    "ensure:homes-cad-fields": "node scripts/ensure-homes-cad-fields.mjs"
+    "ensure:homes-cad-fields": "node scripts/ensure-homes-cad-fields.mjs",
+    "parse:utilities": "node scripts/parse-utilities-from-excel.mjs",
+    "geocode:homes": "node scripts/geocode-homes.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
@@ -26,9 +28,10 @@
     "autoprefixer": "^10.4.20",
     "eslint": "^9.16.0",
     "eslint-config-next": "^15.1.0",
+    "playwright": "^1.49.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
     "typescript": "^5.7.2",
-    "playwright": "^1.49.0"
+    "xlsx": "^0.18.5"
   }
 }

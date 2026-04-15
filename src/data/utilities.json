@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "sourceFile": "src/data/SummitInfo.xlsx",
+    "sheet": "Utilities",
+    "parsedAt": "2026-04-15T04:33:16.442Z",
+    "headerRow": [
+      "",
+      "Provider Name",
+      "Website",
+      "Outage Status",
+      "Phone",
+      "Billing"
+    ]
+  },
+  "utilities": [
+    {
+      "category": "Electric",
+      "providerName": "PEC",
+      "website": "https://mypec.com/",
+      "outageStatus": "https://map.mypec.com",
+      "phone": "888-554-4732",
+      "billing": "https://pec.smarthub.coop/ui/#/login"
+    },
+    {
+      "category": "Water",
+      "providerName": "Texas Water Utilities",
+      "website": "https://www.swwc.com/texas/",
+      "outageStatus": null,
+      "phone": null,
+      "billing": "https://account.mywater.us"
+    },
+    {
+      "category": "Trash",
+      "providerName": null,
+      "website": null,
+      "outageStatus": null,
+      "phone": null,
+      "billing": null
+    },
+    {
+      "category": "Gas",
+      "providerName": "Alliant Gas",
+      "website": "https://www.pinnaclepropane.com/alliant-gas/texas",
+      "outageStatus": null,
+      "phone": "512-858-2390",
+      "billing": null
+    },
+    {
+      "category": "HOA",
+      "providerName": "First Service Residential",
+      "website": "https://summitatlaketravis.connectresident.com",
+      "outageStatus": null,
+      "phone": "512-266-6771",
+      "billing": null
+    }
+  ]
+}
