@@ -32,6 +32,9 @@ yarn-error.log*
 # Optional: keep address PDFs out of git (remove this line if you want the file in-repo)
 /data/*.pdf
 /data/cad-property-ids.json
+/data/cad-appraisal-cache.json
+/data/cad-appraisal-cache.json.migrated.bak
+/data/cad-appraisal-cache.d/
 /data/last-resolve-debug.html
 /data/last-resolve-search.json
 /data/last-appraisal-debug.json

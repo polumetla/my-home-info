@@ -1,6 +1,7 @@
 "use client";
 
-import { filterHomesByQuery, formatAddress, getHomes } from "@/lib/homes";
+import type { HomeRecord } from "@/lib/homes";
+import { filterHomesByQuery, formatAddress, formatLivingAreaSqft } from "@/lib/homes";
 import { DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM } from "@/lib/map-config";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -48,8 +49,7 @@ function fixLeafletIcons() {
   });
 }
 
-export default function HomesMap() {
-  const { homes } = getHomes();
+export default function HomesMap({ homes }: { homes: HomeRecord[] }) {
   const [query, setQuery] = useState("");
   const [coords, setCoords] = useState<Record<string, Coord>>({});
   const [geocodeDone, setGeocodeDone] = useState(false);
@@ -154,6 +154,10 @@ export default function HomesMap() {
       const popup = [
         `<strong>${escapeHtml(formatAddress(h))}</strong>`,
         typeof h.septicField === "number" ? `Septic field #${h.septicField}` : "",
+        h.builder?.trim() ? `Builder: ${escapeHtml(h.builder.trim())}` : "",
+        typeof h.squareFeet === "number" && Number.isFinite(h.squareFeet)
+          ? `Living area: ${escapeHtml(formatLivingAreaSqft(h))}`
+          : "",
         `<a href="${detailHref}">House page</a>`,
       ]
         .filter(Boolean)
@@ -235,6 +239,14 @@ export default function HomesMap() {
                       <span className="font-medium text-ink">{formatAddress(h)}</span>
                       {typeof h.septicField === "number" && (
                         <span className="text-xs text-ink-muted">Septic #{h.septicField}</span>
+                      )}
+                      {h.builder?.trim() && (
+                        <span className="text-xs text-ink-muted">{h.builder.trim()}</span>
+                      )}
+                      {typeof h.squareFeet === "number" && Number.isFinite(h.squareFeet) && (
+                        <span className="text-xs tabular-nums text-ink-muted">
+                          {h.squareFeet.toLocaleString()} sq ft
+                        </span>
                       )}
                     </button>
                     <Link

@@ -1,5 +1,3 @@
-import homesData from "@/data/homes.json";
-
 export type HomeRecord = {
   id: string;
   /** Street line only, e.g. "2406 SKYWALK LN" */
@@ -7,9 +5,12 @@ export type HomeRecord = {
   /** Septic field / system # from the community map PDF */
   septicField?: number;
   /** Optional info you can fill in over time */
-  builder?: string;
+  builder?: string | null;
   model?: string;
-  yearBuilt?: number;
+  /** From CAD improvement detail row `HVAC RESIDENTIAL` → `actualYearBuilt`. */
+  yearBuilt?: number | null;
+  /** Living area (sq ft) from Travis CAD improvement `livingArea`. */
+  squareFeet?: number | null;
   /**
    * Public-record property appraisal history (e.g., from county CAD).
    * Values are in USD (whole dollars).
@@ -23,6 +24,10 @@ export type HomeRecord = {
    * `https://travis.prodigycad.com/property-detail/946979/`
    */
   cadPropertyId?: string;
+  homestead?: "yes" | "no";
+  /** Travis solar: CAD `exemptionList` code SO and/or improvement `imprvSpecificDescription` solar array. */
+  solar?: "yes" | "no" | null;
+  pool?: "yes" | "no";
   city: string;
   state: string;
   zip: string;
@@ -43,15 +48,6 @@ export type HomesFile = {
   };
   homes: HomeRecord[];
 };
-
-export function getHomes(): HomesFile {
-  return homesData as HomesFile;
-}
-
-export function getHomeById(id: string): HomeRecord | null {
-  const hit = getHomes().homes.find((h) => h.id === id);
-  return hit ?? null;
-}
 
 export function formatAddress(h: HomeRecord): string {
   if (h.street && h.city && h.state && h.zip) {
@@ -75,6 +71,13 @@ export function getLatestAppraisal(h: HomeRecord): { year: number; value: number
 
 export function formatUsd(value: number): string {
   return value.toLocaleString(undefined, { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+}
+
+/** CAD living area for tables and labels. */
+export function formatLivingAreaSqft(h: HomeRecord): string {
+  const n = h.squareFeet;
+  if (typeof n !== "number" || !Number.isFinite(n)) return "—";
+  return `${n.toLocaleString()} sq ft`;
 }
 
 /** Travis CAD public portal property page (Prodigy). */
@@ -122,6 +125,10 @@ export function filterHomesByQuery(homes: HomeRecord[], query: string): HomeReco
       h.model ?? "",
       h.yearBuilt != null ? String(h.yearBuilt) : "",
       h.cadPropertyId ?? "",
+      h.homestead ?? "",
+      h.solar ?? "",
+      h.pool ?? "",
+      h.squareFeet != null ? String(h.squareFeet) : "",
       latest ? String(latest.value) : "",
       latest ? String(latest.year) : "",
       yoy != null ? formatPercentChange(yoy) : "",

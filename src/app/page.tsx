@@ -1,5 +1,8 @@
 import Link from "next/link";
+import { HomeCommunityStats } from "@/components/home-community-stats";
 import { siteConfig } from "@/lib/site-config";
+
+export const dynamic = "force-dynamic";
 
 export default function HomePage() {
   return (
@@ -28,6 +31,8 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
+
+      <HomeCommunityStats />
 
       <section className="grid gap-6 sm:grid-cols-3">
         {[

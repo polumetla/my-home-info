@@ -10,6 +10,7 @@ export const siteConfig = {
   /** Disclosure copy for future affiliate / sponsored placements. */
   affiliateNotice:
     "Some links may be affiliate or sponsored. Placement does not imply endorsement by the community.",
+  ownwellReferralUrl: "https://www.ownwell.com/referral?owl=49A37ZF2F",
 } as const;
 
 export type NavItem = { href: string; label: string };

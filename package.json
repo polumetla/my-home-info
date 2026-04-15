@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "import:appraisals": "node scripts/fetch-travis-appraisals.mjs"
+    "import:appraisals": "node scripts/fetch-travis-appraisals.mjs",
+    "reparse:appraisals": "node scripts/fetch-travis-appraisals.mjs --appraisals-only --reparse-only",
+    "ensure:homes-cad-fields": "node scripts/ensure-homes-cad-fields.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

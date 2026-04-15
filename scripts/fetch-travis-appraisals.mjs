@@ -7,7 +7,22 @@
  * browser session and extracts those fields.
  *
  * **Builder:** from sale/transfer JSON, uses the **buyer** on the row with the oldest
- * **appraisal date** when present; otherwise oldest sale/deed date or year.
+ * **appraisal date** when present; otherwise oldest sale/deed date or year. Stored value is the
+ * **first word only** (uppercase), e.g. `WESTIN HOMES` → `WESTIN`, `DREES CUSTOM HOME` → `DREES`.
+ * Exceptions (deed **seller**, case-insensitive substring): **`WESTIN`** → **`Westin Homes`**; **`DREES`** → **`Drees Custom Homes`**; **`ASHTON`** → **`Ashton Woods`** (first match wins).
+ *
+ * **Homestead:** general `results.exemptionList` text containing **HS** (comma-separated codes, e.g.
+ * `HS - Homestead`), or exemption rows that match HS homestead patterns. Other mentions of "homestead"
+ * outside exemptions are ignored.
+ *
+ * **Solar (SO):** general `results.exemptionList` text containing **SO** (e.g. `SO - Solar (Special Exemption)`),
+ * or improvement rows with `imprvSpecificDescription` **SOLAR ARRAY SYSTEM**.
+ *
+ * **Pool:** improvement `results[].details[]` row whose **detailTypeDescription** contains **POOL**, or top-level `imprvDescription` / `imprvSpecificDescription` with a **POOL** token (e.g. `POOL RES CONC`).
+ *
+ * **Square feet:** largest **livingArea** among improvement `results` rows (CAD living area, whole sqft).
+ *
+ * **Year built:** improvement `results[].details[]` row with **detailTypeDescription** `HVAC RESIDENTIAL` uses **actualYearBuilt** (matches main structure year; avoids pool/solar add-on years).
  *
  * Prerequisite:
  *   npm install
@@ -24,6 +39,22 @@
  *   node scripts/fetch-travis-appraisals.mjs --resolve-limit=10  (cap how many addresses get CAD id lookup)
  *   node scripts/fetch-travis-appraisals.mjs --limit=5           (cap appraisal imports after ids are known)
  *   node scripts/fetch-travis-appraisals.mjs --debug             (write debug JSON/HTML on failures; builder trace)
+ *   node scripts/fetch-travis-appraisals.mjs --no-cache (always fetch from CAD; ignore disk cache)
+ *   node scripts/fetch-travis-appraisals.mjs --cache-max-age-days=14 (default 30; refetch when older)
+ *   node scripts/fetch-travis-appraisals.mjs --reparse-only (re-run parsing from disk cache only; no browser)
+ *   npm run ensure:homes-cad-fields  (add `builder` / `squareFeet` / `solar` keys with nulls where missing)
+ *
+ * **Raw cache:** For each property detail page, only Prodigy JSON whose URL matches known data endpoints is
+ * stored under `byPid.<pid>.endpoints`: **deeds, general, features, improvement, land, taxable, value,
+ * valuehistory** (see `CAD_PROPERTY_ENDPOINT_KEYS`). Parsed fields are built by flattening those blobs in
+ * order, so you can change parsing without re-hitting CAD until the cache expires or you use --no-cache.
+ * Legacy cache entries that used a flat `payloads` array are still read for `--reparse-only`.
+ *
+ * **Cache storage (avoids one huge JSON file):**
+ * - Default: **sharded files** under `data/cad-appraisal-cache.d/<pid>.json` (one property per file).
+ * - Optional **MongoDB** if `MONGODB_URI` is set (install driver: `npm install mongodb`). Use `MONGODB_DB`
+ *   (default `my_home_info`) and `MONGODB_COLLECTION` (default `cad_prodigy_property_cache`).
+ * - A legacy monolithic `data/cad-appraisal-cache.json` is migrated once into shards when the shard dir is empty.
  *
  * Optional merge file (gitignored): data/cad-property-ids.json
  * Shape: { "<home id>": "<cad property id>" }
@@ -34,15 +65,74 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
+/** In-repo writers: `saveHomes` here and `scripts/ensure-homes-cad-fields.mjs`. App code only reads (`homes.server.ts`). */
 const homesPath = path.join(root, "src", "data", "homes.json");
 const mergePath = path.join(root, "data", "cad-property-ids.json");
 const debugPath = path.join(root, "data", "last-appraisal-debug.json");
 const resolveSearchJsonPath = path.join(root, "data", "last-resolve-search.json");
 const resolveDebugHtmlPath = path.join(root, "data", "last-resolve-debug.html");
+const appraisalCacheDir = path.join(root, "data", "cad-appraisal-cache.d");
+const legacyAppraisalCachePath = path.join(root, "data", "cad-appraisal-cache.json");
 
 const DELAY_APPRAISAL_MS = 3500;
 const DELAY_RESOLVE_MS = 2500;
 const PAGE_WAIT_MS = 15000;
+
+/** Prodigy blocks `/public/propertyaccount/*` with `net::ERR_FAILED` when User-Agent is HeadlessChrome. */
+const PLAYWRIGHT_DESKTOP_CHROME_UA =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36";
+
+/** On-disk cache file schema (bump if `byPid` entry shape changes). */
+const APPRAISAL_CACHE_FILE_VERSION = 3;
+
+/** Order used when flattening cached endpoint JSON for parsers (matches portal data tabs). */
+const CAD_PROPERTY_ENDPOINT_KEYS = [
+  "deeds",
+  "general",
+  "features",
+  "improvement",
+  "land",
+  "taxable",
+  "value",
+  "valuehistory",
+];
+
+/**
+ * Classify by URL pathname. **Deeds** use `/public/property/{pid}/deeds` (pid = property id from the URL).
+ * All other tab JSON uses `/public/propertyaccount/{pAccountID}/…` — **pAccountID** is not the same as pid;
+ * resolve it from `public/property/search` using `pYear` = default tax year from `public/config/defaultyear`
+ * (`results.year`), or the **last** search row for that pid if no row matches.
+ * Features: `/public/propertyaccount/{pAccountID}/features` or nested
+ * `/public/propertyaccount/improvement/{impId}/features`.
+ * Order: most specific path first (valuehistory before value; nested features before flat features).
+ */
+const CAD_ENDPOINT_PATH_RULES = [
+  [/\/public\/propertyaccount\/[^/]+\/valuehistory(?:\/|\?|$)/i, "valuehistory"],
+  [/\/public\/propertyaccount\/improvement\/[^/]+\/features(?:\/|\?|$)/i, "features"],
+  [/\/public\/propertyaccount\/[^/]+\/features(?:\/|\?|$)/i, "features"],
+  [/\/public\/property\/[^/]+\/deeds(?:\/|\?|$)/i, "deeds"],
+  [/\/public\/propertyaccount\/[^/]+\/general(?:\/|\?|$)/i, "general"],
+  [/\/public\/propertyaccount\/[^/]+\/improvement(?:\/|\?|$)/i, "improvement"],
+  [/\/public\/propertyaccount\/[^/]+\/land(?:\/|\?|$)/i, "land"],
+  [/\/public\/propertyaccount\/[^/]+\/taxable(?:\/|\?|$)/i, "taxable"],
+  [/\/public\/propertyaccount\/[^/]+\/value(?:\/|\?|$)/i, "value"],
+];
+
+/** Other trueprodigy JSON on the detail page (still flattened for parsers). */
+const CAD_UNCLASSIFIED_KEY = "unclassified";
+
+/** Travis CAD shows this under Exemptions (e.g. exemptionList); do not treat generic "homestead" text as HS. */
+const HS_HOMESTEAD_LABEL_RE = /HS\s*[-–—]\s*Homestead\b/i;
+
+/** Top-level improvement row text (e.g. "POOL RES CONC"). */
+const IMPROVEMENT_POOL_RE = /\bPOOL\b/i;
+/** Improvement detail row `detailTypeDescription` substring (e.g. "POOL RES CONC"). */
+const DETAIL_TYPE_CONTAINS_POOL_RE = /POOL/i;
+
+function improvementSpecificIsSolarArraySystem(value) {
+  if (typeof value !== "string") return false;
+  return value.replace(/\s+/g, " ").trim().toUpperCase() === "SOLAR ARRAY SYSTEM";
+}
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -53,8 +143,13 @@ function parseArgs() {
   let appraisalsOnly = false;
   let debug = false;
   let headed = false;
+  let useCache = true;
+  let cacheMaxAgeDays = 30;
+  let reparseOnly = false;
   for (const a of args) {
     if (a === "--dry-run") dryRun = true;
+    if (a === "--no-cache") useCache = false;
+    if (a === "--reparse-only") reparseOnly = true;
     if (a === "--no-resolve") resolveIds = false;
     if (a === "--appraisals-only") {
       appraisalsOnly = true;
@@ -66,8 +161,21 @@ function parseArgs() {
     if (m) appraisalLimit = Number.parseInt(m[1], 10);
     m = /^--resolve-limit=(\d+)$/.exec(a);
     if (m) resolveLimit = Number.parseInt(m[1], 10);
+    m = /^--cache-max-age-days=(\d+)$/.exec(a);
+    if (m) cacheMaxAgeDays = Number.parseInt(m[1], 10);
   }
-  return { appraisalLimit, resolveLimit, dryRun, resolveIds, appraisalsOnly, debug, headed };
+  return {
+    appraisalLimit,
+    resolveLimit,
+    dryRun,
+    resolveIds,
+    appraisalsOnly,
+    debug,
+    headed,
+    useCache,
+    cacheMaxAgeDays,
+    reparseOnly,
+  };
 }
 
 function isYear(n) {
@@ -237,17 +345,286 @@ function gatherBuyerRecords(obj, out, depth) {
   }
 }
 
+/** First word of builder/buyer name for display (e.g. WESTIN HOMES → WESTIN). */
+function formatBuilderDisplayName(raw) {
+  if (typeof raw !== "string") return null;
+  const t = raw.replace(/\s+/g, " ").trim();
+  if (t.length < 2) return null;
+  const first = t.split(/\s+/)[0]?.replace(/[,;.]+$/g, "") ?? "";
+  if (first.length < 2) return null;
+  return first.toUpperCase();
+}
+
+function normalizeCadPartyName(value) {
+  return String(value ?? "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toUpperCase();
+}
+
+/** Deed seller substring (uppercase) → display builder; earlier entries win over later ones. */
+const DEED_SELLER_CANONICAL_BUILDERS = [
+  { sellerContains: "WESTIN", builderLabel: "Westin Homes" },
+  { sellerContains: "DREES", builderLabel: "Drees Custom Homes" },
+  { sellerContains: "ASHTON", builderLabel: "Ashton Woods" },
+];
+
+function walkPayloadForDeedSellerContains(obj, depth, sellerNeedleUpper) {
+  if (depth > 26 || obj == null) return false;
+  if (Array.isArray(obj)) {
+    for (const x of obj) {
+      if (walkPayloadForDeedSellerContains(x, depth + 1, sellerNeedleUpper)) return true;
+    }
+    return false;
+  }
+  if (typeof obj !== "object") return false;
+  const seller = obj.seller;
+  if (typeof seller === "string" && normalizeCadPartyName(seller).includes(sellerNeedleUpper)) {
+    return true;
+  }
+  for (const k of Object.keys(obj)) {
+    if (k === "geometry" || k === "features") continue;
+    if (walkPayloadForDeedSellerContains(obj[k], depth + 1, sellerNeedleUpper)) return true;
+  }
+  return false;
+}
+
 /** Buyer name on the oldest appraisal-dated row when available; else oldest sale/year. */
 function extractBuilderFromPayloads(payloads) {
+  for (const { sellerContains, builderLabel } of DEED_SELLER_CANONICAL_BUILDERS) {
+    const needle = sellerContains.toUpperCase();
+    for (const p of payloads) {
+      if (walkPayloadForDeedSellerContains(p, 0, needle)) return builderLabel;
+    }
+  }
   const recs = [];
   for (const p of payloads) {
     gatherBuyerRecords(p, recs, 0);
   }
   if (recs.length === 0) return null;
   const withAppraisal = recs.filter((r) => r.kind === "appraisal");
-  const pool = withAppraisal.length > 0 ? withAppraisal : recs;
-  pool.sort((a, b) => a.ms - b.ms);
-  return pool[0].buyer;
+  const buyerPool = withAppraisal.length > 0 ? withAppraisal : recs;
+  buyerPool.sort((a, b) => a.ms - b.ms);
+  return formatBuilderDisplayName(buyerPool[0].buyer);
+}
+
+function exemptionRowIsHsHomestead(row) {
+  if (!row || typeof row !== "object") return false;
+  const code = row.exemptionCd ?? row.exemptionCode ?? row.code ?? row.cd ?? row.exemptionType ?? row.typeCd;
+  const desc =
+    row.exemptionDescription ??
+    row.description ??
+    row.exemptionDesc ??
+    row.name ??
+    row.formDescription ??
+    row.exemptionLabel ??
+    "";
+  const codeStr = typeof code === "string" ? code.trim() : "";
+  const descStr = typeof desc === "string" ? desc : "";
+  if (/^HS$/i.test(codeStr) && /homestead/i.test(descStr)) return true;
+  if (HS_HOMESTEAD_LABEL_RE.test(descStr)) return true;
+  if (HS_HOMESTEAD_LABEL_RE.test(`${codeStr} ${descStr}`.trim())) return true;
+  return false;
+}
+
+/**
+ * Homestead = yes when general (or any) payload has `exemptionList` containing the substring `HS`, or
+ * exemption rows match HS homestead patterns; avoids unrelated "homestead" text elsewhere in JSON.
+ */
+function extractHomesteadYesNoFromPayloads(payloads) {
+  for (const p of payloads) {
+    if (walkPayloadForHsHomestead(p, 0)) return "yes";
+  }
+  return "no";
+}
+
+function walkPayloadForHsHomestead(obj, depth) {
+  if (depth > 28 || obj == null) return false;
+  if (typeof obj !== "object") return false;
+  if (Array.isArray(obj)) {
+    for (const x of obj) {
+      if (walkPayloadForHsHomestead(x, depth + 1)) return true;
+    }
+    return false;
+  }
+
+  for (const k of Object.keys(obj)) {
+    const kl = k.toLowerCase();
+    const v = obj[k];
+
+    if (kl === "exemptionlist" && typeof v === "string") {
+      const plain = v.includes("<") ? v.replace(/<[^>]*>/g, " ") : v;
+      if (plain.includes("HS")) return true;
+    }
+
+    if (Array.isArray(v) && kl.includes("exemption")) {
+      for (const row of v) {
+        if (exemptionRowIsHsHomestead(row)) return true;
+      }
+    }
+
+    if (walkPayloadForHsHomestead(v, depth + 1)) return true;
+  }
+  return false;
+}
+
+/** Solar: `exemptionList` contains **SO**, or improvement `imprvSpecificDescription` is **SOLAR ARRAY SYSTEM**. */
+function extractSolarYesNoFromPayloads(payloads) {
+  for (const p of payloads) {
+    if (walkPayloadForSolarYes(p, 0)) return "yes";
+  }
+  return "no";
+}
+
+function walkPayloadForSolarYes(obj, depth) {
+  if (depth > 28 || obj == null) return false;
+  if (typeof obj !== "object") return false;
+  if (Array.isArray(obj)) {
+    for (const x of obj) {
+      if (walkPayloadForSolarYes(x, depth + 1)) return true;
+    }
+    return false;
+  }
+
+  for (const k of Object.keys(obj)) {
+    const kl = k.toLowerCase();
+    const v = obj[k];
+
+    if (kl === "exemptionlist" && typeof v === "string") {
+      const plain = v.includes("<") ? v.replace(/<[^>]*>/g, " ") : v;
+      if (plain.includes("SO")) return true;
+    }
+
+    if (kl === "imprvspecificdescription" || kl === "imprv_specific_description") {
+      if (improvementSpecificIsSolarArraySystem(v)) return true;
+    }
+
+    if (walkPayloadForSolarYes(v, depth + 1)) return true;
+  }
+  return false;
+}
+
+function parseLivingAreaToSqft(value) {
+  if (value == null) return null;
+  const n =
+    typeof value === "number"
+      ? value
+      : Number.parseFloat(String(value).replace(/,/g, "").trim());
+  if (!Number.isFinite(n) || n <= 0) return null;
+  return Math.round(n);
+}
+
+function walkLivingAreaMax(obj, depth, state) {
+  if (depth > 28 || obj == null) return;
+  if (Array.isArray(obj)) {
+    for (const x of obj) walkLivingAreaMax(x, depth + 1, state);
+    return;
+  }
+  if (typeof obj !== "object") return;
+  if (Object.prototype.hasOwnProperty.call(obj, "livingArea")) {
+    const n = parseLivingAreaToSqft(obj.livingArea);
+    if (n != null && n > state.max) state.max = n;
+  }
+  for (const k of Object.keys(obj)) {
+    if (k === "geometry" || k === "features") continue;
+    walkLivingAreaMax(obj[k], depth + 1, state);
+  }
+}
+
+/** Max `livingArea` from improvement results (multiple rows: e.g. dwelling vs outbuilding with 0). */
+function extractSquareFeetFromImprovementLivingArea(payloads) {
+  const state = { max: 0 };
+  for (const p of payloads) {
+    walkLivingAreaMax(p, 0, state);
+  }
+  return state.max > 0 ? state.max : null;
+}
+
+const HVAC_RESIDENTIAL_DETAIL = "HVAC RESIDENTIAL";
+
+function detailTypeDescriptionIsHvacResidential(value) {
+  if (typeof value !== "string") return false;
+  return value.replace(/\s+/g, " ").trim().toUpperCase() === HVAC_RESIDENTIAL_DETAIL;
+}
+
+function parseActualYearBuiltToInt(value) {
+  if (value == null) return null;
+  const n =
+    typeof value === "number"
+      ? Math.trunc(value)
+      : Number.parseInt(String(value).replace(/\D/g, ""), 10);
+  if (!Number.isFinite(n) || n < 1600 || n > 2100) return null;
+  return n;
+}
+
+function walkHvacResidentialYearBuilt(obj, depth) {
+  if (depth > 28 || obj == null) return null;
+  if (typeof obj !== "object") return null;
+  if (Array.isArray(obj)) {
+    for (const x of obj) {
+      const y = walkHvacResidentialYearBuilt(x, depth + 1);
+      if (y != null) return y;
+    }
+    return null;
+  }
+  if (detailTypeDescriptionIsHvacResidential(obj.detailTypeDescription)) {
+    const y = parseActualYearBuiltToInt(obj.actualYearBuilt);
+    if (y != null) return y;
+  }
+  for (const k of Object.keys(obj)) {
+    if (k === "geometry" || k === "features") continue;
+    const y = walkHvacResidentialYearBuilt(obj[k], depth + 1);
+    if (y != null) return y;
+  }
+  return null;
+}
+
+/** `actualYearBuilt` on improvement detail row where `detailTypeDescription` is `HVAC RESIDENTIAL`. */
+function extractYearBuiltFromHvacResidentialDetail(payloads) {
+  for (const p of payloads) {
+    const y = walkHvacResidentialYearBuilt(p, 0);
+    if (y != null) return y;
+  }
+  return null;
+}
+
+function extractPoolYesNoFromPayloads(payloads) {
+  for (const p of payloads) {
+    if (walkPayloadForPoolImprovement(p, 0)) return "yes";
+  }
+  return "no";
+}
+
+function walkPayloadForPoolImprovement(obj, depth) {
+  if (depth > 28 || obj == null) return false;
+  if (typeof obj !== "object") return false;
+  if (Array.isArray(obj)) {
+    for (const x of obj) {
+      if (walkPayloadForPoolImprovement(x, depth + 1)) return true;
+    }
+    return false;
+  }
+
+  for (const k of Object.keys(obj)) {
+    const kl = k.toLowerCase();
+    if (kl === "detailtypedescription") {
+      const v = obj[k];
+      if (typeof v === "string" && DETAIL_TYPE_CONTAINS_POOL_RE.test(v)) return true;
+    }
+    if (
+      kl === "imprvdescription" ||
+      kl === "imprvspecificdescription" ||
+      kl === "imprv_description" ||
+      kl === "imprv_specific_description"
+    ) {
+      const v = obj[k];
+      if (typeof v === "string" && IMPROVEMENT_POOL_RE.test(v)) return true;
+    }
+  }
+  for (const k of Object.keys(obj)) {
+    if (walkPayloadForPoolImprovement(obj[k], depth + 1)) return true;
+  }
+  return false;
 }
 
 function loadIdMerge() {
@@ -257,6 +634,341 @@ function loadIdMerge() {
   } catch {
     return {};
   }
+}
+
+/** Lazy-read legacy single-file cache (before shard migration). */
+let legacyMonolithicBody = undefined;
+
+function readLegacyMonolithicBody() {
+  if (legacyMonolithicBody !== undefined) return legacyMonolithicBody;
+  if (!fs.existsSync(legacyAppraisalCachePath)) {
+    legacyMonolithicBody = null;
+    return null;
+  }
+  try {
+    legacyMonolithicBody = JSON.parse(fs.readFileSync(legacyAppraisalCachePath, "utf8"));
+    return legacyMonolithicBody;
+  } catch {
+    legacyMonolithicBody = null;
+    return null;
+  }
+}
+
+function cadCacheShardFilename(pid) {
+  const id = String(pid).replace(/\D/g, "");
+  return id ? `${id}.json` : "";
+}
+
+function loadFsShardEntry(pid) {
+  const file = cadCacheShardFilename(pid);
+  if (!file) return null;
+  const shard = path.join(appraisalCacheDir, file);
+  if (!fs.existsSync(shard)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(shard, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function loadFsCacheEntry(pid) {
+  const fromShard = loadFsShardEntry(pid);
+  if (fromShard) return fromShard;
+  const legacy = readLegacyMonolithicBody();
+  if (legacy?.byPid && typeof legacy.byPid === "object") {
+    return legacy.byPid[pid] ?? null;
+  }
+  return null;
+}
+
+function saveFsCacheEntry(pid, entry) {
+  const file = cadCacheShardFilename(pid);
+  if (!file) return;
+  fs.mkdirSync(appraisalCacheDir, { recursive: true });
+  const out = { ...entry, v: entry.v ?? APPRAISAL_CACHE_FILE_VERSION };
+  fs.writeFileSync(path.join(appraisalCacheDir, file), JSON.stringify(out, null, 2) + "\n", "utf8");
+}
+
+function shardedCacheDirHasEntries() {
+  if (!fs.existsSync(appraisalCacheDir)) return false;
+  return fs.readdirSync(appraisalCacheDir).some((f) => f.endsWith(".json"));
+}
+
+function migrateLegacyMonolithicToShardsIfNeeded() {
+  if (!fs.existsSync(legacyAppraisalCachePath) || shardedCacheDirHasEntries()) return;
+  const body = readLegacyMonolithicBody();
+  if (!body?.byPid || typeof body.byPid !== "object") return;
+  let n = 0;
+  for (const [pid, entry] of Object.entries(body.byPid)) {
+    saveFsCacheEntry(pid, entry);
+    n++;
+  }
+  try {
+    fs.renameSync(legacyAppraisalCachePath, `${legacyAppraisalCachePath}.migrated.bak`);
+  } catch (e) {
+    console.warn("Could not rename legacy cache after migration:", e?.message ?? e);
+    return;
+  }
+  legacyMonolithicBody = null;
+  console.log(
+    `Migrated ${n} CAD cache rows to ${path.relative(root, appraisalCacheDir)}/; legacy → cad-appraisal-cache.json.migrated.bak`,
+  );
+}
+
+/**
+ * @returns {{ backend: string, load: (pid: string) => Promise<object|null>, save: (pid: string, entry: object) => Promise<void>, close: () => Promise<void> }}
+ */
+async function createCadCacheStore() {
+  const uri = process.env.MONGODB_URI?.trim();
+  if (uri) {
+    let MongoClient;
+    try {
+      ({ MongoClient } = await import("mongodb"));
+    } catch {
+      console.error("MONGODB_URI is set but the `mongodb` package is missing. Run: npm install mongodb");
+      process.exit(1);
+    }
+    const client = new MongoClient(uri);
+    await client.connect();
+    const dbName = process.env.MONGODB_DB?.trim() || "my_home_info";
+    const colName = process.env.MONGODB_COLLECTION?.trim() || "cad_prodigy_property_cache";
+    const col = client.db(dbName).collection(colName);
+    return {
+      backend: "mongodb",
+      async load(pid) {
+        const doc = await col.findOne({ _id: String(pid) });
+        return doc?.cache ?? null;
+      },
+      async save(pid, entry) {
+        await col.replaceOne(
+          { _id: String(pid) },
+          { _id: String(pid), cache: entry, updatedAt: new Date() },
+          { upsert: true },
+        );
+      },
+      async close() {
+        await client.close();
+      },
+    };
+  }
+
+  migrateLegacyMonolithicToShardsIfNeeded();
+  return {
+    backend: "fs-shards",
+    async load(pid) {
+      return loadFsCacheEntry(pid);
+    },
+    async save(pid, entry) {
+      saveFsCacheEntry(pid, entry);
+    },
+    async close() {},
+  };
+}
+
+function emptyCadEndpointsBuckets() {
+  const o = Object.fromEntries(CAD_PROPERTY_ENDPOINT_KEYS.map((k) => [k, []]));
+  o[CAD_UNCLASSIFIED_KEY] = [];
+  return o;
+}
+
+function classifyCadPropertyDetailEndpoint(url) {
+  const u = String(url);
+  if (!u.toLowerCase().includes("trueprodigyapi.com")) return null;
+  let pathname = "";
+  try {
+    pathname = new URL(u).pathname;
+  } catch {
+    return null;
+  }
+  const p = pathname.toLowerCase();
+  for (const [re, key] of CAD_ENDPOINT_PATH_RULES) {
+    if (re.test(p)) return key;
+  }
+  if (/\/public\/propertyaccount\//i.test(p) || /\/public\/property\//i.test(p)) {
+    return CAD_UNCLASSIFIED_KEY;
+  }
+  return null;
+}
+
+function cadUrlPathname(url) {
+  try {
+    return new URL(String(url)).pathname;
+  } catch {
+    return "";
+  }
+}
+
+/** Latest roll year from `GET …/public/config/defaultyear` (e.g. `{ results: { year: 2026 } }`). */
+function extractDefaultYearFromProdigyConfig(json) {
+  if (json == null || typeof json !== "object") return null;
+  const y =
+    json.results?.year ??
+    json.results?.defaultYear ??
+    json.year ??
+    json.defaultYear ??
+    json.defaultyear;
+  if (typeof y === "number" && isYear(y)) return String(y);
+  if (typeof y === "string" && /^\d{4}$/.test(y.trim())) return y.trim();
+  return null;
+}
+
+function prodigySearchResultsArray(json) {
+  if (json == null || typeof json !== "object") return [];
+  const r = json.results;
+  if (Array.isArray(r)) return r;
+  if (r && typeof r === "object" && Array.isArray(r.rows)) return r.rows;
+  if (r && typeof r === "object" && Array.isArray(r.data)) return r.data;
+  return [];
+}
+
+/**
+ * Pick **pAccountID** for portal API paths, using search rows for this **pid** and optional default tax year.
+ * Prefer the row whose `pYear` matches `defaultYear` (from defaultyear config); otherwise the last matching row.
+ */
+function pickPAccountIdForPidFromSearch(searchJson, propertyId, defaultYear) {
+  const pid = String(propertyId ?? "").trim();
+  if (!pid) return null;
+  const rows = prodigySearchResultsArray(searchJson).filter(
+    (row) => row && typeof row === "object" && String(row.pid) === pid,
+  );
+  if (rows.length === 0) return null;
+  const dy = defaultYear != null && String(defaultYear).trim() !== "" ? String(defaultYear).trim() : null;
+  if (dy) {
+    const hit = rows.find((row) => String(row.pYear) === dy);
+    if (hit != null && hit.pAccountID != null) return String(hit.pAccountID);
+  }
+  const last = rows[rows.length - 1];
+  if (last?.pAccountID != null) return String(last.pAccountID);
+  return null;
+}
+
+function slimCadEndpoints(endpoints) {
+  const out = {};
+  for (const k of [...CAD_PROPERTY_ENDPOINT_KEYS, CAD_UNCLASSIFIED_KEY]) {
+    if (endpoints[k]?.length) out[k] = endpoints[k];
+  }
+  return out;
+}
+
+function formatEndpointCacheSummary(endpoints) {
+  if (!endpoints || typeof endpoints !== "object") return "—";
+  const keys = [...CAD_PROPERTY_ENDPOINT_KEYS, CAD_UNCLASSIFIED_KEY];
+  const parts = keys.filter((k) => endpoints[k]?.length).map((k) => `${k}×${endpoints[k].length}`);
+  return parts.length ? parts.join(", ") : "—";
+}
+
+function flattenCadEndpointsForParse(endpoints) {
+  const out = [];
+  if (!endpoints || typeof endpoints !== "object") return out;
+  for (const k of CAD_PROPERTY_ENDPOINT_KEYS) {
+    const arr = endpoints[k];
+    if (Array.isArray(arr)) {
+      for (const doc of arr) out.push(doc);
+    }
+  }
+  const misc = endpoints[CAD_UNCLASSIFIED_KEY];
+  if (Array.isArray(misc)) {
+    for (const doc of misc) out.push(doc);
+  }
+  return out;
+}
+
+/** Flat `payloads[]` (legacy) or keyed `endpoints` → ordered array for extractors. */
+function entryPayloadsForParse(entry) {
+  if (!entry || typeof entry !== "object") return [];
+  if (entry.endpoints && typeof entry.endpoints === "object") {
+    return flattenCadEndpointsForParse(entry.endpoints);
+  }
+  if (Array.isArray(entry.payloads)) return [...entry.payloads];
+  return [];
+}
+
+function rawCacheEntryHasPayloads(entry) {
+  return entryPayloadsForParse(entry).length > 0;
+}
+
+async function persistRawCacheEntry(store, pid, endpointsBuckets) {
+  const slim = slimCadEndpoints(endpointsBuckets);
+  if (Object.keys(slim).length === 0) return;
+  await store.save(pid, {
+    cachedAt: new Date().toISOString(),
+    endpoints: slim,
+    v: APPRAISAL_CACHE_FILE_VERSION,
+  });
+}
+
+function appraisalCacheEntryIsFresh(entry, maxAgeMs) {
+  if (!entry || typeof entry.cachedAt !== "string") return false;
+  const t = Date.parse(entry.cachedAt);
+  if (Number.isNaN(t)) return false;
+  return Date.now() - t <= maxAgeMs;
+}
+
+function applyParsedCadToHome(h, parsed) {
+  const { appraisalHistory, builder, homestead, solar, pool, squareFeet, yearBuilt } = parsed;
+  if (appraisalHistory?.length) h.appraisalHistory = appraisalHistory;
+
+  const nextBuilder =
+    builder != null && String(builder).trim() !== "" ? String(builder).trim() : null;
+  if (nextBuilder != null) {
+    h.builder = nextBuilder;
+  } else {
+    const hadBuilder = typeof h.builder === "string" && h.builder.trim() !== "";
+    if (!hadBuilder) h.builder = null;
+  }
+
+  if (homestead === "yes" || homestead === "no") h.homestead = homestead;
+  if (solar === "yes" || solar === "no") h.solar = solar;
+  if (pool === "yes" || pool === "no") h.pool = pool;
+
+  if (typeof squareFeet === "number" && Number.isFinite(squareFeet)) {
+    h.squareFeet = squareFeet;
+  } else {
+    const hadSqft = typeof h.squareFeet === "number" && Number.isFinite(h.squareFeet);
+    if (!hadSqft) h.squareFeet = null;
+  }
+
+  if (typeof yearBuilt === "number" && Number.isFinite(yearBuilt)) {
+    h.yearBuilt = yearBuilt;
+  } else {
+    const hadYb = typeof h.yearBuilt === "number" && Number.isFinite(h.yearBuilt);
+    if (!hadYb) h.yearBuilt = null;
+  }
+}
+
+/** Derive homes.json fields from cached trueprodigyapi JSON blobs (no browser). */
+function parsePropertyPayloads(propertyId, payloads, debug) {
+  const rows = [];
+  for (const p of payloads) {
+    extractProdigyValueHistory(p, rows);
+    extractRows(p, rows);
+  }
+  const merged = mergeByYear(rows);
+  const builder = extractBuilderFromPayloads(payloads);
+  const homestead = extractHomesteadYesNoFromPayloads(payloads);
+  const solar = extractSolarYesNoFromPayloads(payloads);
+  const pool = extractPoolYesNoFromPayloads(payloads);
+  const squareFeet = extractSquareFeetFromImprovementLivingArea(payloads);
+  const yearBuilt = extractYearBuiltFromHvacResidentialDetail(payloads);
+
+  if (merged.length === 0 && debug && payloads.length > 0) {
+    fs.writeFileSync(debugPath, JSON.stringify(payloads.slice(0, 8), null, 2), "utf8");
+  }
+  if (debug && !builder && payloads.length > 0) {
+    const preview = [];
+    for (const p of payloads.slice(0, 4)) {
+      const recs = [];
+      gatherBuyerRecords(p, recs, 0);
+      preview.push({ recCount: recs.length, sample: recs.slice(0, 5) });
+    }
+    fs.writeFileSync(
+      path.join(root, "data", "last-builder-debug.json"),
+      JSON.stringify({ propertyId, preview }, null, 2),
+      "utf8",
+    );
+  }
+
+  return { appraisalHistory: merged, builder, homestead, solar, pool, squareFeet, yearBuilt };
 }
 
 function attachJsonListener(page, payloads) {
@@ -270,6 +982,40 @@ function attachJsonListener(page, payloads) {
       if (t[0] !== "{" && t[0] !== "[") return;
       const json = JSON.parse(t);
       payloads.push(json);
+    } catch {
+      /* not JSON */
+    }
+  });
+}
+
+/**
+ * Buckets for property detail JSON (known routes + `unclassified` for other /public/property* calls).
+ * Optionally fills `capture` with `defaultYear` (from defaultyear config) and `searchJson` for pAccountID resolution.
+ */
+function attachCadPropertyDetailResponseHandler(page, endpoints, capture) {
+  page.on("response", async (response) => {
+    const url = response.url();
+    if (!url.toLowerCase().includes("trueprodigyapi.com")) return;
+    try {
+      const text = await response.text();
+      if (!text || text.length > 2_000_000) return;
+      const t = text.trim();
+      if (t[0] !== "{" && t[0] !== "[") return;
+      const json = JSON.parse(t);
+      if (capture) {
+        const path = cadUrlPathname(url);
+        const pl = path.toLowerCase();
+        if (/\/public\/config\/defaultyear(?:\/|\?|$)/i.test(pl)) {
+          const y = extractDefaultYearFromProdigyConfig(json);
+          if (y) capture.defaultYear = y;
+        }
+        if (/\/public\/property\/search(?:\/|\?|$)/i.test(pl)) {
+          capture.searchJson = json;
+        }
+      }
+      const slot = classifyCadPropertyDetailEndpoint(url);
+      if (!slot) return;
+      endpoints[slot].push(json);
     } catch {
       /* not JSON */
     }
@@ -569,47 +1315,43 @@ async function resolveCadPropertyId(browser, home, debug) {
   return null;
 }
 
-async function captureAppraisalForProperty(browser, propertyId, debug) {
-  const page = await browser.newPage();
-  const payloads = [];
-  attachJsonListener(page, payloads);
-
+/** Open Prodigy property detail and collect JSON only for known CAD endpoint buckets. */
+async function collectPropertyDetailPayloads(browserContext, propertyId) {
+  const page = await browserContext.newPage();
+  const endpoints = emptyCadEndpointsBuckets();
+  const capture = { defaultYear: null, searchJson: null, pAccountId: null };
+  attachCadPropertyDetailResponseHandler(page, endpoints, capture);
   try {
     const url = `https://travis.prodigycad.com/property-detail/${propertyId}/`;
     await page.goto(url, { waitUntil: "domcontentloaded", timeout: 120000 });
     await new Promise((r) => setTimeout(r, PAGE_WAIT_MS));
     await page.waitForLoadState("networkidle", { timeout: 45000 }).catch(() => {});
     await new Promise((r) => setTimeout(r, 2500));
-
-    const rows = [];
-    for (const p of payloads) {
-      extractProdigyValueHistory(p, rows);
-      extractRows(p, rows);
-    }
-
-    const merged = mergeByYear(rows);
-    const builder = extractBuilderFromPayloads(payloads);
-
-    if (merged.length === 0 && debug && payloads.length > 0) {
-      fs.writeFileSync(debugPath, JSON.stringify(payloads.slice(0, 8), null, 2), "utf8");
-    }
-    if (debug && !builder && payloads.length > 0) {
-      const preview = [];
-      for (const p of payloads.slice(0, 4)) {
-        const recs = [];
-        gatherBuyerRecords(p, recs, 0);
-        preview.push({ recCount: recs.length, sample: recs.slice(0, 5) });
-      }
-      fs.writeFileSync(
-        path.join(root, "data", "last-builder-debug.json"),
-        JSON.stringify({ propertyId, preview }, null, 2),
-        "utf8",
-      );
-    }
-
-    return { appraisalHistory: merged, builder };
+    capture.pAccountId = pickPAccountIdForPidFromSearch(
+      capture.searchJson,
+      propertyId,
+      capture.defaultYear,
+    );
+    /** Loads `/public/propertyaccount/{pAccountID}/…` (general, value, land, …); deeds already load from `/public/property/{pid}/deeds`. */
+    await page.locator("text=General").first().click({ timeout: 10000 }).catch(() => {});
+    await new Promise((r) => setTimeout(r, 8000));
+    await page.waitForLoadState("networkidle", { timeout: 30000 }).catch(() => {});
+    await new Promise((r) => setTimeout(r, 1500));
+    return { endpoints, pAccountId: capture.pAccountId, defaultYear: capture.defaultYear };
   } finally {
     await page.close();
+  }
+}
+
+/** So `homes.json` always lists CAD-derived fields (null = unknown / not parsed yet). */
+function ensureCadFieldsOnHomeRecords(homes) {
+  if (!Array.isArray(homes)) return;
+  for (const h of homes) {
+    if (h == null || typeof h !== "object") continue;
+    if (!Object.prototype.hasOwnProperty.call(h, "builder")) h.builder = null;
+    if (!Object.prototype.hasOwnProperty.call(h, "squareFeet")) h.squareFeet = null;
+    if (!Object.prototype.hasOwnProperty.call(h, "solar")) h.solar = null;
+    if (!Object.prototype.hasOwnProperty.call(h, "yearBuilt")) h.yearBuilt = null;
   }
 }
 
@@ -617,13 +1359,37 @@ function saveHomes(raw) {
   raw.meta = raw.meta || {};
   raw.meta.appraisalImportAt = new Date().toISOString();
   raw.meta.count = raw.homes.length;
-  fs.writeFileSync(homesPath, JSON.stringify(raw, null, 2) + "\n", "utf8");
+  ensureCadFieldsOnHomeRecords(raw.homes);
+  const text = JSON.stringify(raw, null, 2) + "\n";
+  const tmp = `${homesPath}.${process.pid}.tmp`;
+  fs.writeFileSync(tmp, text, "utf8");
+  fs.renameSync(tmp, homesPath);
 }
 
 async function main() {
-  const { appraisalLimit, resolveLimit, dryRun, resolveIds, appraisalsOnly, debug, headed } = parseArgs();
+  let {
+    appraisalLimit,
+    resolveLimit,
+    dryRun,
+    resolveIds,
+    appraisalsOnly,
+    debug,
+    headed,
+    useCache,
+    cacheMaxAgeDays,
+    reparseOnly,
+  } = parseArgs();
+  if (reparseOnly) {
+    resolveIds = false;
+    if (!useCache) {
+      console.warn("Note: --reparse-only never contacts CAD; --no-cache has no effect on appraisal fetch.");
+    }
+  }
   const raw = JSON.parse(fs.readFileSync(homesPath, "utf8"));
   const idMerge = loadIdMerge();
+  const cacheStore = await createCadCacheStore();
+  console.log(`CAD cache backend: ${cacheStore.backend}`);
+  const cacheMaxAgeMs = Math.max(0, cacheMaxAgeDays) * 86_400_000;
 
   for (const h of raw.homes) {
     if (idMerge[h.id] && !h.cadPropertyId) {
@@ -631,11 +1397,31 @@ async function main() {
     }
   }
 
-  const { chromium } = await import("playwright");
-  const browser = await chromium.launch({
-    headless: !headed,
-    args: ["--disable-blink-features=AutomationControlled"],
-  });
+  /** In-memory only: avoid an extra full-file write here (races with editors) — `saveHomes` runs per home + at end. */
+  if (!dryRun) ensureCadFieldsOnHomeRecords(raw.homes);
+
+  let browser = null;
+  /** BrowserContext with a desktop Chrome UA so propertyaccount XHR is not blocked (see PLAYWRIGHT_DESKTOP_CHROME_UA). */
+  let appraisalContext = null;
+  const getBrowser = async () => {
+    if (!browser) {
+      const { chromium } = await import("playwright");
+      browser = await chromium.launch({
+        headless: !headed,
+        args: ["--disable-blink-features=AutomationControlled"],
+      });
+      appraisalContext = await browser.newContext({
+        userAgent: PLAYWRIGHT_DESKTOP_CHROME_UA,
+        viewport: { width: 1400, height: 900 },
+        locale: "en-US",
+      });
+    }
+    return browser;
+  };
+  const getAppraisalContext = async () => {
+    await getBrowser();
+    return appraisalContext;
+  };
 
   try {
     if (resolveIds && !appraisalsOnly) {
@@ -650,7 +1436,7 @@ async function main() {
         ri++;
         console.log(`[resolve ${ri}/${toResolve.length}] ${h.id} ${h.street}`);
         if (dryRun) continue;
-        const id = await resolveCadPropertyId(browser, h, debug);
+        const id = await resolveCadPropertyId(await getBrowser(), h, debug);
         if (id) {
           h.cadPropertyId = id;
           console.log(`   → cadPropertyId ${id}`);
@@ -666,7 +1452,11 @@ async function main() {
     const slice = withId.slice(0, appraisalLimit);
 
     console.log(
-      `Import appraisals: ${withId.length} homes have cadPropertyId; running ${slice.length} (limit=${appraisalLimit === Infinity ? "∞" : appraisalLimit}).`,
+      `Import appraisals: ${withId.length} homes have cadPropertyId; running ${slice.length} (limit=${appraisalLimit === Infinity ? "∞" : appraisalLimit}). ${
+        reparseOnly
+          ? "Mode: REPARSE-ONLY (read cached JSON, no browser)."
+          : `Raw JSON cache: ${useCache ? `on (max age ${cacheMaxAgeDays}d)` : "off (--no-cache)"}.`
+      }`,
     );
 
     let n = 0;
@@ -676,24 +1466,77 @@ async function main() {
       console.log(`[appraisal ${n}/${slice.length}] ${h.id}  CAD ${pid}  ${h.street}`);
       if (dryRun) continue;
 
-      const { appraisalHistory, builder } = await captureAppraisalForProperty(browser, pid, debug);
-      if (appraisalHistory.length === 0) {
+      const cached = await cacheStore.load(pid);
+      let payloads;
+      let usedNetwork = false;
+
+      if (reparseOnly) {
+        if (!rawCacheEntryHasPayloads(cached)) {
+          console.warn(`   No raw JSON cache for ${pid}; skipping (run a normal import for this property).`);
+          continue;
+        }
+        payloads = entryPayloadsForParse(cached);
+        console.log(
+          `   (reparse-only, cachedAt ${cached.cachedAt}) ${payloads.length} docs — ${cached.endpoints ? formatEndpointCacheSummary(cached.endpoints) : "legacy payloads[]"}`,
+        );
+      } else {
+        const rawFresh =
+          useCache &&
+          cached &&
+          rawCacheEntryHasPayloads(cached) &&
+          appraisalCacheEntryIsFresh(cached, cacheMaxAgeMs);
+
+        if (rawFresh) {
+          payloads = entryPayloadsForParse(cached);
+          console.log(
+            `   (raw cache hit, cachedAt ${cached.cachedAt}; parsing locally) ${payloads.length} docs — ${cached.endpoints ? formatEndpointCacheSummary(cached.endpoints) : "legacy payloads[]"}`,
+          );
+        } else {
+          usedNetwork = true;
+          const { endpoints: collected, pAccountId, defaultYear } = await collectPropertyDetailPayloads(
+            await getAppraisalContext(),
+            pid,
+          );
+          if (pAccountId) {
+            console.log(`   Prodigy pAccountID ${pAccountId} (roll year ${defaultYear ?? "—"} from defaultyear)`);
+          }
+          if (Object.keys(slimCadEndpoints(collected)).length > 0) {
+            await persistRawCacheEntry(cacheStore, pid, collected);
+            payloads = flattenCadEndpointsForParse(collected);
+          } else if (rawCacheEntryHasPayloads(cached)) {
+            console.warn(`   No new endpoint JSON captured; reusing existing cache for ${pid}.`);
+            payloads = entryPayloadsForParse(cached);
+            usedNetwork = false;
+          } else {
+            payloads = [];
+          }
+        }
+      }
+
+      if (!Array.isArray(payloads) || payloads.length === 0) {
+        console.warn(`   No JSON payloads for ${pid}; skipping (nothing to parse).`);
+        continue;
+      }
+
+      const parsed = parsePropertyPayloads(pid, payloads, debug);
+      applyParsedCadToHome(h, parsed);
+
+      if (!h.appraisalHistory?.length) {
         console.warn(`   No appraisal rows parsed. Try --debug (see ${debugPath}).`);
       } else {
-        h.appraisalHistory = appraisalHistory;
-        console.log(`   Years: ${appraisalHistory.map((r) => r.year).join(", ")}`);
+        console.log(`   Years: ${h.appraisalHistory.map((r) => r.year).join(", ")}`);
       }
-      if (builder) {
-        h.builder = builder;
-        console.log(`   Builder (buyer @ oldest appraisal date): ${builder}`);
+      if (h.builder) {
+        console.log(`   Builder (buyer @ oldest appraisal date): ${h.builder}`);
       } else if (debug) {
         console.warn(`   No builder extracted (see data/last-builder-debug.json if present).`);
       }
-      if (appraisalHistory.length > 0 || builder) {
-        saveHomes(raw);
-      }
+      console.log(
+        `   Homestead (HS): ${parsed.homestead}  Solar (SO): ${parsed.solar}  Pool: ${parsed.pool}  SQFT: ${parsed.squareFeet ?? "—"}  Year built (HVAC): ${parsed.yearBuilt ?? "—"}`,
+      );
+      saveHomes(raw);
 
-      if (n < slice.length) await new Promise((r) => setTimeout(r, DELAY_APPRAISAL_MS));
+      if (usedNetwork && n < slice.length) await new Promise((r) => setTimeout(r, DELAY_APPRAISAL_MS));
     }
 
     if (!dryRun) {
@@ -701,7 +1544,8 @@ async function main() {
       console.log(`Done. Wrote ${homesPath}`);
     }
   } finally {
-    await browser.close();
+    if (browser) await browser.close();
+    await cacheStore.close();
   }
 }
 

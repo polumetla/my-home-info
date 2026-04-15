@@ -7,7 +7,7 @@
     "mailingState": "TX",
     "mailingZip": "78669",
     "note": "Septic field # is 1–10 (map “System #”). Values like 11/71 were split when a stray “1” from the next 19xxx street glued to the digit.",
-    "appraisalImportAt": "2026-04-14T19:37:44.078Z"
+    "appraisalImportAt": "2026-04-15T02:58:23.274Z"
   },
   "homes": [
     {
@@ -44,7 +44,13 @@
           "year": 2026,
           "appraisedValue": 744976
         }
-      ]
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": null,
+      "squareFeet": 3338,
+      "solar": "yes",
+      "yearBuilt": 2020
     },
     {
       "id": "h3245002774-1",
@@ -80,7 +86,13 @@
           "year": 2026,
           "appraisedValue": 719602
         }
-      ]
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3545,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h3574768535-2",
@@ -90,7 +102,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19302 SUMMIT GLORY TRL 10",
-      "cadPropertyId": "946984"
+      "cadPropertyId": "946984",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 595205
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 878904
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 853801
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1070494
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 731490
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": null,
+      "squareFeet": 3672,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h3904534296-3",
@@ -100,7 +144,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19303 SUMMIT GLORY TRL 10",
-      "cadPropertyId": "941531"
+      "cadPropertyId": "941531",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 589610
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 965960
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 908091
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 867666
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 920000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 741814
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3354,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h4234300057-4",
@@ -110,7 +186,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19304 SUMMIT GLORY TRL 10",
-      "cadPropertyId": "946983"
+      "cadPropertyId": "946983",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 516953
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 710716
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 696598
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 839859
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 573199
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 2493,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h269098522-5",
@@ -120,7 +228,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19305 SUMMIT GLORY TRL 10",
-      "cadPropertyId": "946987"
+      "cadPropertyId": "946987",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 427082
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 859561
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 875607
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1063357
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 727287
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3834,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h598864283-6",
@@ -130,7 +270,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19306 SUMMIT GLORY TRL 10",
-      "cadPropertyId": "941537"
+      "cadPropertyId": "941537",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 389373
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 920288
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 897427
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1012903
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 741131
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3718,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h928630044-7",
@@ -140,7 +312,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19307 SUMMIT GLORY TRL 10",
-      "cadPropertyId": "941538"
+      "cadPropertyId": "941538",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 335200
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 839084
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 853325
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 961169
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 702622
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3338,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h1258395805-8",
@@ -150,7 +354,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19308 SUMMIT GLORY TRL 10",
-      "cadPropertyId": "941536"
+      "cadPropertyId": "941536",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 106090
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 805000
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 880187
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 800935
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 965390
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 706402
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3626,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h1588161566-9",
@@ -160,7 +396,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19309 SUMMIT GLORY TRL 10",
-      "cadPropertyId": "941539"
+      "cadPropertyId": "941539",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 651161
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 770878
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 786355
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 883024
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 645826
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3069,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h253073716-10",
@@ -170,7 +438,47 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19310 SUMMIT GLORY TRL 10",
-      "cadPropertyId": "919330"
+      "cadPropertyId": "919330",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 251005
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 580052
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 750000
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 911119
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 667002
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3390,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h582839477-11",
@@ -180,7 +488,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19311 SUMMIT GLORY TRL 10",
-      "cadPropertyId": "941525"
+      "cadPropertyId": "941525",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 568510
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 799345
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 795828
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 792916
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 903578
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 666356
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3190,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h1242370999-12",
@@ -190,7 +530,47 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19313 SUMMIT GLORY TRL 10",
-      "cadPropertyId": "919342"
+      "cadPropertyId": "919342",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 459090
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 862531
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 809478
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 823929
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 992050
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 677647
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3294,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h1901902521-13",
@@ -200,7 +580,47 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19315 SUMMIT GLORY TRL 10",
-      "cadPropertyId": "919343"
+      "cadPropertyId": "919343",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 453444
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 946073
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 889194
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 871713
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1052418
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 719534
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3742,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h2561434043-14",
@@ -210,7 +630,47 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19317 SUMMIT GLORY TRL 10",
-      "cadPropertyId": "919344"
+      "cadPropertyId": "919344",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 57117
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 534870
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 591021
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 909496
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 855584
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 835264
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1006192
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 693504
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3456,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h1254893041-15",
@@ -220,7 +680,47 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19319 SUMMIT GLORY TRL 9",
-      "cadPropertyId": "919345"
+      "cadPropertyId": "919345",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 597397
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 923346
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 868017
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 842875
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1017285
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 701374
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3538,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h4135398423-16",
@@ -230,7 +730,43 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19401 SUMMIT GLORY TRL 9",
-      "cadPropertyId": "933240"
+      "cadPropertyId": "933240",
+      "appraisalHistory": [
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 280402
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 695967
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 679097
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 808448
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 581177
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 2510,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h3741031637-17",
@@ -240,7 +776,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19403 SUMMIT GLORY TRL 9",
-      "cadPropertyId": "941516"
+      "cadPropertyId": "941516",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 536992
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 727900
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 794797
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 857564
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1033646
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 705710
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3368,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h1993355154-18",
@@ -250,7 +818,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19405 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "941526"
+      "cadPropertyId": "941526",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 516788
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 879000
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 777351
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 737203
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 680861
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3431,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h1598988368-19",
@@ -260,7 +860,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19407 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "941517"
+      "cadPropertyId": "941517",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 134892
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 972560
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 858963
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 825468
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 994741
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 680357
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 4020,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h3549288623-20",
@@ -270,7 +902,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19408 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "941514"
+      "cadPropertyId": "941514",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 389870
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 845470
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 794327
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 969005
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 766212
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3762,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h1204621582-21",
@@ -280,7 +944,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19409 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "941518"
+      "cadPropertyId": "941518",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 69805
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 751630
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 883124
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 808825
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 975081
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 713214
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3545,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h1161554232-22",
@@ -290,7 +986,47 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19410 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "919316"
+      "cadPropertyId": "919316",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 523703
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 588002
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 778127
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 813461
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 842188
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1005349
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 679161
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 2918,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h3111854487-23",
@@ -300,7 +1036,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19411 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "941527"
+      "cadPropertyId": "941527",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 631593
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 877939
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 916897
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 898661
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1034845
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 793268
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3749,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h767187446-24",
@@ -310,7 +1078,47 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19412 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "919315"
+      "cadPropertyId": "919315",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 976046
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 825346
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 766632
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 932614
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 744383
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3718,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h2717487701-25",
@@ -320,7 +1128,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19413 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "941540"
+      "cadPropertyId": "941540",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 548015
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 809639
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 758824
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 923298
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 731014
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3834,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h372820660-26",
@@ -330,7 +1170,43 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19414 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "933239"
+      "cadPropertyId": "933239",
+      "appraisalHistory": [
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 622578
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 962526
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 814117
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 800195
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1012237
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 786841
+        }
+      ],
+      "homestead": "no",
+      "pool": "yes",
+      "builder": null,
+      "squareFeet": 3585,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h2323120915-27",
@@ -340,7 +1216,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19415 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "946988"
+      "cadPropertyId": "946988",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 618934
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 854771
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 833879
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1004966
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 686913
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3431,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h4273421170-28",
@@ -350,7 +1258,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19416 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "941535"
+      "cadPropertyId": "941535",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 83743
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 900000
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 785634
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 825454
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 995639
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 725880
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3453,
+      "solar": "yes",
+      "yearBuilt": 2020
     },
     {
       "id": "h3879054384-29",
@@ -360,7 +1300,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19418 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "941534"
+      "cadPropertyId": "941534",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 886670
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 861893
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 846222
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 969719
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 696412
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3338,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h1534387343-30",
@@ -370,7 +1342,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19419 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "946989"
+      "cadPropertyId": "946989",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 712986
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 822025
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 799456
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1074978
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 772219
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Westin Homes",
+      "squareFeet": 3545,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h1491319993-31",
@@ -380,7 +1384,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19420 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "941524"
+      "cadPropertyId": "941524",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 301210
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 835000
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 982223
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1000683
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1196012
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 802836
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Westin Homes",
+      "squareFeet": 3718,
+      "solar": "yes",
+      "yearBuilt": 2020
     },
     {
       "id": "h4273649011-32",
@@ -390,7 +1426,55 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19422 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869955"
+      "cadPropertyId": "869955",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 390877
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 458916
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 516936
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 574070
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 531701
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 862201
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 747551
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 742670
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 965107
+        }
+      ],
+      "homestead": "no",
+      "pool": "yes",
+      "builder": "Ashton Woods",
+      "squareFeet": 2787,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h3047253462-33",
@@ -400,7 +1484,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19423 SUMMIT GLORY TRL 8",
-      "cadPropertyId": "946990"
+      "cadPropertyId": "946990",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 468348
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 896471
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 882479
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 995904
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 729280
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3834,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h3879282225-34",
@@ -410,7 +1526,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19424 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869954"
+      "cadPropertyId": "869954",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 461657
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 519805
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 576939
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 532459
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 863278
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 748562
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 746682
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 877333
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 598447
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2787,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h1534615184-35",
@@ -420,7 +1588,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19425 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869927"
+      "cadPropertyId": "869927",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 364807
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 527286
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 536227
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 865874
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 819961
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 728785
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 880166
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 600879
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2825,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h3484915439-36",
@@ -430,7 +1650,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19426 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869953"
+      "cadPropertyId": "869953",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 47824
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 91387
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 493777
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 497456
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 810733
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 693773
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 677397
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 677397
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 556190
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Ashton Woods",
+      "squareFeet": 2358,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h3090548653-37",
@@ -440,7 +1712,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19428 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869952"
+      "cadPropertyId": "869952",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 47824
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 91387
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 598395
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 566824
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 909386
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 785357
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 769372
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 949533
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 648383
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 3086,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h745881612-38",
@@ -450,7 +1774,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19429 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869928"
+      "cadPropertyId": "869928",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 463145
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 445704
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 411800
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 533000
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 875179
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 744623
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 700579
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 847254
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 608191
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2884,
+      "solar": "no",
+      "yearBuilt": 2017
     },
     {
       "id": "h702814262-39",
@@ -460,7 +1836,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19430 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869951"
+      "cadPropertyId": "869951",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 47824
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 341748
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 527990
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 564100
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 814188
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 799564
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 720148
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 883590
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 689094
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 3498,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h4052940372-40",
@@ -470,7 +1898,43 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19500 SUMMIT GLORY TRL 6",
-      "cadPropertyId": "933237"
+      "cadPropertyId": "933237",
+      "appraisalHistory": [
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 217118
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 801223
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 778403
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 729108
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 951307
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 690776
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3373,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h3296621233-41",
@@ -480,7 +1944,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19501 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869929"
+      "cadPropertyId": "869929",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 68540
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 499084
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 501294
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 819236
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 730067
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 645974
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 802334
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 575580
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2562,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h3658573586-42",
@@ -490,7 +2006,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19502 SUMMIT GLORY TRL 6",
-      "cadPropertyId": "941520"
+      "cadPropertyId": "941520",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 702669
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 846000
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 805315
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 970509
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 709485
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3391,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h2902254447-43",
@@ -500,7 +2048,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19503 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869930"
+      "cadPropertyId": "869930",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 360673
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 450000
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 479191
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 752948
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 709753
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 693819
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 780822
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 570250
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2552,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h2507887661-44",
@@ -510,7 +2110,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19505 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869931"
+      "cadPropertyId": "869931",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 144928
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 419478
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 432086
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 436733
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 471022
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 738628
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 701993
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 687950
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 844490
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 575798
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2540,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h2869840014-45",
@@ -520,7 +2172,39 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19506 SUMMIT GLORY TRL 6",
-      "cadPropertyId": "941532"
+      "cadPropertyId": "941532",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 515670
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 728000
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 716103
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 702082
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 844155
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 593137
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 2562,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h2113520875-46",
@@ -530,7 +2214,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19507 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869932"
+      "cadPropertyId": "869932",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 494199
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 522766
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 557060
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 920249
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 778649
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 852526
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 950000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 726297
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Ashton Woods",
+      "squareFeet": 3231,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h2710511433-47",
@@ -540,7 +2276,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19508 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869963"
+      "cadPropertyId": "869963",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 310333
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 379152
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 456780
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 485347
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 499641
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 782216
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 742876
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 725528
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 690000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 592331
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2829,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h1719154089-48",
@@ -550,7 +2338,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19509 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869933"
+      "cadPropertyId": "869933",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 361307
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 431027
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 436302
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 440500
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 477353
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 750319
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 712958
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 695502
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 750000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 566813
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2594,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h322777042-49",
@@ -560,7 +2400,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19510 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869964"
+      "cadPropertyId": "869964",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 349640
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 409151
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 437718
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 447009
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 645500
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 603064
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 568966
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 681342
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 532756
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2292,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h3626386994-50",
@@ -570,7 +2462,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19511 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869934"
+      "cadPropertyId": "869934",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 75134
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 453425
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 469394
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 739582
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 697730
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 684712
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 823718
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 561459
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2266,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h4223377552-51",
@@ -580,7 +2524,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19512 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869965"
+      "cadPropertyId": "869965",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 113305
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 465645
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 505574
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 503400
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 551951
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 853749
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 809969
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 792987
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 951536
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 649691
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 3254,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h3232020208-52",
@@ -590,7 +2586,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19513 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869935"
+      "cadPropertyId": "869935",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 363229
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 441088
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 458229
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 720561
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 679686
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 664437
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 813684
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 553992
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2288,
+      "solar": "yes",
+      "yearBuilt": 2018
     },
     {
       "id": "h3829010766-53",
@@ -600,7 +2648,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19514 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869966"
+      "cadPropertyId": "869966",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 27328
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 71792
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 441530
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 468800
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 690606
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 663737
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 620314
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 872022
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 595238
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2779,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h2837653422-54",
@@ -610,7 +2710,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19515 SUMMIT GLORY TRL 4",
-      "cadPropertyId": "869936"
+      "cadPropertyId": "869936",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 522766
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 561743
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 867937
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 779503
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 894344
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1069172
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 715374
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Ashton Woods",
+      "squareFeet": 3177,
+      "solar": "yes",
+      "yearBuilt": 2018
     },
     {
       "id": "h3434643980-55",
@@ -620,7 +2772,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19516 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869967"
+      "cadPropertyId": "869967",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 27328
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 321324
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 535048
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 564139
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 871221
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 819552
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 804594
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 900000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 665528
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 3171,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h1089976939-56",
@@ -630,7 +2834,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19517 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869937"
+      "cadPropertyId": "869937",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 228146
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 434900
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 494434
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 806411
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 764758
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 736437
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 796765
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 577885
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Ashton Woods",
+      "squareFeet": 2046,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h3040277194-57",
@@ -640,7 +2896,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19518 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869968"
+      "cadPropertyId": "869968",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40000
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 41124
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 178872
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 453973
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 737374
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 656414
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 638778
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 783855
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 562297
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2358,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h695610153-58",
@@ -650,7 +2958,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19519 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869938"
+      "cadPropertyId": "869938",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 438199
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 462829
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 473800
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 509779
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 628702
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 659806
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 586019
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 706234
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 506360
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2046,
+      "solar": "no",
+      "yearBuilt": 2017
     },
     {
       "id": "h652542803-59",
@@ -660,7 +3020,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19520 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869969"
+      "cadPropertyId": "869969",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 113270
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 349640
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 397728
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 420581
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 435586
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 704496
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 669980
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 655869
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 781091
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 532756
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2292,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h2602843058-60",
@@ -670,7 +3082,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19521 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869939"
+      "cadPropertyId": "869939",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 497369
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 538554
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 550200
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 598550
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 858992
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 892334
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 818576
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 775000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 658708
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 3116,
+      "solar": "no",
+      "yearBuilt": 2017
     },
     {
       "id": "h258176017-61",
@@ -680,7 +3144,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19522 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869970"
+      "cadPropertyId": "869970",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40000
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 36555
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 431226
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 469595
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 752981
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 638803
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 651061
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 783893
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 572930
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2634,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h2208476272-62",
@@ -690,7 +3206,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19523 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869940"
+      "cadPropertyId": "869940",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 79964
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 539841
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 518469
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 843409
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 799105
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 711219
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 857685
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 584864
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2548,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h1814109486-63",
@@ -700,7 +3268,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19525 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869941"
+      "cadPropertyId": "869941",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 79964
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 349166
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 515357
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 907554
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 808171
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 776690
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 931878
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 641139
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2870,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h3214163182-64",
@@ -710,7 +3330,55 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19600 SUMMIT GLORY TRL 1",
-      "cadPropertyId": "869925"
+      "cadPropertyId": "869925",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 111772
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 532846
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 566608
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 580000
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 609695
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 856487
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 883999
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 791419
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 964326
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 3575,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h3576115535-65",
@@ -720,7 +3388,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19601 SUMMIT GLORY TRL 3",
-      "cadPropertyId": "869942"
+      "cadPropertyId": "869942",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 79964
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 534669
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 517343
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 841950
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 797911
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 706234
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 888117
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 610258
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2585,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h2819796396-66",
@@ -730,7 +3450,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19602 SUMMIT GLORY TRL 1",
-      "cadPropertyId": "869924"
+      "cadPropertyId": "869924",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 47824
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 411445
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 470300
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 485800
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 833320
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 742800
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 655583
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 798286
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 572290
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2562,
+      "solar": "yes",
+      "yearBuilt": 2018
     },
     {
       "id": "h1828439052-67",
@@ -740,7 +3512,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19603 SUMMIT GLORY TRL 2",
-      "cadPropertyId": "869943"
+      "cadPropertyId": "869943",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 140457
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 460705
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 510697
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 489922
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 799951
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 684086
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 679571
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 805878
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 549738
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2358,
+      "solar": "no",
+      "yearBuilt": 2017
     },
     {
       "id": "h2425429610-68",
@@ -750,7 +3574,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19604 SUMMIT GLORY TRL 1",
-      "cadPropertyId": "869923"
+      "cadPropertyId": "869923",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 47824
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 459136
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 558733
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 571704
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 916318
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 866792
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 772495
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 954208
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 651539
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 3147,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h1434072266-69",
@@ -760,7 +3636,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19605 SUMMIT GLORY TRL 2",
-      "cadPropertyId": "869944"
+      "cadPropertyId": "869944",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 79964
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 504910
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 517534
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 839303
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 704941
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 617520
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 741480
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 505732
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2062,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h2031062824-70",
@@ -770,7 +3698,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19606 SUMMIT GLORY TRL 1",
-      "cadPropertyId": "869922"
+      "cadPropertyId": "869922",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 452630
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 459242
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 474200
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 500903
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 815568
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 773201
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 690198
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 824144
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 562092
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2500,
+      "solar": "no",
+      "yearBuilt": 2017
     },
     {
       "id": "h1039705480-71",
@@ -780,7 +3760,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19607 SUMMIT GLORY TRL 2",
-      "cadPropertyId": "869945"
+      "cadPropertyId": "869945",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 104065
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 534300
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 517534
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 853434
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 729755
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 636170
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 815972
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 634573
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2634,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h1636696038-72",
@@ -790,7 +3822,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19608 SUMMIT GLORY TRL 1",
-      "cadPropertyId": "869921"
+      "cadPropertyId": "869921",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 47824
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 101263
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 535100
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 535558
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 1575000
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 783801
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 698985
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 854706
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 613573
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2870,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h645338694-73",
@@ -800,7 +3884,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19609 SUMMIT GLORY TRL 2",
-      "cadPropertyId": "869946"
+      "cadPropertyId": "869946",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 463759
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 502300
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 502300
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 520200
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 780000
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 771957
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 737473
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 795000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 592505
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2790,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h3543928943-74",
@@ -810,7 +3946,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19610 SUMMIT GLORY TRL 1",
-      "cadPropertyId": "869920"
+      "cadPropertyId": "869920",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 47824
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 85676
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 502541
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 509670
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 828109
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 785362
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 691346
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 843522
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 575237
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": null,
+      "squareFeet": 2358,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h2552571599-75",
@@ -820,7 +4008,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19611 SUMMIT GLORY TRL 2",
-      "cadPropertyId": "869947"
+      "cadPropertyId": "869947",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 441594
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 493981
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 551115
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 512951
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 832712
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 789498
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 719615
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 847749
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 578518
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2634,
+      "solar": "no",
+      "yearBuilt": 2017
     },
     {
       "id": "h3149562157-76",
@@ -830,7 +4070,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19612 SUMMIT GLORY TRL 1",
-      "cadPropertyId": "869919"
+      "cadPropertyId": "869919",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 439634
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 465692
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 472600
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 484500
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 821595
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 784466
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 693257
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 828005
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 564784
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2580,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h2158204813-77",
@@ -840,7 +4132,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19613 SUMMIT GLORY TRL 2",
-      "cadPropertyId": "869948"
+      "cadPropertyId": "869948",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 126299
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 549049
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 512712
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 832431
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 789299
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 704613
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 848866
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 578628
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2358,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h2755195371-78",
@@ -850,7 +4194,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19614 SUMMIT GLORY TRL 1",
-      "cadPropertyId": "869918"
+      "cadPropertyId": "869918",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 47824
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 85676
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 537816
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 591000
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 841000
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 895679
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 746609
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 913755
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 662305
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": null,
+      "squareFeet": 3265,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h1763838027-79",
@@ -860,7 +4256,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19615 SUMMIT GLORY TRL 2",
-      "cadPropertyId": "869949"
+      "cadPropertyId": "869949",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 124110
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 551700
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 543531
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 866065
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 835299
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 687876
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 884294
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 603637
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2825,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h2360828585-80",
@@ -870,7 +4318,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19616 SUMMIT GLORY TRL 1",
-      "cadPropertyId": "869917"
+      "cadPropertyId": "869917",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 263928
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 451930
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 481236
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 524086
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 523731
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 780564
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 780196
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 773891
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 914703
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 653566
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Ashton Woods",
+      "squareFeet": 2713,
+      "solar": "yes",
+      "yearBuilt": 2016
     },
     {
       "id": "h1369471241-81",
@@ -880,7 +4380,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19617 SUMMIT GLORY TRL 2",
-      "cadPropertyId": "869950"
+      "cadPropertyId": "869950",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 19238
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 259056
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 382715
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 486820
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 543954
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 501014
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 815673
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 701099
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 649107
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 824747
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 562973
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2634,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h1966461799-82",
@@ -890,7 +4442,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19618 SUMMIT GLORY TRL 1",
-      "cadPropertyId": "869916"
+      "cadPropertyId": "869916",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 262296
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 395159
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 465228
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 508078
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 503512
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 821265
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 827166
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 784052
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 924933
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 558774
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2480,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h975104455-83",
@@ -900,7 +4504,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19619 SUMMIT GLORY TRL 2",
-      "cadPropertyId": "869956"
+      "cadPropertyId": "869956",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 19238
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 333241
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 394801
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 410000
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 410000
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 468800
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 687696
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 666314
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 674434
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 806396
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 589005
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2787,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h3873694704-84",
@@ -910,7 +4566,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19620 SUMMIT GLORY TRL 1",
-      "cadPropertyId": "869915"
+      "cadPropertyId": "869915",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 47824
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 109272
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 580031
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 592000
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 870125
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 890000
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 799989
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 799989
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 734472
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Ashton Woods",
+      "squareFeet": 3234,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h2882337360-85",
@@ -920,7 +4628,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19621 SUMMIT GLORY TRL 2",
-      "cadPropertyId": "869957"
+      "cadPropertyId": "869957",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 19238
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 322225
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 430213
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 441097
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 469664
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 479249
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 753054
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 715523
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 698415
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 834443
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 568981
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2548,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h3479327918-86",
@@ -930,7 +4690,55 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19622 SUMMIT GLORY TRL 1",
-      "cadPropertyId": "869914"
+      "cadPropertyId": "869914",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 332044
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 412272
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 521435
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 578569
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 532973
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 864006
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 824245
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 702521
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 836032
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Ashton Woods",
+      "squareFeet": 2798,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h2487970574-87",
@@ -940,7 +4748,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19623 SUMMIT GLORY TRL 2",
-      "cadPropertyId": "869958"
+      "cadPropertyId": "869958",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 75207
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 460274
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 476735
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 749926
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 706950
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 700116
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 795856
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 571024
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2562,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h3084961132-88",
@@ -950,7 +4810,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19624 SUMMIT GLORY TRL 1",
-      "cadPropertyId": "869913"
+      "cadPropertyId": "869913",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 345154
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 426306
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 531600
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 531600
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 549000
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 807284
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 873000
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 679709
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 805677
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 588150
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2638,
+      "solar": "no",
+      "yearBuilt": 2016
     },
     {
       "id": "h2093603788-89",
@@ -960,7 +4872,59 @@
       "state": "TX",
       "zip": "78669",
       "raw": "19625 SUMMIT GLORY TRL 2",
-      "cadPropertyId": "869959"
+      "cadPropertyId": "869959",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40992
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 422223
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 502975
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 529272
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 662500
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 773515
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 758505
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 918203
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 627213
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 3010,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h2690594346-90",
@@ -969,7 +4933,60 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19626 SUMMIT GLORY TRL 1"
+      "raw": "19626 SUMMIT GLORY TRL 1",
+      "cadPropertyId": "869912",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 70000
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 91387
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 293322
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 589900
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 867024
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 809000
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 782241
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 949666
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 694413
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 3493,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h1699237002-91",
@@ -978,7 +4995,60 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19627 SUMMIT GLORY TRL 2"
+      "raw": "19627 SUMMIT GLORY TRL 2",
+      "cadPropertyId": "869960",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40000
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 90651
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 474517
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 487788
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 750673
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 665183
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 645853
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 650000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 560137
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2481,
+      "solar": "no",
+      "yearBuilt": 2018
     },
     {
       "id": "h1304870216-92",
@@ -987,7 +5057,60 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19629 SUMMIT GLORY TRL 2"
+      "raw": "19629 SUMMIT GLORY TRL 2",
+      "cadPropertyId": "869961",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40000
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 470406
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 488784
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 766950
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 722911
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 706234
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 845123
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 581533
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2585,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h3212103121-93",
@@ -996,7 +5119,60 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "19631 SUMMIT GLORY TRL 2"
+      "raw": "19631 SUMMIT GLORY TRL 2",
+      "cadPropertyId": "869962",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40000
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 444952
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 465502
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 730961
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 689398
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 674320
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 804694
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 553849
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Ashton Woods",
+      "squareFeet": 2358,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h4187096675-94",
@@ -1005,7 +5181,44 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2400 SUNSET VISTA CIR 7"
+      "raw": "2400 SUNSET VISTA CIR 7",
+      "cadPropertyId": "933234",
+      "appraisalHistory": [
+        {
+          "year": 2020,
+          "appraisedValue": 219039
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 649520
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 992749
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1172456
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1189772
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1122947
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 893210
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3837,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h2727501805-95",
@@ -1014,7 +5227,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2401 SKYWALK LN 9"
+      "raw": "2401 SKYWALK LN 9",
+      "cadPropertyId": "946981",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 167534
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 442027
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 926910
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1061107
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 813305
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3707,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h489119937-96",
@@ -1023,7 +5269,44 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2401 SUNSET VISTA CIR 6"
+      "raw": "2401 SUNSET VISTA CIR 6",
+      "cadPropertyId": "933242",
+      "appraisalHistory": [
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 638331
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 955588
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 898030
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1121943
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1142394
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 779665
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": null,
+      "squareFeet": 3776,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h2738817932-97",
@@ -1032,7 +5315,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2402 SKYWALK LN 9"
+      "raw": "2402 SKYWALK LN 9",
+      "cadPropertyId": "946980",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 335809
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 873819
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 850636
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 958041
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 700353
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3357,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h3792729889-98",
@@ -1041,7 +5357,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2402 SUNSET VISTA CIR 7"
+      "raw": "2402 SUNSET VISTA CIR 7",
+      "cadPropertyId": "941523",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 414758
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 811843
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1021906
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 941884
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1263803
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 903282
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3714,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h2750134059-99",
@@ -1050,7 +5399,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2403 SKYWALK LN 9"
+      "raw": "2403 SKYWALK LN 9",
+      "cadPropertyId": "919325",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 603945
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 671985
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 975455
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 997344
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1062662
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1260000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 853447
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3783,
+      "solar": "yes",
+      "yearBuilt": 2019
     },
     {
       "id": "h94753151-100",
@@ -1059,7 +5449,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2403 SUNSET VISTA CIR 6"
+      "raw": "2403 SUNSET VISTA CIR 6",
+      "cadPropertyId": "919372",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 309925
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 603068
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 972513
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 899401
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1116995
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1149598
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 816851
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": null,
+      "squareFeet": 3562,
+      "solar": "yes",
+      "yearBuilt": 2019
     },
     {
       "id": "h2761450186-101",
@@ -1068,7 +5499,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2404 SKYWALK LN 9"
+      "raw": "2404 SKYWALK LN 9",
+      "cadPropertyId": "919322",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 57117
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 583144
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 516148
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 991396
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 931200
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 918919
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1040000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 764925
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3718,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h3398363103-102",
@@ -1077,7 +5549,44 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2404 SUNSET VISTA CIR 7"
+      "raw": "2404 SUNSET VISTA CIR 7",
+      "cadPropertyId": "933233",
+      "appraisalHistory": [
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 603145
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 858000
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1021906
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 947976
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 967072
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 884474
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3756,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h2772766313-103",
@@ -1086,7 +5595,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2405 SKYWALK LN 9"
+      "raw": "2405 SKYWALK LN 9",
+      "cadPropertyId": "946982",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 387542
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 858968
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 748695
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 929922
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 725361
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 4038,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h3995353661-104",
@@ -1095,7 +5637,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2405 SUNSET VISTA CIR 6"
+      "raw": "2405 SUNSET VISTA CIR 6",
+      "cadPropertyId": "941519",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 718924
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1061930
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1052535
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1141867
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 778614
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3478,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h2784082440-105",
@@ -1131,7 +5706,13 @@
           "year": 2026,
           "appraisedValue": 729280
         }
-      ]
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3834,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h3003996317-106",
@@ -1140,7 +5721,44 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2406 SUNSET VISTA CIR 7"
+      "raw": "2406 SUNSET VISTA CIR 7",
+      "cadPropertyId": "933238",
+      "appraisalHistory": [
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 595090
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 724626
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 923573
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 908185
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 752989
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 768522
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 2673,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h2795398567-107",
@@ -1149,7 +5767,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2407 SKYWALK LN 9"
+      "raw": "2407 SKYWALK LN 9",
+      "cadPropertyId": "919327",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 578613
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 636877
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 934587
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 895593
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 837724
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1010854
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 745681
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3712,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h3600986875-108",
@@ -1158,7 +5817,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2407 SUNSET VISTA CIR 6"
+      "raw": "2407 SUNSET VISTA CIR 6",
+      "cadPropertyId": "941530",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 288330
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 901406
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 763032
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 914789
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 925234
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 730861
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3431,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h2806714694-109",
@@ -1167,7 +5859,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2408 SKYWALK LN 9"
+      "raw": "2408 SKYWALK LN 9",
+      "cadPropertyId": "946978",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 203381
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 424859
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 946817
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1055181
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 757678
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Westin Homes",
+      "squareFeet": 3431,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h2609629531-110",
@@ -1176,7 +5901,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2408 SUNSET VISTA CIR 7"
+      "raw": "2408 SUNSET VISTA CIR 7",
+      "cadPropertyId": "941522",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 118833
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 872473
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 955198
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1027410
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1066432
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 962088
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Drees Custom Homes",
+      "squareFeet": 4492,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h2818030821-111",
@@ -1185,7 +5943,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2409 SKYWALK LN 9"
+      "raw": "2409 SKYWALK LN 9",
+      "cadPropertyId": "941515",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 296459
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 832553
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 810836
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 991677
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 677342
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3297,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h3206620089-112",
@@ -1194,7 +5985,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2409 SUNSET VISTA CIR 6"
+      "raw": "2409 SUNSET VISTA CIR 6",
+      "cadPropertyId": "941529",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 141266
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 894717
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 841584
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1061018
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1063454
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 725191
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3297,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h3066985615-113",
@@ -1203,7 +6027,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2410 SKYWALK LN 9"
+      "raw": "2410 SKYWALK LN 9",
+      "cadPropertyId": "946977",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 932653
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 795668
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 818043
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 986357
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 720640
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": null,
+      "squareFeet": 3570,
+      "solar": "yes",
+      "yearBuilt": 2021
     },
     {
       "id": "h221895140-114",
@@ -1212,7 +6069,44 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2410 SUNSET VISTA CIR 7"
+      "raw": "2410 SUNSET VISTA CIR 7",
+      "cadPropertyId": "768931",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 49985
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 32884
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 25930
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 21130
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 15730
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 12130
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 9130
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": null,
+      "squareFeet": null,
+      "solar": "no",
+      "yearBuilt": null
     },
     {
       "id": "h3078301742-115",
@@ -1221,7 +6115,44 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2411 SKYWALK LN 9"
+      "raw": "2411 SKYWALK LN 9",
+      "cadPropertyId": "933235",
+      "appraisalHistory": [
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 66531
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 848687
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 888983
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 818175
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 991849
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 726141
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3834,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h3089617869-116",
@@ -1230,7 +6161,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2412 SKYWALK LN 9"
+      "raw": "2412 SKYWALK LN 9",
+      "cadPropertyId": "946976",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 662185
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 879225
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 859465
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1036902
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 708967
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": null,
+      "squareFeet": 3628,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h4122495650-117",
@@ -1239,7 +6203,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2412 SUNSET VISTA CIR 7"
+      "raw": "2412 SUNSET VISTA CIR 7",
+      "cadPropertyId": "941533",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 287273
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 891487
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1105860
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1092802
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1133900
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 988888
+        }
+      ],
+      "homestead": "yes",
+      "pool": "yes",
+      "builder": "Westin Homes",
+      "squareFeet": 3718,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h3728128864-118",
@@ -1248,7 +6245,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2414 SUNSET VISTA CIR 7"
+      "raw": "2414 SUNSET VISTA CIR 7",
+      "cadPropertyId": "919303",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 375741
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 630976
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 971097
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1152780
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1127309
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1152211
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 912241
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": null,
+      "squareFeet": 3670,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h1524933378-119",
@@ -1257,7 +6295,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2500 SUNSET VISTA CIR 7"
+      "raw": "2500 SUNSET VISTA CIR 7",
+      "cadPropertyId": "946975",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 464165
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1019651
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 753190
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 916305
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 725844
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": "Westin Homes",
+      "squareFeet": 3834,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h2121923936-120",
@@ -1266,7 +6337,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2501 SUNSET VISTA CIR 6"
+      "raw": "2501 SUNSET VISTA CIR 6",
+      "cadPropertyId": "919368",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 489955
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 771992
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 727551
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 953105
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 928181
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 632386
+        }
+      ],
+      "homestead": "yes",
+      "pool": "no",
+      "builder": null,
+      "squareFeet": 2528,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h1130566592-121",
@@ -1275,7 +6387,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2502 SUNSET VISTA CIR 7"
+      "raw": "2502 SUNSET VISTA CIR 7",
+      "cadPropertyId": "946974",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 1110954
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1162307
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 807828
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 984842
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 779368
+        }
+      ],
+      "homestead": "no",
+      "pool": "no",
+      "builder": null,
+      "squareFeet": 4500,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h1727557150-122",
@@ -1284,7 +6429,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2503 SUNSET VISTA CIR 6"
+      "raw": "2503 SUNSET VISTA CIR 6",
+      "cadPropertyId": "919367",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 541792
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 597397
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 923346
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 868017
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1082875
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1107144
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 761404
+        }
+      ],
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3538,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h736199806-123",
@@ -1293,7 +6479,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2504 SUNSET VISTA CIR 7"
+      "raw": "2504 SUNSET VISTA CIR 7",
+      "cadPropertyId": "919300",
+      "homestead": "no",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 393312
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 478400
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 709555
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 883759
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 837378
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 825000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 647856
+        }
+      ],
+      "builder": null,
+      "squareFeet": 2616,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h1333190364-124",
@@ -1302,7 +6529,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2505 SUNSET VISTA CIR 6"
+      "raw": "2505 SUNSET VISTA CIR 6",
+      "cadPropertyId": "919366",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 577539
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 634426
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 829736
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 825352
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1065061
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1096807
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 793405
+        }
+      ],
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3725,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h341833020-125",
@@ -1311,7 +6579,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2506 SUNSET VISTA CIR 7"
+      "raw": "2506 SUNSET VISTA CIR 7",
+      "cadPropertyId": "946973",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 672838
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1163100
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 899752
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1029004
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 742764
+        }
+      ],
+      "builder": "Westin Homes",
+      "squareFeet": 3718,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h938823578-126",
@@ -1320,7 +6621,44 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2507 SUNSET VISTA CIR 6"
+      "raw": "2507 SUNSET VISTA CIR 6",
+      "cadPropertyId": "933236",
+      "homestead": "no",
+      "pool": "yes",
+      "appraisalHistory": [
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 184733
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 903495
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 659398
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1034801
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1065293
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 827643
+        }
+      ],
+      "builder": "Westin Homes",
+      "squareFeet": 3630,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h4242433530-127",
@@ -1329,7 +6667,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2508 SUNSET VISTA CIR 7"
+      "raw": "2508 SUNSET VISTA CIR 7",
+      "cadPropertyId": "941513",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 467438
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1123209
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1033257
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 840000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 763214
+        }
+      ],
+      "builder": "Westin Homes",
+      "squareFeet": 3545,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h544456792-128",
@@ -1338,7 +6709,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2509 SUNSET VISTA CIR 6"
+      "raw": "2509 SUNSET VISTA CIR 6",
+      "cadPropertyId": "919364",
+      "homestead": "yes",
+      "pool": "yes",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 250415
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 609758
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 936120
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 890696
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1179446
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1155326
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 826836
+        }
+      ],
+      "builder": "Westin Homes",
+      "squareFeet": 3479,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h1854699139-129",
@@ -1347,7 +6759,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2510 SUNSET VISTA CIR 7"
+      "raw": "2510 SUNSET VISTA CIR 7",
+      "cadPropertyId": "941512",
+      "homestead": "no",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 434828
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 960154
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1073736
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1059991
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1049966
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 783321
+        }
+      ],
+      "builder": null,
+      "squareFeet": 3845,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h2451689697-130",
@@ -1356,7 +6801,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2511 SUNSET VISTA CIR 6"
+      "raw": "2511 SUNSET VISTA CIR 6",
+      "cadPropertyId": "919363",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 219339
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 609585
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 816675
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 996819
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1010796
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 725135
+        }
+      ],
+      "builder": "Westin Homes",
+      "squareFeet": 3349,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h1460332353-131",
@@ -1365,7 +6851,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2512 SUNSET VISTA CIR 7"
+      "raw": "2512 SUNSET VISTA CIR 7",
+      "cadPropertyId": "919296",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 410449
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 495116
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 708681
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 922911
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 907360
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 921551
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 665324
+        }
+      ],
+      "builder": null,
+      "squareFeet": 2616,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h2057322911-132",
@@ -1374,7 +6901,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2513 SUNSET VISTA CIR 6"
+      "raw": "2513 SUNSET VISTA CIR 6",
+      "cadPropertyId": "919362",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 515453
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 801984
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 652051
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 652051
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 652051
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 655351
+        }
+      ],
+      "builder": "Drees Custom Homes",
+      "squareFeet": 2691,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h2654313469-133",
@@ -1383,7 +6951,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2514 SUNSET VISTA CIR 5"
+      "raw": "2514 SUNSET VISTA CIR 5",
+      "cadPropertyId": "919295",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 57117
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 522979
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 580044
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 893892
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1030000
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 991013
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1010242
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 730861
+        }
+      ],
+      "builder": "Westin Homes",
+      "squareFeet": 3431,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h309646428-134",
@@ -1392,7 +7001,44 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2515 SUNSET VISTA CIR 5"
+      "raw": "2515 SUNSET VISTA CIR 5",
+      "cadPropertyId": "933241",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2020,
+          "appraisedValue": 68547
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 380078
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 727285
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 761074
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 983683
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 835827
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 613375
+        }
+      ],
+      "builder": null,
+      "squareFeet": 2815,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h2259946683-135",
@@ -1401,7 +7047,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2516 SUNSET VISTA CIR 5"
+      "raw": "2516 SUNSET VISTA CIR 5",
+      "cadPropertyId": "946972",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 703818
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 967382
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1055375
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1056435
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 720412
+        }
+      ],
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3190,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h4210246938-136",
@@ -1410,7 +7089,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2517 SUNSET VISTA CIR 5"
+      "raw": "2517 SUNSET VISTA CIR 5",
+      "cadPropertyId": "946991",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 124029
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 534143
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 850000
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 978643
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 716011
+        }
+      ],
+      "builder": "Drees Custom Homes",
+      "squareFeet": 4049,
+      "solar": "no",
+      "yearBuilt": 2021
     },
     {
       "id": "h1865579897-137",
@@ -1419,7 +7131,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2518 SUNSET VISTA CIR 5"
+      "raw": "2518 SUNSET VISTA CIR 5",
+      "cadPropertyId": "919293",
+      "homestead": "no",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 57117
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 560587
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 616140
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 945248
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1128355
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1113394
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 980190
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 777637
+        }
+      ],
+      "builder": "Westin Homes",
+      "squareFeet": 3834,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h451117983-138",
@@ -1428,7 +7181,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2600 SUNSET VISTA CIR 5"
+      "raw": "2600 SUNSET VISTA CIR 5",
+      "cadPropertyId": "919292",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 563989
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 556300
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 867384
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1052871
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1034990
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1029083
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 705913
+        }
+      ],
+      "builder": "Drees Custom Homes",
+      "squareFeet": 2984,
+      "solar": "yes",
+      "yearBuilt": 2019
     },
     {
       "id": "h56751197-139",
@@ -1437,7 +7231,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2602 SUNSET VISTA CIR 5"
+      "raw": "2602 SUNSET VISTA CIR 5",
+      "cadPropertyId": "919291",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 57117
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 540110
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 580425
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 894436
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1081181
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1060472
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1063216
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 731332
+        }
+      ],
+      "builder": "Westin Homes",
+      "squareFeet": 3431,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h3957351707-140",
@@ -1446,7 +7281,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2604 SUNSET VISTA CIR 5"
+      "raw": "2604 SUNSET VISTA CIR 5",
+      "cadPropertyId": "919290",
+      "homestead": "no",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 45694
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 566743
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 597292
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 918396
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1103849
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1091344
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1091037
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 750193
+        }
+      ],
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3387,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h1612684666-141",
@@ -1455,7 +7331,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2605 SUNSET VISTA CIR 5"
+      "raw": "2605 SUNSET VISTA CIR 5",
+      "cadPropertyId": "919359",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 57117
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 562218
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 613771
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 847667
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 885201
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 939457
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 923000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 722418
+        }
+      ],
+      "builder": "Westin Homes",
+      "squareFeet": 3753,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h3562984921-142",
@@ -1464,7 +7381,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2606 SUNSET VISTA CIR 5"
+      "raw": "2606 SUNSET VISTA CIR 5",
+      "cadPropertyId": "941511",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 110471
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 916670
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1101893
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1086222
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1066022
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 726576
+        }
+      ],
+      "builder": "Drees Custom Homes",
+      "squareFeet": 3182,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h1218317880-143",
@@ -1473,7 +7423,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2607 SUNSET VISTA CIR 5"
+      "raw": "2607 SUNSET VISTA CIR 5",
+      "cadPropertyId": "919358",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 57117
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 532152
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 568053
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 876847
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 775356
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 980686
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 995665
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 720026
+        }
+      ],
+      "builder": "Westin Homes",
+      "squareFeet": 3293,
+      "solar": "no",
+      "yearBuilt": 2019
     },
     {
       "id": "h3168618135-144",
@@ -1482,7 +7473,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2608 SUNSET VISTA CIR 5"
+      "raw": "2608 SUNSET VISTA CIR 5",
+      "cadPropertyId": "941521",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 257730
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 735951
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 840691
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 796416
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 750000
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 601853
+        }
+      ],
+      "builder": "Drees Custom Homes",
+      "squareFeet": 2247,
+      "solar": "no",
+      "yearBuilt": 2020
     },
     {
       "id": "h823951094-145",
@@ -1491,7 +7515,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2609 SUNSET VISTA CIR 5"
+      "raw": "2609 SUNSET VISTA CIR 5",
+      "cadPropertyId": "919357",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 57117
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 540167
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 568504
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 877474
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 825429
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1050516
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 919739
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 721778
+        }
+      ],
+      "builder": null,
+      "squareFeet": null,
+      "solar": null,
+      "yearBuilt": null
     },
     {
       "id": "h780883744-146",
@@ -1500,7 +7565,48 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2610 SUNSET VISTA CIR 5"
+      "raw": "2610 SUNSET VISTA CIR 5",
+      "cadPropertyId": "919287",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2019,
+          "appraisedValue": 57117
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 534870
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 590451
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 908684
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 1090800
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 1070316
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 1081574
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 743797
+        }
+      ],
+      "builder": null,
+      "squareFeet": null,
+      "solar": null,
+      "yearBuilt": null
     },
     {
       "id": "h2731183999-147",
@@ -1509,7 +7615,40 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2611 SUNSET VISTA CIR 5"
+      "raw": "2611 SUNSET VISTA CIR 5",
+      "cadPropertyId": "941528",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2021,
+          "appraisedValue": 96633
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 811123
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 687499
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 924218
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 910307
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 664556
+        }
+      ],
+      "builder": null,
+      "squareFeet": null,
+      "solar": null,
+      "yearBuilt": null
     },
     {
       "id": "h3563212762-148",
@@ -1518,7 +7657,60 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2612 SUNSET VISTA CIR 1"
+      "raw": "2612 SUNSET VISTA CIR 1",
+      "cadPropertyId": "869926",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 18227
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 402018
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 423235
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 451802
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 466003
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 734298
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 784000
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 784000
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 898856
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 612045
+        }
+      ],
+      "builder": null,
+      "squareFeet": null,
+      "solar": null,
+      "yearBuilt": null
     },
     {
       "id": "h3925165115-149",
@@ -1527,7 +7719,60 @@
       "city": "Spicewood",
       "state": "TX",
       "zip": "78669",
-      "raw": "2613 SUNSET VISTA CIR 3"
+      "raw": "2613 SUNSET VISTA CIR 3",
+      "cadPropertyId": "869971",
+      "homestead": "yes",
+      "pool": "no",
+      "appraisalHistory": [
+        {
+          "year": 2016,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2017,
+          "appraisedValue": 23804
+        },
+        {
+          "year": 2018,
+          "appraisedValue": 40000
+        },
+        {
+          "year": 2019,
+          "appraisedValue": 464677
+        },
+        {
+          "year": 2020,
+          "appraisedValue": 509153
+        },
+        {
+          "year": 2021,
+          "appraisedValue": 605100
+        },
+        {
+          "year": 2022,
+          "appraisedValue": 836524
+        },
+        {
+          "year": 2023,
+          "appraisedValue": 821225
+        },
+        {
+          "year": 2024,
+          "appraisedValue": 952099
+        },
+        {
+          "year": 2025,
+          "appraisedValue": 979762
+        },
+        {
+          "year": 2026,
+          "appraisedValue": 762927
+        }
+      ],
+      "builder": null,
+      "squareFeet": null,
+      "solar": null,
+      "yearBuilt": null
     }
   ]
 }
