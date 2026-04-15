@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
- * Geocode each home in src/data/homes.json via the U.S. Census Geocoder (TIGER) and write latitude/longitude.
- * Re-run after addresses change; use --force to overwrite coords.
+ * Geocode each home in src/data/homes.json and write latitude/longitude.
+ * Uses Google Geocoding API when GOOGLE_GEOCODING_API_KEY is set (.env.local or env),
+ * otherwise U.S. Census (TIGER). Google failures fall back to Census when a key is set.
  *
  *   npm run geocode:homes
  *   node scripts/geocode-homes.mjs --force
@@ -38,7 +39,47 @@ function parseArgs(argv) {
   return out;
 }
 
-async function geocodeOne(q) {
+function mergeEnvLocal() {
+  for (const name of [".env.local", ".env"]) {
+    const p = path.join(__dirname, "..", name);
+    if (!fs.existsSync(p)) continue;
+    for (const line of fs.readFileSync(p, "utf8").split("\n")) {
+      const t = line.trim();
+      if (!t || t.startsWith("#")) continue;
+      const i = t.indexOf("=");
+      if (i <= 0) continue;
+      const k = t.slice(0, i).trim();
+      let v = t.slice(i + 1).trim();
+      if (
+        (v.startsWith('"') && v.endsWith('"')) ||
+        (v.startsWith("'") && v.endsWith("'"))
+      ) {
+        v = v.slice(1, -1);
+      }
+      if (process.env[k] === undefined) process.env[k] = v;
+    }
+  }
+}
+
+async function geocodeGoogle(q, apiKey) {
+  const url = new URL("https://maps.googleapis.com/maps/api/geocode/json");
+  url.searchParams.set("address", q);
+  url.searchParams.set("components", "country:US");
+  url.searchParams.set("key", apiKey);
+  const res = await fetch(url.toString(), {
+    headers: { "User-Agent": USER_AGENT },
+  });
+  if (!res.ok) return null;
+  const data = await res.json();
+  if (data.status !== "OK" || !data.results?.length) return null;
+  const loc = data.results[0]?.geometry?.location;
+  const lat = Number(loc?.lat);
+  const lon = Number(loc?.lng);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+  return { lat, lon };
+}
+
+async function geocodeCensus(q) {
   const url = new URL(CENSUS_ONE_LINE);
   url.searchParams.set("address", q);
   url.searchParams.set("benchmark", "Public_AR_Current");
@@ -56,7 +97,23 @@ async function geocodeOne(q) {
   return { lat, lon };
 }
 
+async function geocodeOne(q, googleKey) {
+  if (googleKey) {
+    const g = await geocodeGoogle(q, googleKey);
+    if (g) return g;
+  }
+  return geocodeCensus(q);
+}
+
 async function main() {
+  mergeEnvLocal();
+  const googleKey = process.env.GOOGLE_GEOCODING_API_KEY?.trim() || "";
+  if (googleKey) {
+    console.error("Geocoding: Google first, Census fallback");
+  } else {
+    console.error("Geocoding: Census only (set GOOGLE_GEOCODING_API_KEY for Google)");
+  }
+
   const { force, limit } = parseArgs(process.argv);
   const raw = JSON.parse(fs.readFileSync(homesPath, "utf8"));
   if (!Array.isArray(raw.homes)) {
@@ -91,7 +148,7 @@ async function main() {
     await sleep(150);
 
     try {
-      const coords = await geocodeOne(q);
+      const coords = await geocodeOne(q, googleKey);
       if (!coords) {
         console.warn(`Not found: ${h.id} — ${q}`);
         failed++;

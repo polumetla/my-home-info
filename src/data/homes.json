@@ -8,7 +8,7 @@
     "mailingZip": "78669",
     "note": "Septic field # is 1–10 (map “System #”). Values like 11/71 were split when a stray “1” from the next 19xxx street glued to the digit.",
     "appraisalImportAt": "2026-04-15T03:10:02.741Z",
-    "geocodedAt": "2026-04-15T04:49:46.155Z"
+    "geocodedAt": "2026-04-15T15:05:28.101Z"
   },
   "homes": [
     {
@@ -52,8 +52,8 @@
       "squareFeet": 3338,
       "solar": "yes",
       "yearBuilt": 2020,
-      "latitude": 30.366414,
-      "longitude": -98.021758
+      "latitude": 30.366731,
+      "longitude": -98.021567
     },
     {
       "id": "h3245002774-1",
@@ -96,8 +96,8 @@
       "squareFeet": 3545,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.366347,
-      "longitude": -98.02165
+      "latitude": 30.36658,
+      "longitude": -98.021341
     },
     {
       "id": "h3574768535-2",
@@ -140,8 +140,8 @@
       "squareFeet": 3672,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.366394,
-      "longitude": -98.021775
+      "latitude": 30.366718,
+      "longitude": -98.021804
     },
     {
       "id": "h3904534296-3",
@@ -184,8 +184,8 @@
       "squareFeet": 3354,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.366327,
-      "longitude": -98.021667
+      "latitude": 30.366309,
+      "longitude": -98.021343
     },
     {
       "id": "h4234300057-4",
@@ -228,8 +228,8 @@
       "squareFeet": 2493,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.366374,
-      "longitude": -98.021792
+      "latitude": 30.366503,
+      "longitude": -98.022003
     },
     {
       "id": "h269098522-5",
@@ -272,8 +272,8 @@
       "squareFeet": 3834,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.366307,
-      "longitude": -98.021684
+      "latitude": 30.366126,
+      "longitude": -98.021473
     },
     {
       "id": "h598864283-6",
@@ -316,8 +316,8 @@
       "squareFeet": 3718,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.366354,
-      "longitude": -98.021808
+      "latitude": 30.3663,
+      "longitude": -98.022069
     },
     {
       "id": "h928630044-7",
@@ -360,8 +360,8 @@
       "squareFeet": 3338,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.366287,
-      "longitude": -98.021701
+      "latitude": 30.366014,
+      "longitude": -98.021744
     },
     {
       "id": "h1258395805-8",
@@ -404,8 +404,8 @@
       "squareFeet": 3626,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.366334,
-      "longitude": -98.021825
+      "latitude": 30.366168,
+      "longitude": -98.022164
     },
     {
       "id": "h1588161566-9",
@@ -448,8 +448,8 @@
       "squareFeet": 3069,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.366266,
-      "longitude": -98.021718
+      "latitude": 30.365878,
+      "longitude": -98.021892
     },
     {
       "id": "h253073716-10",
@@ -500,8 +500,8 @@
       "squareFeet": 3390,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.366313,
-      "longitude": -98.021842
+      "latitude": 30.36604,
+      "longitude": -98.022342
     },
     {
       "id": "h582839477-11",
@@ -544,8 +544,8 @@
       "squareFeet": 3190,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.366246,
-      "longitude": -98.021734
+      "latitude": 30.365737,
+      "longitude": -98.022076
     },
     {
       "id": "h1242370999-12",
@@ -596,8 +596,8 @@
       "squareFeet": 3294,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.366226,
-      "longitude": -98.021751
+      "latitude": 30.365697,
+      "longitude": -98.022276
     },
     {
       "id": "h1901902521-13",
@@ -648,8 +648,8 @@
       "squareFeet": 3742,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.366206,
-      "longitude": -98.021768
+      "latitude": 30.36568,
+      "longitude": -98.022551
     },
     {
       "id": "h2561434043-14",
@@ -700,8 +700,8 @@
       "squareFeet": 3456,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.366186,
-      "longitude": -98.021785
+      "latitude": 30.365721,
+      "longitude": -98.022757
     },
     {
       "id": "h1254893041-15",
@@ -752,8 +752,8 @@
       "squareFeet": 3538,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.366166,
-      "longitude": -98.021802
+      "latitude": 30.365736,
+      "longitude": -98.022937
     },
     {
       "id": "h4135398423-16",
@@ -800,8 +800,8 @@
       "squareFeet": 2510,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.365879,
-      "longitude": -98.022982
+      "latitude": 30.365776,
+      "longitude": -98.023209
     },
     {
       "id": "h3741031637-17",
@@ -844,8 +844,8 @@
       "squareFeet": 3368,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.365889,
-      "longitude": -98.023038
+      "latitude": 30.365801,
+      "longitude": -98.023418
     },
     {
       "id": "h1993355154-18",
@@ -888,8 +888,8 @@
       "squareFeet": 3431,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.3659,
-      "longitude": -98.023095
+      "latitude": 30.365904,
+      "longitude": -98.023632
     },
     {
       "id": "h1598988368-19",
@@ -932,8 +932,8 @@
       "squareFeet": 4020,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.36591,
-      "longitude": -98.023152
+      "latitude": 30.366039,
+      "longitude": -98.023751
     },
     {
       "id": "h3549288623-20",
@@ -976,8 +976,8 @@
       "squareFeet": 3762,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.366033,
-      "longitude": -98.023181
+      "latitude": 30.366323,
+      "longitude": -98.023389
     },
     {
       "id": "h1204621582-21",
@@ -1020,8 +1020,8 @@
       "squareFeet": 3545,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.36592,
-      "longitude": -98.023209
+      "latitude": 30.36621,
+      "longitude": -98.023828
     },
     {
       "id": "h1161554232-22",
@@ -1072,8 +1072,8 @@
       "squareFeet": 2918,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.366043,
-      "longitude": -98.023238
+      "latitude": 30.366485,
+      "longitude": -98.023457
     },
     {
       "id": "h3111854487-23",
@@ -1116,8 +1116,8 @@
       "squareFeet": 3749,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.365931,
-      "longitude": -98.023266
+      "latitude": 30.366404,
+      "longitude": -98.023907
     },
     {
       "id": "h767187446-24",
@@ -1168,8 +1168,8 @@
       "squareFeet": 3718,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.366053,
-      "longitude": -98.023295
+      "latitude": 30.366649,
+      "longitude": -98.023532
     },
     {
       "id": "h2717487701-25",
@@ -1212,8 +1212,8 @@
       "squareFeet": 3834,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.365941,
-      "longitude": -98.023323
+      "latitude": 30.366567,
+      "longitude": -98.024004
     },
     {
       "id": "h372820660-26",
@@ -1260,8 +1260,8 @@
       "squareFeet": 3585,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.366064,
-      "longitude": -98.023346
+      "latitude": 30.366826,
+      "longitude": -98.023643
     },
     {
       "id": "h2323120915-27",
@@ -1304,8 +1304,8 @@
       "squareFeet": 3431,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.365955,
-      "longitude": -98.023385
+      "latitude": 30.366705,
+      "longitude": -98.024165
     },
     {
       "id": "h4273421170-28",
@@ -1348,8 +1348,8 @@
       "squareFeet": 3453,
       "solar": "yes",
       "yearBuilt": 2020,
-      "latitude": 30.366069,
-      "longitude": -98.023373
+      "latitude": 30.366971,
+      "longitude": -98.023845
     },
     {
       "id": "h3879054384-29",
@@ -1392,8 +1392,8 @@
       "squareFeet": 3338,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.366104,
-      "longitude": -98.023415
+      "latitude": 30.367085,
+      "longitude": -98.023979
     },
     {
       "id": "h1534387343-30",
@@ -1436,8 +1436,8 @@
       "squareFeet": 3545,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.366021,
-      "longitude": -98.023506
+      "latitude": 30.366789,
+      "longitude": -98.024362
     },
     {
       "id": "h1491319993-31",
@@ -1480,8 +1480,8 @@
       "squareFeet": 3718,
       "solar": "yes",
       "yearBuilt": 2020,
-      "latitude": 30.366132,
-      "longitude": -98.023445
+      "latitude": 30.367172,
+      "longitude": -98.024199
     },
     {
       "id": "h4273649011-32",
@@ -1540,8 +1540,8 @@
       "squareFeet": 2787,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.366173,
-      "longitude": -98.023478
+      "latitude": 30.36719,
+      "longitude": -98.024416
     },
     {
       "id": "h3047253462-33",
@@ -1584,8 +1584,8 @@
       "squareFeet": 3834,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.366108,
-      "longitude": -98.023587
+      "latitude": 30.366845,
+      "longitude": -98.024546
     },
     {
       "id": "h3879282225-34",
@@ -1648,8 +1648,8 @@
       "squareFeet": 2787,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.366203,
-      "longitude": -98.023501
+      "latitude": 30.367227,
+      "longitude": -98.024609
     },
     {
       "id": "h1534615184-35",
@@ -1712,8 +1712,8 @@
       "squareFeet": 2825,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.366162,
-      "longitude": -98.023625
+      "latitude": 30.36688,
+      "longitude": -98.024771
     },
     {
       "id": "h3484915439-36",
@@ -1776,8 +1776,8 @@
       "squareFeet": 2358,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.36625,
-      "longitude": -98.023522
+      "latitude": 30.367253,
+      "longitude": -98.024815
     },
     {
       "id": "h3090548653-37",
@@ -1840,8 +1840,8 @@
       "squareFeet": 3086,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.366297,
-      "longitude": -98.023543
+      "latitude": 30.367212,
+      "longitude": -98.024999
     },
     {
       "id": "h745881612-38",
@@ -1904,8 +1904,8 @@
       "squareFeet": 2884,
       "solar": "no",
       "yearBuilt": 2017,
-      "latitude": 30.366256,
-      "longitude": -98.023667
+      "latitude": 30.366836,
+      "longitude": -98.024997
     },
     {
       "id": "h702814262-39",
@@ -1968,8 +1968,8 @@
       "squareFeet": 3498,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.366344,
-      "longitude": -98.023563
+      "latitude": 30.367228,
+      "longitude": -98.024928
     },
     {
       "id": "h4052940372-40",
@@ -2016,8 +2016,8 @@
       "squareFeet": 3373,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.3669,
-      "longitude": -98.025337
+      "latitude": 30.366915,
+      "longitude": -98.025568
     },
     {
       "id": "h3296621233-41",
@@ -2080,8 +2080,8 @@
       "squareFeet": 2562,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.366823,
-      "longitude": -98.025238
+      "latitude": 30.366705,
+      "longitude": -98.025228
     },
     {
       "id": "h3658573586-42",
@@ -2124,8 +2124,8 @@
       "squareFeet": 3391,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.366864,
-      "longitude": -98.025374
+      "latitude": 30.36679,
+      "longitude": -98.025698
     },
     {
       "id": "h2902254447-43",
@@ -2188,8 +2188,8 @@
       "squareFeet": 2552,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.366787,
-      "longitude": -98.025276
+      "latitude": 30.366588,
+      "longitude": -98.025354
     },
     {
       "id": "h2507887661-44",
@@ -2252,8 +2252,8 @@
       "squareFeet": 2540,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.366751,
-      "longitude": -98.025314
+      "latitude": 30.366438,
+      "longitude": -98.025463
     },
     {
       "id": "h2869840014-45",
@@ -2296,8 +2296,8 @@
       "squareFeet": 2562,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.366792,
-      "longitude": -98.02545
+      "latitude": 30.366634,
+      "longitude": -98.02583
     },
     {
       "id": "h2113520875-46",
@@ -2360,8 +2360,8 @@
       "squareFeet": 3231,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.366715,
-      "longitude": -98.025352
+      "latitude": 30.366284,
+      "longitude": -98.025596
     },
     {
       "id": "h2710511433-47",
@@ -2424,8 +2424,8 @@
       "squareFeet": 2829,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.366751,
-      "longitude": -98.02549
+      "latitude": 30.366464,
+      "longitude": -98.025938
     },
     {
       "id": "h1719154089-48",
@@ -2488,8 +2488,8 @@
       "squareFeet": 2594,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.366683,
-      "longitude": -98.025383
+      "latitude": 30.366149,
+      "longitude": -98.025744
     },
     {
       "id": "h322777042-49",
@@ -2552,8 +2552,8 @@
       "squareFeet": 2292,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.366712,
-      "longitude": -98.025523
+      "latitude": 30.366327,
+      "longitude": -98.026097
     },
     {
       "id": "h3626386994-50",
@@ -2616,8 +2616,8 @@
       "squareFeet": 2266,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.366644,
-      "longitude": -98.025416
+      "latitude": 30.366003,
+      "longitude": -98.025896
     },
     {
       "id": "h4223377552-51",
@@ -2680,8 +2680,8 @@
       "squareFeet": 3254,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.366673,
-      "longitude": -98.025557
+      "latitude": 30.366199,
+      "longitude": -98.026263
     },
     {
       "id": "h3232020208-52",
@@ -2744,8 +2744,8 @@
       "squareFeet": 2288,
       "solar": "yes",
       "yearBuilt": 2018,
-      "latitude": 30.366605,
-      "longitude": -98.02545
+      "latitude": 30.365873,
+      "longitude": -98.026043
     },
     {
       "id": "h3829010766-53",
@@ -2808,8 +2808,8 @@
       "squareFeet": 2779,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.366634,
-      "longitude": -98.02559
+      "latitude": 30.366065,
+      "longitude": -98.026422
     },
     {
       "id": "h2837653422-54",
@@ -2872,8 +2872,8 @@
       "squareFeet": 3177,
       "solar": "yes",
       "yearBuilt": 2018,
-      "latitude": 30.366566,
-      "longitude": -98.025483
+      "latitude": 30.365913,
+      "longitude": -98.026126
     },
     {
       "id": "h3434643980-55",
@@ -2936,8 +2936,8 @@
       "squareFeet": 3171,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.366595,
-      "longitude": -98.025623
+      "latitude": 30.365959,
+      "longitude": -98.026597
     },
     {
       "id": "h1089976939-56",
@@ -3000,8 +3000,8 @@
       "squareFeet": 2046,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.366527,
-      "longitude": -98.025516
+      "latitude": 30.365616,
+      "longitude": -98.026503
     },
     {
       "id": "h3040277194-57",
@@ -3064,8 +3064,8 @@
       "squareFeet": 2358,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.366556,
-      "longitude": -98.025657
+      "latitude": 30.365858,
+      "longitude": -98.026798
     },
     {
       "id": "h695610153-58",
@@ -3128,8 +3128,8 @@
       "squareFeet": 2046,
       "solar": "no",
       "yearBuilt": 2017,
-      "latitude": 30.366488,
-      "longitude": -98.02555
+      "latitude": 30.365522,
+      "longitude": -98.026653
     },
     {
       "id": "h652542803-59",
@@ -3192,8 +3192,8 @@
       "squareFeet": 2292,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.366522,
-      "longitude": -98.02569
+      "latitude": 30.365753,
+      "longitude": -98.026982
     },
     {
       "id": "h2602843058-60",
@@ -3256,8 +3256,8 @@
       "squareFeet": 3116,
       "solar": "no",
       "yearBuilt": 2017,
-      "latitude": 30.366447,
-      "longitude": -98.025589
+      "latitude": 30.365411,
+      "longitude": -98.026821
     },
     {
       "id": "h258176017-61",
@@ -3320,8 +3320,8 @@
       "squareFeet": 2634,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.366485,
-      "longitude": -98.025726
+      "latitude": 30.365651,
+      "longitude": -98.027174
     },
     {
       "id": "h2208476272-62",
@@ -3384,8 +3384,8 @@
       "squareFeet": 2548,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.36641,
-      "longitude": -98.025625
+      "latitude": 30.365332,
+      "longitude": -98.027036
     },
     {
       "id": "h1814109486-63",
@@ -3448,8 +3448,8 @@
       "squareFeet": 2870,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.366374,
-      "longitude": -98.025661
+      "latitude": 30.36519,
+      "longitude": -98.027185
     },
     {
       "id": "h3214163182-64",
@@ -3508,8 +3508,8 @@
       "squareFeet": 3575,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.365222,
-      "longitude": -98.027443
+      "latitude": 30.365156,
+      "longitude": -98.027567
     },
     {
       "id": "h3576115535-65",
@@ -3572,8 +3572,8 @@
       "squareFeet": 2585,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.365184,
-      "longitude": -98.027317
+      "latitude": 30.365009,
+      "longitude": -98.027267
     },
     {
       "id": "h2819796396-66",
@@ -3636,8 +3636,8 @@
       "squareFeet": 2562,
       "solar": "yes",
       "yearBuilt": 2018,
-      "latitude": 30.36513,
-      "longitude": -98.027481
+      "latitude": 30.364916,
+      "longitude": -98.027666
     },
     {
       "id": "h1828439052-67",
@@ -3700,8 +3700,8 @@
       "squareFeet": 2358,
       "solar": "no",
       "yearBuilt": 2017,
-      "latitude": 30.365091,
-      "longitude": -98.027355
+      "latitude": 30.364821,
+      "longitude": -98.027265
     },
     {
       "id": "h2425429610-68",
@@ -3764,8 +3764,8 @@
       "squareFeet": 3147,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.365027,
-      "longitude": -98.027508
+      "latitude": 30.364728,
+      "longitude": -98.027714
     },
     {
       "id": "h1434072266-69",
@@ -3828,8 +3828,8 @@
       "squareFeet": 2062,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.365003,
-      "longitude": -98.027378
+      "latitude": 30.364639,
+      "longitude": -98.027344
     },
     {
       "id": "h2031062824-70",
@@ -3892,8 +3892,8 @@
       "squareFeet": 2500,
       "solar": "no",
       "yearBuilt": 2017,
-      "latitude": 30.364931,
-      "longitude": -98.027532
+      "latitude": 30.364532,
+      "longitude": -98.027775
     },
     {
       "id": "h1039705480-71",
@@ -3956,8 +3956,8 @@
       "squareFeet": 2634,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.364907,
-      "longitude": -98.027402
+      "latitude": 30.364442,
+      "longitude": -98.027356
     },
     {
       "id": "h1636696038-72",
@@ -4020,8 +4020,8 @@
       "squareFeet": 2870,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.364828,
-      "longitude": -98.027546
+      "latitude": 30.364349,
+      "longitude": -98.027777
     },
     {
       "id": "h645338694-73",
@@ -4084,8 +4084,8 @@
       "squareFeet": 2790,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.364816,
-      "longitude": -98.027414
+      "latitude": 30.36425,
+      "longitude": -98.027331
     },
     {
       "id": "h3543928943-74",
@@ -4148,8 +4148,8 @@
       "squareFeet": 2358,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.364731,
-      "longitude": -98.027557
+      "latitude": 30.364169,
+      "longitude": -98.027806
     },
     {
       "id": "h2552571599-75",
@@ -4212,8 +4212,8 @@
       "squareFeet": 2634,
       "solar": "no",
       "yearBuilt": 2017,
-      "latitude": 30.364719,
-      "longitude": -98.027425
+      "latitude": 30.364066,
+      "longitude": -98.027312
     },
     {
       "id": "h3149562157-76",
@@ -4276,8 +4276,8 @@
       "squareFeet": 2580,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.364633,
-      "longitude": -98.027569
+      "latitude": 30.363984,
+      "longitude": -98.027707
     },
     {
       "id": "h2158204813-77",
@@ -4340,8 +4340,8 @@
       "squareFeet": 2358,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.364622,
-      "longitude": -98.027437
+      "latitude": 30.363897,
+      "longitude": -98.027237
     },
     {
       "id": "h2755195371-78",
@@ -4404,8 +4404,8 @@
       "squareFeet": 3265,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.364536,
-      "longitude": -98.02758
+      "latitude": 30.363798,
+      "longitude": -98.027654
     },
     {
       "id": "h1763838027-79",
@@ -4468,8 +4468,8 @@
       "squareFeet": 2825,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.364524,
-      "longitude": -98.027448
+      "latitude": 30.363715,
+      "longitude": -98.027165
     },
     {
       "id": "h2360828585-80",
@@ -4532,8 +4532,8 @@
       "squareFeet": 2713,
       "solar": "yes",
       "yearBuilt": 2016,
-      "latitude": 30.364432,
-      "longitude": -98.027582
+      "latitude": 30.36363,
+      "longitude": -98.027514
     },
     {
       "id": "h1369471241-81",
@@ -4596,8 +4596,8 @@
       "squareFeet": 2634,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.364432,
-      "longitude": -98.027449
+      "latitude": 30.363539,
+      "longitude": -98.02705
     },
     {
       "id": "h1966461799-82",
@@ -4660,8 +4660,8 @@
       "squareFeet": 2480,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.364334,
-      "longitude": -98.027582
+      "latitude": 30.363439,
+      "longitude": -98.027432
     },
     {
       "id": "h975104455-83",
@@ -4724,8 +4724,8 @@
       "squareFeet": 2787,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.364334,
-      "longitude": -98.027449
+      "latitude": 30.363348,
+      "longitude": -98.027001
     },
     {
       "id": "h3873694704-84",
@@ -4788,8 +4788,8 @@
       "squareFeet": 3234,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.364236,
-      "longitude": -98.027582
+      "latitude": 30.363255,
+      "longitude": -98.027398
     },
     {
       "id": "h2882337360-85",
@@ -4852,8 +4852,8 @@
       "squareFeet": 2548,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.364236,
-      "longitude": -98.027449
+      "latitude": 30.363166,
+      "longitude": -98.027014
     },
     {
       "id": "h3479327918-86",
@@ -4912,8 +4912,8 @@
       "squareFeet": 2798,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.36413,
-      "longitude": -98.02757
+      "latitude": 30.363056,
+      "longitude": -98.027417
     },
     {
       "id": "h2487970574-87",
@@ -4976,8 +4976,8 @@
       "squareFeet": 2562,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.364149,
-      "longitude": -98.027439
+      "latitude": 30.36298,
+      "longitude": -98.027045
     },
     {
       "id": "h3084961132-88",
@@ -5040,8 +5040,8 @@
       "squareFeet": 2638,
       "solar": "no",
       "yearBuilt": 2016,
-      "latitude": 30.364033,
-      "longitude": -98.027551
+      "latitude": 30.362859,
+      "longitude": -98.027433
     },
     {
       "id": "h2093603788-89",
@@ -5104,8 +5104,8 @@
       "squareFeet": 3010,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.364052,
-      "longitude": -98.02742
+      "latitude": 30.362783,
+      "longitude": -98.027039
     },
     {
       "id": "h2690594346-90",
@@ -5168,8 +5168,8 @@
       "squareFeet": 3493,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.363932,
-      "longitude": -98.027516
+      "latitude": 30.366965,
+      "longitude": -98.025382
     },
     {
       "id": "h1699237002-91",
@@ -5232,8 +5232,8 @@
       "squareFeet": 2481,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.363966,
-      "longitude": -98.02739
+      "latitude": 30.362585,
+      "longitude": -98.027018
     },
     {
       "id": "h1304870216-92",
@@ -5296,8 +5296,8 @@
       "squareFeet": 2585,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.363883,
-      "longitude": -98.027352
+      "latitude": 30.362378,
+      "longitude": -98.026999
     },
     {
       "id": "h3212103121-93",
@@ -5360,8 +5360,8 @@
       "squareFeet": 2358,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.363795,
-      "longitude": -98.027303
+      "latitude": 30.362225,
+      "longitude": -98.027193
     },
     {
       "id": "h4187096675-94",
@@ -5408,8 +5408,8 @@
       "squareFeet": 3837,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.366984,
-      "longitude": -98.025233
+      "latitude": 30.367322,
+      "longitude": -98.025408
     },
     {
       "id": "h2727501805-95",
@@ -5452,8 +5452,8 @@
       "squareFeet": 3707,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.367185,
-      "longitude": -98.022053
+      "latitude": 30.366895,
+      "longitude": -98.022058
     },
     {
       "id": "h489119937-96",
@@ -5500,8 +5500,8 @@
       "squareFeet": 3776,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.366912,
-      "longitude": -98.025336
+      "latitude": 30.367081,
+      "longitude": -98.025792
     },
     {
       "id": "h2738817932-97",
@@ -5544,8 +5544,8 @@
       "squareFeet": 3357,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.367237,
-      "longitude": -98.022172
+      "latitude": 30.366966,
+      "longitude": -98.02256
     },
     {
       "id": "h3792729889-98",
@@ -5588,8 +5588,8 @@
       "squareFeet": 3714,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367009,
-      "longitude": -98.025256
+      "latitude": 30.367429,
+      "longitude": -98.025583
     },
     {
       "id": "h2750134059-99",
@@ -5640,8 +5640,8 @@
       "squareFeet": 3783,
       "solar": "yes",
       "yearBuilt": 2019,
-      "latitude": 30.36716,
-      "longitude": -98.022071
+      "latitude": 30.366731,
+      "longitude": -98.022215
     },
     {
       "id": "h94753151-100",
@@ -5692,8 +5692,8 @@
       "squareFeet": 3562,
       "solar": "yes",
       "yearBuilt": 2019,
-      "latitude": 30.366936,
-      "longitude": -98.025359
+      "latitude": 30.367178,
+      "longitude": -98.025981
     },
     {
       "id": "h2761450186-101",
@@ -5744,8 +5744,8 @@
       "squareFeet": 3718,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.367229,
-      "longitude": -98.022178
+      "latitude": 30.366812,
+      "longitude": -98.022692
     },
     {
       "id": "h3398363103-102",
@@ -5792,8 +5792,8 @@
       "squareFeet": 3756,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367033,
-      "longitude": -98.025279
+      "latitude": 30.367485,
+      "longitude": -98.025888
     },
     {
       "id": "h2772766313-103",
@@ -5836,8 +5836,8 @@
       "squareFeet": 4038,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.367136,
-      "longitude": -98.022089
+      "latitude": 30.366419,
+      "longitude": -98.022431
     },
     {
       "id": "h3995353661-104",
@@ -5880,8 +5880,8 @@
       "squareFeet": 3478,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.36696,
-      "longitude": -98.025382
+      "latitude": 30.36729,
+      "longitude": -98.026146
     },
     {
       "id": "h2784082440-105",
@@ -5924,8 +5924,8 @@
       "squareFeet": 3834,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.367221,
-      "longitude": -98.022184
+      "latitude": 30.366645,
+      "longitude": -98.022792
     },
     {
       "id": "h3003996317-106",
@@ -5972,8 +5972,8 @@
       "squareFeet": 2673,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367057,
-      "longitude": -98.025302
+      "latitude": 30.367644,
+      "longitude": -98.025976
     },
     {
       "id": "h2795398567-107",
@@ -6024,8 +6024,8 @@
       "squareFeet": 3712,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.367111,
-      "longitude": -98.022106
+      "latitude": 30.366355,
+      "longitude": -98.022483
     },
     {
       "id": "h3600986875-108",
@@ -6068,8 +6068,8 @@
       "squareFeet": 3431,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.366985,
-      "longitude": -98.025405
+      "latitude": 30.367376,
+      "longitude": -98.026323
     },
     {
       "id": "h2806714694-109",
@@ -6112,8 +6112,8 @@
       "squareFeet": 3431,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.367213,
-      "longitude": -98.022189
+      "latitude": 30.366489,
+      "longitude": -98.022909
     },
     {
       "id": "h2609629531-110",
@@ -6156,8 +6156,8 @@
       "squareFeet": 4492,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367081,
-      "longitude": -98.025325
+      "latitude": 30.367748,
+      "longitude": -98.026129
     },
     {
       "id": "h2818030821-111",
@@ -6200,8 +6200,8 @@
       "squareFeet": 3297,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367086,
-      "longitude": -98.022124
+      "latitude": 30.366247,
+      "longitude": -98.022599
     },
     {
       "id": "h3206620089-112",
@@ -6244,8 +6244,8 @@
       "squareFeet": 3297,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367009,
-      "longitude": -98.025428
+      "latitude": 30.367498,
+      "longitude": -98.026525
     },
     {
       "id": "h3066985615-113",
@@ -6288,8 +6288,8 @@
       "squareFeet": 3570,
       "solar": "yes",
       "yearBuilt": 2021,
-      "latitude": 30.367205,
-      "longitude": -98.022195
+      "latitude": 30.366313,
+      "longitude": -98.023048
     },
     {
       "id": "h221895140-114",
@@ -6336,8 +6336,8 @@
       "squareFeet": null,
       "solar": "no",
       "yearBuilt": null,
-      "latitude": 30.367109,
-      "longitude": -98.025352
+      "latitude": 30.367868,
+      "longitude": -98.026341
     },
     {
       "id": "h3078301742-115",
@@ -6384,8 +6384,8 @@
       "squareFeet": 3834,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367061,
-      "longitude": -98.022142
+      "latitude": 30.366061,
+      "longitude": -98.02267
     },
     {
       "id": "h3089617869-116",
@@ -6428,8 +6428,8 @@
       "squareFeet": 3628,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.367196,
-      "longitude": -98.022201
+      "latitude": 30.366139,
+      "longitude": -98.023115
     },
     {
       "id": "h4122495650-117",
@@ -6472,8 +6472,8 @@
       "squareFeet": 3718,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367131,
-      "longitude": -98.025377
+      "latitude": 30.367939,
+      "longitude": -98.02654
     },
     {
       "id": "h3728128864-118",
@@ -6524,8 +6524,8 @@
       "squareFeet": 3670,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.367154,
-      "longitude": -98.025403
+      "latitude": 30.367965,
+      "longitude": -98.026782
     },
     {
       "id": "h1524933378-119",
@@ -6568,8 +6568,8 @@
       "squareFeet": 3834,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.36778,
-      "longitude": -98.026796
+      "latitude": 30.367838,
+      "longitude": -98.026932
     },
     {
       "id": "h2121923936-120",
@@ -6620,8 +6620,8 @@
       "squareFeet": 2528,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367669,
-      "longitude": -98.026766
+      "latitude": 30.367516,
+      "longitude": -98.026774
     },
     {
       "id": "h1130566592-121",
@@ -6664,8 +6664,8 @@
       "squareFeet": 4500,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.367761,
-      "longitude": -98.026847
+      "latitude": 30.367728,
+      "longitude": -98.027175
     },
     {
       "id": "h1727557150-122",
@@ -6716,8 +6716,8 @@
       "squareFeet": 3538,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.367662,
-      "longitude": -98.02678
+      "latitude": 30.367344,
+      "longitude": -98.026891
     },
     {
       "id": "h736199806-123",
@@ -6768,8 +6768,8 @@
       "squareFeet": 2616,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.367729,
-      "longitude": -98.026899
+      "latitude": 30.367554,
+      "longitude": -98.027263
     },
     {
       "id": "h1333190364-124",
@@ -6820,8 +6820,8 @@
       "squareFeet": 3725,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.367662,
-      "longitude": -98.026791
+      "latitude": 30.367202,
+      "longitude": -98.027013
     },
     {
       "id": "h341833020-125",
@@ -6864,8 +6864,8 @@
       "squareFeet": 3718,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367704,
-      "longitude": -98.02692
+      "latitude": 30.367394,
+      "longitude": -98.027411
     },
     {
       "id": "h938823578-126",
@@ -6912,8 +6912,8 @@
       "squareFeet": 3630,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367637,
-      "longitude": -98.026812
+      "latitude": 30.367043,
+      "longitude": -98.027133
     },
     {
       "id": "h4242433530-127",
@@ -6956,8 +6956,8 @@
       "squareFeet": 3545,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367678,
-      "longitude": -98.026941
+      "latitude": 30.367238,
+      "longitude": -98.027521
     },
     {
       "id": "h544456792-128",
@@ -7008,8 +7008,8 @@
       "squareFeet": 3479,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.367611,
-      "longitude": -98.026833
+      "latitude": 30.366896,
+      "longitude": -98.027266
     },
     {
       "id": "h1854699139-129",
@@ -7052,8 +7052,8 @@
       "squareFeet": 3845,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367653,
-      "longitude": -98.026962
+      "latitude": 30.367072,
+      "longitude": -98.027656
     },
     {
       "id": "h2451689697-130",
@@ -7104,8 +7104,8 @@
       "squareFeet": 3349,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367586,
-      "longitude": -98.026854
+      "latitude": 30.36675,
+      "longitude": -98.027405
     },
     {
       "id": "h1460332353-131",
@@ -7156,8 +7156,8 @@
       "squareFeet": 2616,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.367628,
-      "longitude": -98.026983
+      "latitude": 30.366969,
+      "longitude": -98.027796
     },
     {
       "id": "h2057322911-132",
@@ -7208,8 +7208,8 @@
       "squareFeet": 2691,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.367561,
-      "longitude": -98.026876
+      "latitude": 30.366594,
+      "longitude": -98.027551
     },
     {
       "id": "h2654313469-133",
@@ -7260,8 +7260,8 @@
       "squareFeet": 3431,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.367602,
-      "longitude": -98.027005
+      "latitude": 30.366755,
+      "longitude": -98.027969
     },
     {
       "id": "h309646428-134",
@@ -7308,8 +7308,8 @@
       "squareFeet": 2815,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.367535,
-      "longitude": -98.026897
+      "latitude": 30.366456,
+      "longitude": -98.027706
     },
     {
       "id": "h2259946683-135",
@@ -7352,8 +7352,8 @@
       "squareFeet": 3190,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.367577,
-      "longitude": -98.027026
+      "latitude": 30.366617,
+      "longitude": -98.028146
     },
     {
       "id": "h4210246938-136",
@@ -7396,8 +7396,8 @@
       "squareFeet": 4049,
       "solar": "no",
       "yearBuilt": 2021,
-      "latitude": 30.36751,
-      "longitude": -98.026918
+      "latitude": 30.366323,
+      "longitude": -98.027856
     },
     {
       "id": "h1865579897-137",
@@ -7448,8 +7448,8 @@
       "squareFeet": 3834,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.367551,
-      "longitude": -98.027047
+      "latitude": 30.366478,
+      "longitude": -98.028285
     },
     {
       "id": "h451117983-138",
@@ -7500,8 +7500,8 @@
       "squareFeet": 2984,
       "solar": "yes",
       "yearBuilt": 2019,
-      "latitude": 30.366561,
-      "longitude": -98.027969
+      "latitude": 30.366291,
+      "longitude": -98.028416
     },
     {
       "id": "h56751197-139",
@@ -7552,8 +7552,8 @@
       "squareFeet": 3431,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.366539,
-      "longitude": -98.027994
+      "latitude": 30.366287,
+      "longitude": -98.028407
     },
     {
       "id": "h3957351707-140",
@@ -7604,8 +7604,8 @@
       "squareFeet": 3387,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.366516,
-      "longitude": -98.028019
+      "latitude": 30.365912,
+      "longitude": -98.028306
     },
     {
       "id": "h1612684666-141",
@@ -7656,8 +7656,8 @@
       "squareFeet": 3753,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.366437,
-      "longitude": -98.027921
+      "latitude": 30.366147,
+      "longitude": -98.02796
     },
     {
       "id": "h3562984921-142",
@@ -7700,8 +7700,8 @@
       "squareFeet": 3182,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.366493,
-      "longitude": -98.028043
+      "latitude": 30.365751,
+      "longitude": -98.028191
     },
     {
       "id": "h1218317880-143",
@@ -7752,8 +7752,8 @@
       "squareFeet": 3293,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.366415,
-      "longitude": -98.027946
+      "latitude": 30.365971,
+      "longitude": -98.027833
     },
     {
       "id": "h3168618135-144",
@@ -7796,8 +7796,8 @@
       "squareFeet": 2247,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.36647,
-      "longitude": -98.028068
+      "latitude": 30.365596,
+      "longitude": -98.028062
     },
     {
       "id": "h823951094-145",
@@ -7848,8 +7848,8 @@
       "squareFeet": 3269,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.366392,
-      "longitude": -98.027971
+      "latitude": 30.365805,
+      "longitude": -98.027681
     },
     {
       "id": "h780883744-146",
@@ -7900,8 +7900,8 @@
       "squareFeet": 3456,
       "solar": "no",
       "yearBuilt": 2019,
-      "latitude": 30.366447,
-      "longitude": -98.028093
+      "latitude": 30.365446,
+      "longitude": -98.027906
     },
     {
       "id": "h2731183999-147",
@@ -7944,8 +7944,8 @@
       "squareFeet": 2979,
       "solar": "no",
       "yearBuilt": 2020,
-      "latitude": 30.366369,
-      "longitude": -98.027996
+      "latitude": 30.365646,
+      "longitude": -98.027548
     },
     {
       "id": "h3563212762-148",
@@ -8008,8 +8008,8 @@
       "squareFeet": 2539,
       "solar": "no",
       "yearBuilt": 2017,
-      "latitude": 30.366424,
-      "longitude": -98.028117
+      "latitude": 30.36524,
+      "longitude": -98.027558
     },
     {
       "id": "h3925165115-149",
@@ -8072,8 +8072,8 @@
       "squareFeet": 3709,
       "solar": "no",
       "yearBuilt": 2018,
-      "latitude": 30.366346,
-      "longitude": -98.02802
+      "latitude": 30.365501,
+      "longitude": -98.027434
     }
   ]
 }

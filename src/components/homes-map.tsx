@@ -8,7 +8,7 @@ import "leaflet/dist/leaflet.css";
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-const GEO_CACHE_KEY = "my-home-info-geocode-v2";
+const GEO_CACHE_KEY = "my-home-info-geocode-v3";
 
 function escapeHtml(s: string) {
   return s
@@ -85,10 +85,24 @@ export default function HomesMap({ homes }: { homes: HomeRecord[] }) {
       DEFAULT_MAP_CENTER,
       DEFAULT_MAP_ZOOM,
     );
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       maxZoom: 19,
-    }).addTo(map);
+    });
+    const esriImagery = L.tileLayer(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      {
+        attribution:
+          '&copy; <a href="https://www.esri.com/">Esri</a> &mdash; Esri, Maxar, Earthstar Geographics, GIS User Community',
+        maxZoom: 19,
+      },
+    );
+    esriImagery.addTo(map);
+    L.control.layers(
+      { "Satellite (Esri)": esriImagery, "Street (OSM)": osm },
+      undefined,
+      { position: "topright", collapsed: true },
+    ).addTo(map);
     const layer = L.layerGroup().addTo(map);
     mapInstanceRef.current = map;
     markersLayerRef.current = layer;
@@ -228,6 +242,7 @@ export default function HomesMap({ homes }: { homes: HomeRecord[] }) {
   function clearGeocodeCache() {
     try {
       localStorage.removeItem(GEO_CACHE_KEY);
+      localStorage.removeItem("my-home-info-geocode-v2");
       localStorage.removeItem("my-home-info-geocode-v1");
     } catch {
       /* ignore */
