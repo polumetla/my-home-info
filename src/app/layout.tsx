@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import { Source_Sans_3 } from "next/font/google";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { SearchOverlay } from "@/components/search-overlay";
+import { SiteSearchProvider } from "@/components/site-search-provider";
 import { siteConfig } from "@/lib/site-config";
 import "./globals.css";
 
@@ -34,9 +36,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={sans.variable}>
       <body className="font-sans">
-        <SiteHeader />
-        <main className="mx-auto max-w-5xl px-4 py-10">{children}</main>
-        <SiteFooter />
+        <SiteSearchProvider>
+          <SiteHeader />
+          <main className="mx-auto max-w-5xl px-4 py-10">{children}</main>
+          <SiteFooter />
+          <SearchOverlay />
+        </SiteSearchProvider>
       </body>
     </html>
   );

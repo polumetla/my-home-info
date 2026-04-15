@@ -2,7 +2,7 @@
   "meta": {
     "sourceFile": "src/data/SummitInfo.xlsx",
     "sheet": "Utilities",
-    "parsedAt": "2026-04-15T04:33:16.442Z",
+    "parsedAt": "2026-04-15T15:11:28.144Z",
     "headerRow": [
       "",
       "Provider Name",
@@ -31,10 +31,10 @@
     },
     {
       "category": "Trash",
-      "providerName": null,
-      "website": null,
+      "providerName": "Texas Disposal Systems",
+      "website": "https://www.texasdisposal.com",
       "outageStatus": null,
-      "phone": null,
+      "phone": "512-263-5265",
       "billing": null
     },
     {

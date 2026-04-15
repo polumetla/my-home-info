@@ -13,13 +13,6 @@ const otherSections = [
       "Emergency shutoffs: water main, gas, breaker panel (generic checklist).",
     ],
   },
-  {
-    title: "Community",
-    items: [
-      "Architectural guidelines and neighborhood contacts — add links your HOA shares publicly.",
-      "See Utilities below for HOA / resident portal and phone when listed.",
-    ],
-  },
 ];
 
 function UtilityRow({
